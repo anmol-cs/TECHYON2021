@@ -94,3 +94,9 @@ function removeClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+// accordion
+
+$(".accordion_header").click(function(){
+  $(".accordion_header").removeClass("active");
+ $(this).addClass("active");
+});
