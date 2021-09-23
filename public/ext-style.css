@@ -34,7 +34,13 @@
   transform: translateX(20px);
 }
 
+
 /* proto */
 .ievent {
   height: 700px;
 }
+
+.orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
