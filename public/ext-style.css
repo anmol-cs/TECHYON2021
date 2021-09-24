@@ -4,7 +4,7 @@
 }
 .faq:before,
 .faq:after {
-  background-color: #e30b5d;
+  background-color: #0b69e3;
   content: "";
   display: inline-block;
   height: 1px;
@@ -60,8 +60,7 @@
   cursor: pointer;
   margin: 0px 2px 0px 0px;
   padding: 0px;
-  background-color: rgba(229, 231, 235, 0.8);
-  color: rgb(19, 18, 18);
+
   width: 100%;
 
   border-radius: 3px;

@@ -19,11 +19,11 @@
  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
  <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black">
    <div
-     class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800  bg-no-repeat bg-cover image sm:w-full lg:w-full border-b-1 lg:p-4 shadow-lg ">
+     class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800  bg-no-repeat bg-cover image sm:w-full lg:w-full  lg:p-4 shadow-lg ">
 
      <div x-data="{ open: false }"
-       class="flex flex-col max-w-screen-xl px-4  mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-       <div class="m-2 text-center inline-flex justify-center space-x-2">
+       class="flex flex-col max-w-screen-xl px-4  mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 md:flex-wrap">
+       <div class="m-2 text-center inline-flex justify-center space-x-2 md:w-screen xl:w-max">
          <span><img  class="logo" src="images/P_FINAL25.png" alt=""></span> 
          <a href="../index.html"
            class="  text center font-bold  text-white rounded-lg  focus:outline-none focus:shadow-outline text-5xl lg:text-4xl dark:text-black">Techyon</a>
@@ -31,24 +31,24 @@
        <div class="p-4 flex flex-row items-center justify-end">
 
 
-         <div class="flex self-start lg:mx-6 pr-8 ">
+        <div class="flex self-start lg:mx-6 pr-8 flex">
 
-           <div>
-             <input onclick="myFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
-             <label for="toggle"
-               class="w-12 h-6 bg-pink-200 relative flex items-center justify-between  rounded-full p-1   ">
-               <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i></span>
-               <div
-                 class=" absolute 
-               toggle-dot w-5 h-5  transition duration-300 items-center bg-gray-800 rounded-full transform shadow-md  ">
+          <div>
+            <input onclick="myFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
+            <label for="toggle"
+              class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex items-center justify-between  rounded-full p-1   ">
+              <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i></span>
+              <div
+                class=" absolute 
+              toggle-dot w-5 h-5  transition duration-300 items-center dark:bg-blue-800 bg-gray-500 rounded-full transform shadow-md  ">
 
-               </div>
-               <span class=""> <i class="text-black fa fa-moon-o"></i> </span>
-             </label>
-           </div>
+              </div>
+              <span class=""> <i class="text-black fa fa-moon-o"></i> </span>
+            </label>
+          </div>
 
 
-         </div>
+        </div>
          <!-- TOGGLE SWITCH ENDD -->
          <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open">
            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
@@ -62,7 +62,7 @@
          </button>
        </div>
        <nav :class="{'flex': open, 'hidden': !open}"
-         class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row dark:bg-white dark:text-black ">
+         class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
          <a class=" text-white px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-black dark:hover:text-white dark:text-black md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
            href="../index.html#home">Home</a>
          <a class="  text-white px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
@@ -87,15 +87,15 @@
   class="  p-2.5   md:m-2 lg:m-2  text-white   bg-blue-800 opacity-75 hover:bg-blue-900 hover:opacity-100 transition-all duration-500 ease-in-out rounded-full  z-50">
   <span><i class="fa fa-chevron-up "></i></span>
 </button>
-  <div class="  p-4 mt-28 lg:mt-24 lg:p-24 justify-center outline-none ">
+  <div class="  p-4 mt-28 lg:mt-24 lg:p-24 justify-center outline-none dark:text-current dark:bg-white text-white  bg-black container mx-auto">
     <!-- sub nav -->
-    <div class="  inline-flex w-full my-6">
+    <div class="  inline-flex w-full my-6 ">
       <div>
-        <a href="../index.html#home" class=" uppercase font-semibold text-gray-600 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 active">home</a>
-          <span class=" font-semibold text-gray-400 "><i class="">/</i></span>
-        <a href="#" class="uppercase font-semibold text-gray-600 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 " >codecrunch</a>
+        <a href="../index.html#home" class=" uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 ">home</a>
+          <span class=" font-semibold text-gray-500 "><i class="">/</i></span>
+        <a href="#" class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600  " >codecrunch</a>
         <span class=" font-semibold text-gray-400 "><i class="">/</i></span>
-        <a href="../index.html#Events" class="uppercase font-semibold text-gray-600 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 active">Events</a>
+        <a href="../index.html#Events" class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 ">Events</a>
       </div>
       
     </div>
@@ -105,39 +105,40 @@
             <img src="images/mockevent.PNG" class="ievent object-fit" alt="">
           </div>
         
-           <div class="w-full md:w-3/5 "> 
+           <div class="w-full md:w-3/5   "> 
 
-             <div class="mb-6  ">
-              <h1 class=" uppercase mb-8 text-5xl font-bold text-gray-700">Code Crunch</h1>
-              <h1 class=" uppercase mb-3 text-xl font-bold text-gray-900">category:comp</h1>
-              <h1 class=" uppercase mb-3 text-xl font-bold text-gray-900">date:1st october</h1>
-              <h1 class=" uppercase mb-3 text-xl font-bold text-gray-900">Time:10:00 am</h1>
-              <h1 class=" uppercase mb-2 text-xl font-bold text-gray-900">rules:</h1>
+             <div class="mb-6  dark:text-gray-600  text-gray-300">
+              <h1 class=" uppercase mb-8 text-5xl font-bold ">Code Crunch</h1>
+              <h1 class=" uppercase mb-3 text-xl font-bold ">category:comp</h1>
+              <h1 class=" uppercase mb-3 text-xl font-bold ">date:1st october</h1>
+              <h1 class=" uppercase mb-3 text-xl font-bold ">Time:10:00 am</h1>
+              <h1 class=" uppercase mb-2 text-xl font-bold ">rules:</h1>
               <p class="text-lg ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro autem quas, labore dolor praesentium dolores voluptatibus facilis iste mollitia aspernatur ad cum aliquid enim non ducimus voluptatum reprehenderit voluptas velit? Adipisci, commodi voluptatum debitis expedita fuga quibusdam et eligendi laudantium autem dolorum a! Nesciunt autem omnis voluptas, incidunt esse illum?
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam perspiciatis dolorem voluptatibus! Saepe animi voluptas sit sed non repellat fugiat est atque, distinctio, earum sequi omnis quia modi quisquam nam nisi tenetur vitae nihil nulla molestias aliquam possimus cumque magni. Explicabo ratione, aspernatur unde quo veniam repellendus, sunt pariatur accusantium deserunt cumque reiciendis exercitationem deleniti voluptates non dolor corrupti assumenda possimus magnam neque tempore? Facere ullam sequi dolore accusantium repellendus quidem, placeat fugit vel. Temporibus est officiis incidunt obcaecati expedita cupiditate fuga, fugiat labore nemo cumque soluta consequuntur ab, odit eveniet possimus, vitae repellendus deserunt quia minima at illum!
               </p>
              </div>
 <!-- coordinator-->
-             <div class=" mb-6 ">
-              <div class="text-center mb-6 ">
-                  <h1 class="text-lg text-gray-600 font-semibold uppercase faq dark:text-black">Co-ordinator</h1>
-              </div>
-              <div class="flex flex-wrap justify-items-center ">
+             <div class="  mb-6   ">
+              <div class="  text-center ">
+                <h1 class=" faq  text-lg font-semibold uppercase dark:text-gray-600  text-gray-300 ">Co-ordinator</h1>
+            </div>
+              <div class="flex flex-row justify-center flex-wrap ">
+                
                 <!--1 card-->
-                <div class="p-1 w-1/2 dark:text-black ">
-                  <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+                <div class="   ">
+                  <div class=" border-gray-200 border-opacity-60 rounded-lg overflow-hidden   ">
                   
-                      <div class="p-4 hover:bg-gray-700 text-white transition duration-300 ease-in bg-gray-900 dark:bg-gray-200">
+                      <div class="p-4 inline-flex  space-x-2 text-white  dark:text-gray-900 dark:hover:text-gray-400">
                           
-                          <h1 class="text-2xl font-semibold  dark:text-black text-center ">
-                            ADAM
+                          <h1 class="dark:text-gray-600  text-gray-300 uppercase  text-xl font-semi-bold  ">
+                            roshan
                           </h1>
-                          <p class="leading-relaxed mb-4 dark:text-black text-center">comp dept</p>
                           
-                          <div class="flex ">    
+                          
+                          <div class="">    
 
-                            <a  target='_blank'href='https://wa.me' class="bg-blue-600 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                              <span  class="  text-2xl  text-white" >
+                            <a  target='_blank'href='https://wa.me' class="bg-green-400 px-4 py-2  rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white   ">
+                              <span  class=" text-2xl  text-white" >
                                 <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
                          
                         
@@ -147,38 +148,39 @@
                       </div>
                   </div>
               </div>
-              <!--2 ENDD-->       
-                  <!--2 card-->
-                  <div class="p-1 w-1/2 dark:text-black ">
-                    <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
-                    
-                        <div class="p-4 hover:bg-gray-700 text-white transition duration-300 ease-in bg-gray-900 dark:bg-gray-200">
-                            
-                            <h1 class="text-2xl font-semibold  dark:text-black text-center ">
-                              ADAM
-                            </h1>
-                            <p class="leading-relaxed mb-4 dark:text-black text-center">comp dept</p>
-                            
-                            <div class="flex ">    
+              <!--1 ENDD-->  
+              <!--1 card-->
+              <div class=" b ">
+                <div class=" border-gray-200 border-opacity-60 rounded-lg overflow-hidden   ">
+                
+                    <div class="p-4 inline-flex  space-x-2 text-white  dark:text-gray-900 dark:hover:text-gray-400">
+                        
+                        <h1 class="dark:text-gray-600  text-gray-300 uppercase  text-xl font-semi-bold  ">
+                          anmol
+                        </h1>
+                        
+                        
+                        <div class="">    
 
-                              <a  target='_blank'href='https://wa.me' class="bg-blue-600 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                                <span  class="  text-2xl  text-white" >
-                                  <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                           
-                          
-                                
+                          <a  target='_blank'href='https://wa.me' class="bg-green-400 px-4 py-2  rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white   ">
+                            <span  class=" text-2xl  text-white" >
+                              <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                       
+                      
                             
-                            </div>
+                        
                         </div>
                     </div>
                 </div>
-                <!--2 ENDD-->    
-                         
+            </div>
+            <!--1 ENDD-->    
+                
+                  
               </div>
           </div>
           <!-- button -->
           <div class=" flex lg:w-1/4">
-            <a  target='_blank'href='#' class="bg-blue-600 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black text-white  text-center">
+            <a  target='_blank'href='#' class="bg-blue-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black text-white  text-center">
               <span  class="  text-white" >
                 <i class="fa fa-arrow-right" aria-hidden="true"></i> </span>Register </a>
           </div>
@@ -188,33 +190,33 @@
         
   </div>
        <!--footer-->
-       <footer class="  text-gray-600 bg-gray-900 body-font dark:bg-gray-200 dark:text-black">
+       <footer class="  text-gray-600 bg-gray-900 body-font dark:bg-gray-200 dark:text-black container mx-auto">
         <div class=" flex flex-row flex-wrap lg:flex-nowrap  py-12 justify-center ">
           <div class="   my-2 p-8 ">
-            <h1 class=" title-font font-bold text-white text-2xl dark:text-black text-center">
+            <h1 class=" title-font uppercase mb-3 text-xl font-bold text-center  dark:text-gray-600  text-gray-300">
              About Techyon
             </h1>
-            <p class="mt-2 lg:px-24 text-sm text-white dark:text-black ">Techyon is an inter college technical event held annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed more than the speed of the light. It hosts various technical events across all the departments. </p>
+            <p class="mt-2 lg:px-24 text-sm text-white dark:text-gray-700 ">Techyon is an inter college technical event held annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed more than the speed of the light. It hosts various technical events across all the departments. </p>
           </div>
 
             <div class="   my-2 p-8 lg:w-1/2 ">
-              <h2 class=" font-bold text-white text-xl  dark:text-black text-center">Quick Links</h2><br>
+              <h2 class=" font-bold text-white text-xl  dark:text-black text-center dark:text-gray-600  text-gray-300">Quick Links</h2><br>
               <nav class="  list-none flex flex-row space-x-2 justify-center leading-9   ">
                 <li>
-                  <a href="../index.html#Home" class="text-gray-600 hover:text-white  ">Home</a>
+                  <a href="../index.html#Home" class="dark:text-gray-600  text-gray-400 hover:text-white  ">Home</a>
                 </li>
                 <li>
-                  <a href="../index.html#Events" class="  text-gray-600 hover:text-white ">Events</a>
+                  <a href="../index.html#Events" class="  dark:text-gray-600  text-gray-400 text-gray-300hover:text-white ">Events</a>
                 </li>
                
                 <li>
-                  <a  href="../index.html#Team" class="  text-gray-600 hover:text-white">Team</a>
+                  <a  href="../index.html#Team" class="  dark:text-gray-600  text-gray-400 hover:text-white">Team</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-white " href="../index.html#Contactus">Contact</a>
+                    <a class="dark:text-gray-600  text-gray-400 hover:text-white " href="../index.html#Contactus">Contact</a>
                   </li>
                   <li>
-                    <a href="../index.html#Sponsors"class=" text-gray-600 hover:text-white">Sponsors</a>
+                    <a href="../index.html#Sponsors"class=" dark:text-gray-600  text-gray-400 hover:text-white">Sponsors</a>
                   </li>
               </nav>
             </div>
