@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="">
+<html class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -15,22 +15,23 @@
   <title>Event</title>
 </head>
 
-<body>
+<body class="bg-black dark:bg-white dark:text-gray-900 text-white">
 
   <!--Navbar below-->
+  <!--Navbar below-->
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-  <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black">
+  <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black ">
     <div
-      class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800  bg-no-repeat bg-cover image sm:w-full lg:w-full  lg:p-4 shadow-lg ">
+      class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg  ">
 
       <div x-data="{ open: false }"
-        class="flex flex-col max-w-screen-xl px-4  mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 md:flex-wrap">
-        <div class="m-2 text-center inline-flex justify-center space-x-2 md:w-screen xl:w-max">
-          <span><img class="logo" src="images/P_FINAL25.png" alt=""></span>
-          <a href="../index.html"
-            class="  text center font-bold  text-white rounded-lg  focus:outline-none focus:shadow-outline text-5xl lg:text-4xl dark:text-black">Techyon</a>
+        class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
+        <div class="m-2  inline-flex justify-center space-x-2  md:w-screen lg:w-max">
+          <span><img class="logo" src="images/P_FINAL25.png" alt="pcce_logo"></span>
+          <a href="#"
+            class="  font-bold  outline-none  text-5xl  md:text-4xl ">Techyon</a>
         </div>
-        <div class="p-4 flex flex-row items-center justify-end">
+        <div class="p-4 flex flex-row  justify-end ">
 
 
           <div class="flex self-start lg:mx-6 pr-8 flex">
@@ -38,14 +39,14 @@
             <div>
               <input onclick="myFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
               <label for="toggle"
-                class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex items-center justify-between  rounded-full p-1   ">
-                <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i></span>
+                class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
+                <span class=""> <i class="text-black fa fa-moon-o"></i></span>
                 <div
                   class=" absolute 
-              toggle-dot w-5 h-5  transition duration-300 items-center dark:bg-blue-800 bg-gray-500 rounded-full transform shadow-md  ">
+                toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
 
                 </div>
-                <span class=""> <i class="text-black fa fa-moon-o"></i> </span>
+                <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
               </label>
             </div>
 
@@ -65,20 +66,20 @@
         </div>
         <nav :class="{'flex': open, 'hidden': !open}"
           class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
-          <a class=" text-white px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-black dark:hover:text-white dark:text-black md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="../index.html#home">Home</a>
-          <a class="  text-white px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="../index.html#Events">Events</a>
-          <a class="text-white px-4 py-2 mt-2 text-sm font-semibold  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="../index.html#Sponsors">Sponsors</a>
+          <a class="  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+            href="index.html#Home">Home</a>
+          <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+            href="index.html#Events">Events</a>
+          <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+            href="index.html#Sponsors">Sponsors</a>
 
-          <a class=" text-white px-4 py-2  mt-2 text-sm font-semibold  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="../index.html#Contactus">Contact</a>
+          <a class=" py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+            href="index.html#Contactus">Contact</a>
 
-          <a class=" text-white px-4 py-2  mt-2 text-sm font-semibold  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="../index.html#Team">Team</a>
-          <a class="smooth text-white px-4 py-2  mt-2 text-sm font-semibold  rounded-lg  dark:hover:bg-gray-900  dark:text-white  dark:bg-blue-900 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="../index.html#">Results</a>
+          <a class="py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+            href="index.html#Team">Team</a>
+          <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
+            href="#">Results</a>
         </nav>
       </div>
     </div>
@@ -94,13 +95,13 @@
     <!-- sub nav -->
     <div class="  inline-flex w-full my-6 ">
       <div>
-        <a href="../index.html#home"
+        <a href="index.html#home"
           class=" uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 ">home</a>
         <span class=" font-semibold text-gray-500 "><i class="">/</i></span>
         <a href="#"
           class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600  ">codecrunch</a>
         <span class=" font-semibold text-gray-400 "><i class="">/</i></span>
-        <a href="../index.html#Events"
+        <a href="index.html#Events"
           class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 ">Events</a>
       </div>
 
@@ -222,21 +223,21 @@
           Links</h2><br>
         <nav class="  list-none flex flex-row space-x-2 justify-center leading-9   ">
           <li>
-            <a href="../index.html#Home" class="dark:text-gray-600  text-gray-400 hover:text-white  ">Home</a>
+            <a href="index.html#Home" class="dark:text-gray-600  text-gray-400 hover:text-white  ">Home</a>
           </li>
           <li>
-            <a href="../index.html#Events"
+            <a href="index.html#Events"
               class="  dark:text-gray-600  text-gray-400 text-gray-300hover:text-white ">Events</a>
           </li>
 
           <li>
-            <a href="../index.html#Team" class="  dark:text-gray-600  text-gray-400 hover:text-white">Team</a>
+            <a href="index.html#Team" class="  dark:text-gray-600  text-gray-400 hover:text-white">Team</a>
           </li>
           <li>
-            <a class="dark:text-gray-600  text-gray-400 hover:text-white " href="../index.html#Contactus">Contact</a>
+            <a class="dark:text-gray-600  text-gray-400 hover:text-white " href="index.html#Contactus">Contact</a>
           </li>
           <li>
-            <a href="../index.html#Sponsors" class=" dark:text-gray-600  text-gray-400 hover:text-white">Sponsors</a>
+            <a href="index.html#Sponsors" class=" dark:text-gray-600  text-gray-400 hover:text-white">Sponsors</a>
           </li>
         </nav>
       </div>
