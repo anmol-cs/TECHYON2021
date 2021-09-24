@@ -12,26 +12,26 @@
                 "phone-number": "9172229356"
             },
             {
-                "name": "Shrey",
+                "name": "May",
                 "phone-number": "9172229356"
             }
         ],
         "rules": [
-            "1. Be nice",
-            "2. Be nicer"
+            "1. Techyon is Techyon is an inter college technical event heldannually at PCCE. The word Techyon was derived from",
+            "2. Techyon is an inter college technical event held annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed morethan the speed of the light. It hosts various technical events across all the departments."
         ],
         "prize": [
             234,
             242
         ],
-        "sponsors" : [
+        "sponsors": [
             {
-                "name" : "apple",
-                "url" : "http://www.google.com"
+                "name": "apple",
+                "url": "http://www.google.com"
             },
             {
-                "name" : "apple",
-                "url" : "http://www.google.com"
+                "name": "apple",
+                "url": "http://www.google.com"
             }
         ]
     }
