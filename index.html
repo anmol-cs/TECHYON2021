@@ -8,10 +8,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
-  <meta name="description" content="">
+  <meta name="description" content="pcce techyon2021 event website ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="public/style.css">
-  <link rel="stylesheet" href="public/ext-style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ext-style.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -21,21 +21,21 @@
 
 </head>
 
-<body id="Home" class="  bg-black dark:bg-white dark:text-black ">
+<body id="Home" class="  bg-black dark:bg-white dark:text-gray-900 text-white ">
   <!--Navbar below-->
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black ">
     <div
-      class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800  bg-no-repeat bg-cover image sm:w-full lg:w-full border-b-1 lg:p-4 shadow-lg  ">
+      class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg  ">
 
       <div x-data="{ open: false }"
-        class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 md:flex-wrap">
-        <div class="m-2 text-center inline-flex justify-center space-x-2  md:w-screen xl:w-max">
-          <span><img class="logo" src="public/images/P_FINAL25.png" alt=""></span>
+        class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
+        <div class="m-2  inline-flex justify-center space-x-2  md:w-screen lg:w-max">
+          <span><img class="logo" src="images/P_FINAL25.png" alt="pcce_logo"></span>
           <a href="#"
-            class="  text center font-bold  text-white rounded-lg  focus:outline-none focus:shadow-outline text-5xl  lg:text-4xl dark:text-black">Techyon</a>
+            class="  font-bold  outline-none  text-5xl  md:text-4xl ">Techyon</a>
         </div>
-        <div class="p-4 flex flex-row items-center justify-end ">
+        <div class="p-4 flex flex-row  justify-end ">
 
 
           <div class="flex self-start lg:mx-6 pr-8 flex">
@@ -43,14 +43,14 @@
             <div>
               <input onclick="myFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
               <label for="toggle"
-                class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex items-center justify-between  rounded-full p-1   ">
-                <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i></span>
+                class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
+                <span class=""> <i class="text-black fa fa-moon-o"></i></span>
                 <div
                   class=" absolute 
-                toggle-dot w-5 h-5  transition duration-300 items-center dark:bg-blue-800 bg-gray-500 rounded-full transform shadow-md  ">
+                toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
 
                 </div>
-                <span class=""> <i class="text-black fa fa-moon-o"></i> </span>
+                <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
               </label>
             </div>
 
@@ -70,19 +70,19 @@
         </div>
         <nav :class="{'flex': open, 'hidden': !open}"
           class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
-          <a class="smooth text-white px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-black dark:hover:text-white dark:text-black md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
             href="#Home">Home</a>
-          <a class=" smooth text-white px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class=" smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
             href="#Events">Events</a>
-          <a class="smooth text-white px-4 py-2 mt-2 text-sm font-semibold  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="smooth   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
             href="#Sponsors">Sponsors</a>
 
-          <a class="smooth text-white px-4 py-2  mt-2 text-sm font-semibold  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
             href="#Contactus">Contact</a>
 
-          <a class="smooth text-white px-4 py-2  mt-2 text-sm font-semibold  rounded-lg dark:bg-white dark:hover:bg-blue-700 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-black md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
             href="#Team">Team</a>
-          <a class="smooth text-white px-4 py-2  mt-2 text-sm font-semibold  rounded-lg  dark:hover:bg-gray-900  dark:text-white  dark:bg-blue-900 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
             href="#">Results</a>
         </nav>
       </div>
@@ -93,21 +93,21 @@
   <div class=" container mx-auto text-white mt-32 ">
     <div class="   flex flex-row-reverse     lg:justify-between flex-wrap  ">
 
-      <img class="   w-full lg:w-1/2 self-end   " src="public/images/creative-team-animate1.svg">
+      <img class="   w-full lg:w-1/2   " src="images/creative-team-animate1.svg" alt="header_image">
 
 
 
       <div class="  w-full lg:w-1/2 self-center dark:text-black  p-2 text-center  ">
         <div class="inline-flex
           ">
-          <img class="object-right w-40 h-40" src="public/images/P_FINAL25.png" alt="pccelogo">
+          <img class="object-right w-40 h-40" src="images/P_FINAL25.png" alt="header_pccelogo">
         </div>
 
         <h1 class="text-3xl text-blue-900 font-bold mb-2">TECHYON 2021</h1>
         <p class=" semi-bold text-lg"> PCCE Goa's annual technical college fest</p>
         <h1 class="font-semi-bold text-xl">1st OCT-3rd OCT </h1>
         <button
-          class="bg-blue-400  px-4 py-2 m-2 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white dark:text-white">Schedule</button>
+          class="py-2 px-4 m-1 bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400">Schedule</button>
       </div>
     </div>
 
@@ -117,7 +117,7 @@
 
   <!-- back to top  -->
   <button onclick="topFunction()" id="myBtn"
-    class="  p-2.5   md:m-2 lg:m-2  text-white   bg-blue-400 opacity-75 hover:bg-blue-900 hover:opacity-100 transition-all duration-500 ease-in-out rounded-full  z-50">
+    class="  p-2.5   md:m-2   text-white   bg-blue-400 opacity-75 hover:bg-blue-900 hover:opacity-100 transition-all duration-500 ease-in-out rounded-full  z-50">
     <span><i class="fa fa-chevron-up "></i></span>
   </button>
 
@@ -126,18 +126,19 @@
   <!-- SPONSORS SECTION  -->
 
   <section id="Sponsors"
-    class=" flex items-center text-gray-600  mt-1 bg-black dark:bg-white px-6 md:px-12 lg:px-12 justify-center ">
-    <div class="container px-5 py-5 m-6 ">
+    class=" flex items-center text-gray-600  mt-1 bg-black dark:bg-white px-6   justify-center ">
+    <div class="container  m-6 ">
       <div class="text-center ">
         <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black ">Sponsors</h1>
       </div>
-      <div class="flex flex-row flex-wrap p-12 dark:shadow-none justify-center space-x-1 space-y-1">
+      <div class="flex flex-row flex-wrap dark:shadow-none justify-center  ">
         <!--first card-->
-        <div class="w-1/4 cardE IT">
-          <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl">
+        <div class="w-1/3 md:w-1/4 ">
+          <div class="h-full  rounded-lg overflow-hidden shadow-xl">
             <a href="#">
-              <img class="lg:h-48 h-30  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
-                alt="image">
+              <img class="md:h-48 h-30  w-screen object-contain  p-2 m-2 " src="images/mockimage.png"
+
+                alt="image1">
             </a>
 
           </div>
@@ -145,11 +146,12 @@
 
         <!--1 ENDD-->
         <!--2 card-->
-        <div class="w-1/4 cardE IT">
-          <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl">
+        <div class="w-1/3 md:w-1/4 ">
+          <div class="h-full  rounded-lg overflow-hidden shadow-xl">
             <a href="#">
-              <img class="lg:h-48 h-30  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
-                alt="image">
+              <img class="md:h-48 h-30  w-screen object-contain  p-2 m-2 " src="images/mockimage.png"
+
+                alt="image1">
             </a>
 
           </div>
@@ -157,11 +159,12 @@
 
         <!--2 ENDD-->
         <!--3card-->
-        <div class="w-1/4 cardE IT">
-          <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl">
+        <div class="w-1/3 md:w-1/4 ">
+          <div class="h-full  rounded-lg overflow-hidden shadow-xl">
             <a href="#">
-              <img class="lg:h-48 h-30  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
-                alt="image">
+              <img class="md:h-48 h-30  w-screen object-contain  p-2 m-2 " src="images/mockimage.png"
+
+                alt="image1">
             </a>
 
           </div>
@@ -169,11 +172,12 @@
 
         <!--3 ENDD-->
         <!--4 card-->
-        <div class="w-1/4 cardE IT">
-          <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl">
+        <div class="w-1/3 md:w-1/4 ">
+          <div class="h-full  rounded-lg overflow-hidden shadow-xl">
             <a href="#">
-              <img class="lg:h-48 h-30  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
-                alt="image">
+              <img class="md:h-48 h-30  w-screen object-contain  p-2 m-2 " src="images/mockimage.png"
+
+                alt="image1">
             </a>
 
           </div>
@@ -181,11 +185,12 @@
 
         <!--4ENDD-->
         <!--5card-->
-        <div class="w-1/4 cardE IT">
-          <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl">
+        <div class="w-1/3 md:w-1/4 ">
+          <div class="h-full  rounded-lg overflow-hidden shadow-xl">
             <a href="#">
-              <img class="lg:h-48 h-30  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
-                alt="image">
+              <img class="md:h-48 h-30  w-screen object-contain  p-2 m-2 " src="images/mockimage.png"
+
+                alt="image1">
             </a>
 
           </div>
@@ -200,7 +205,7 @@
   <!-- SPONSORS SECTION END  -->
   <!--  OUR EVENTS CARDS -->
 
-  <section id="Events" class=" flex items-center text-gray-600  mt-1 bg-black dark:bg-white px-6 md:px-12 lg:px-12 ">
+  <section id="Events" class=" flex items-center text-gray-600  mt-6 bg-black dark:bg-white px-6 md:px-12  ">
     <div class="container px-5 py-5 mx-auto">
       <div class="text-center mb-12 ">
         <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black">Events</h1>
@@ -230,21 +235,21 @@
         <!--1 card-->
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class=" md:h-56 h-48  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
 
-              <h1 class="text-2xl font-semibold text-center ">Decrypt</h1>
+              <h1 class="text-2xl font-semibold  ">Decrypt</h1>
               <p class="leading-relaxed mb-6">COMP</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
 
-                <a href='public/event.html?event=decrypt'
+                <a href='event.html?event=decrypt'
                   class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
@@ -258,8 +263,8 @@
 
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class=" md:h-56 h-48  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
@@ -268,11 +273,11 @@
               <p class="leading-relaxed mb-6">COMP</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
 
-                <a href='public/event.html?event=comp-ideate'
+                <a href='event.html?event=comp-ideate'
                   class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
@@ -286,8 +291,8 @@
 
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class=" md:h-56 h-48  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
@@ -296,11 +301,11 @@
               <p class="leading-relaxed mb-6">COMP</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
 
-                <a href='public/event.html?event=gamejam'
+                <a href='event.html?event=gamejam'
                   class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
@@ -314,8 +319,8 @@
 
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class=" md:h-56 h-48  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
@@ -324,11 +329,11 @@
               <p class="leading-relaxed mb-6">COMP</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
 
-                <a href='public/event.html?event=ml-workshop'
+                <a href='event.html?event=ml-workshop'
                   class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
@@ -342,22 +347,24 @@
 
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class=" md:h-56 h-48  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full border-gray-200 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mockimage.png"
               alt="image">
-            <div
-              class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-2xl font-semibold text-center ">Datahack</h1>
-              <p class="leading-relaxed mb-6">COMP</p>
-
-
-              <div class="flex flex-wrap ">
-
+            <div 
+              class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full text-bottom ">
+      
+        <h1 class="text-2xl font-semibold text-center ">Datahack</h1>
+        <p class="leading-relaxed mb-6">COMP</p>
+      
+              
 
 
-                <a href='public/event.html?event=datahack'
-                  class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+              <div class="flex  ">
+
+
+
+                <a href='event.html?event=datahack'
+                  class=" self-end bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
 
@@ -370,8 +377,8 @@
 
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class=" md:h-56 h-48  w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
@@ -380,11 +387,11 @@
               <p class="leading-relaxed mb-6">COMP</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
 
-                <a href='public/event.html?event=build-startup'
+                <a href='event.html?event=build-startup'
                   class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
@@ -404,8 +411,8 @@
         <!--1card-->
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE MECH">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class="md:h-56 h-48   w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class="md:h-56 h-48   w-screen object-cover   object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white  dark:shadow-2xl ">
@@ -415,7 +422,7 @@
               <p class="leading-relaxed mb-6">Lorem, ipsum.</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
                 <a href='public/event.html'
@@ -435,8 +442,8 @@
         <!--1card-->
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE ETC">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class="md:h-56 h-48   w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class="md:h-56 h-48   w-screen object-cover  object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl">
@@ -445,11 +452,11 @@
               <p class="leading-relaxed mb-6">Lorem, ipsum.</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex  ">
 
 
 
-                <a href='public/event.html'
+                <a href='event.html'
                   class="bg-blue-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                   <span class=" sm:text-xl lg:text-2xl  text-white">Know More
                   </span> </a>
@@ -471,8 +478,8 @@
         <!--1 card-->
         <div class="p-2 sm:w-1/2 lg:w-1/3 cardE IT">
           <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img class="md:h-56 h-48   w-screen object-cover p-.5  object-center" src="public/images/mockimage.png"
+            class="h-full  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <img class="md:h-56 h-48   w-screen object-cover  object-center" src="images/mockimage.png"
               alt="image">
             <div
               class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white  dark:shadow-2xl ">
@@ -482,7 +489,7 @@
               <p class="leading-relaxed mb-6">Lorem, ipsum.</p>
 
 
-              <div class="flex flex-wrap ">
+              <div class="flex ">
 
 
                 <a href='public/event.html'
@@ -513,7 +520,7 @@
 
   <!--our team-->
 
-  <section id="Team" class=" flex items-center text-gray-600 mt-3 bg-black dark:bg-white  px-5 md:px-12 lg:px-12">
+  <section id="Team" class=" flex items-center text-gray-600 mt-3 bg-black dark:bg-white  px-5 md:px-12 ">
     <div class="container px-5 py-5 mx-auto">
       <div class="text-center mb-12 ">
         <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black">Team</h1>
@@ -753,7 +760,7 @@
 
   <!--Faq -->
   <section
-    class=" text-gray-100 body-font bg-black  pt-12 dark:bg-white dark:text-black   px-6 mb-2 mt-8  md:px-12 lg:px-20  ">
+    class=" text-gray-100 body-font bg-black  pt-12 dark:bg-white dark:text-black   px-6 mb-2 mt-8  md:px-12   ">
     <div class="text-center mb-12  ">
       <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black">Faq</h1>
     </div>
@@ -797,7 +804,7 @@
 
   <!--contact us  -->
   <section id="Contactus"
-    class="  flex items-center text-gray-600   mt-3 bg-black dark:bg-white px-6 mb-12 md:px-12 lg:px-12 ">
+    class="  flex items-center text-gray-600   mt-3 bg-black dark:bg-white px-6 mb-12 md:px-12  ">
     <div class="container px-5 py-24  mx-auto">
       <div class="text-center mb-12 ">
         <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black">Contact Us</h1>
@@ -916,7 +923,7 @@
 
 
 
-  <script src="public/app.js"></script>
+  <script src="app.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 
