@@ -1,37 +1,238 @@
 {
-    "comp-1": {
-        "event-name": "Code crunch",
-        "department": "Computer",
+    "decrypt": {
+        "event-name": "Decrypt",
+        "department": "Computer Department",
         "type": "Intra",
         "location": "Online",
-        "date": "5th Oct",
-        "time": "7PM",
+        "date": "7th OCT",
+        "time": "11 AM",
         "event-coordinators": [
             {
-                "name": "Shrey",
-                "phone-number": "9172229356"
+                "name": "Vishrut Mangoli",
+                "phone-number": "9766055610"
             },
             {
-                "name": "May",
-                "phone-number": "9172229356"
+                "name": "K L Rithika",
+                "phone-number": "8390629943"
             }
         ],
         "rules": [
-            "1. Techyon is Techyon is an inter college technical event heldannually at PCCE. The word Techyon was derived from",
-            "2. Techyon is an inter college technical event held annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed morethan the speed of the light. It hosts various technical events across all the departments."
+            "1. The contest shall consist of solving a series of challenges to reach the goal.",
+            "2. The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
+            "3. "
         ],
         "prize": [
-            234,
-            242
+            1500,
+            500
         ],
         "sponsors": [
             {
-                "name": "apple",
-                "url": "http://www.google.com"
+                "name": "",
+                "url": ""
             },
             {
-                "name": "apple",
-                "url": "http://www.google.com"
+                "name": "",
+                "url": ""
+            }
+        ]
+    },
+    "comp-ideate": {
+        "event-name": "Ideate",
+        "department": "Computer Department",
+        "type": "Intra",
+        "location": "Online",
+        "date": "7th OCT",
+        "time": "1:30PM - 3:30PM",
+        "event-coordinators": [
+            {
+                "name": "Ayushi",
+                "phone-number": "7722076646"
+            },
+            {
+                "name": "Rhea",
+                "phone-number": "9112372022"
+            }
+        ],
+        "rules": [
+            "1. Title and names of the group members should be mentioned.",
+            "2. Two presenter per team max.",
+            "3. Presentation time of 7mins per team to present idea followed by questions from judges.",
+            "4. Contents should be clearly listed using appropriate fonts and colors",
+            "5. Use of proper headings/subtitles are desired.",
+            "6. Content should give idea of what the project is about",
+            "7. Decision made by the Coordinator/Company will be final incase any problems",
+            "8. Mode :Microsoft Team"
+        ],
+        "prize": [
+            2000,
+            1000
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
+    },
+    "gamejam": {
+        "event-name": "Game Jam 2K21",
+        "department": "Computer Department",
+        "type": "Inter",
+        "location": "Online",
+        "date": "6th OCT",
+        "time": "10:00 AM IST",
+        "event-coordinators": [
+            {
+                "name": "Sattyam",
+                "phone-number": "8329768577"
+            },
+            {
+                "name": "Harshali",
+                "phone-number": "9657994646"
+            }
+        ],
+        "rules": [
+            "1. Only registered teams will be allowed to share their game applications.",
+            "2. The team will be able to work on their project from 28th September onwards to 6th October.",
+            "3. Once registered all team members must join the WhatsApp group as all schedule announcements will be made on it.",
+            "4. The WhatsApp group will also be used to share resources on how to make games to help newer developers such to encourage more participation.",
+            "5. A minimum of 1 level of your game must be completed.",
+            "6. You can create either one of these types of games: Mobile, PC (Windows), Web",
+            "7. Augmented reality and virtual reality applications are also allowed",
+            "8. Your games will be judge according to the following criteria of Theme, Core gameplay, Asset diversity, Technical implementation, Presentation.",
+            "9. You will be allowed to use any individual assets, but you cannot use any full scene or full game prefabs. (E.g., A premade house model is acceptable, but a full scene with the player and environment already made is not.). For further details you can contact the coordinators.",
+            "10. Once completed you must share the link to your game application to us using any online storage service (e.g., google drive) before 7th October 2021 10:00 a.m.",
+            "11. Then on the very same day we will evaluate and pick the few best projects and they will have to explain a little about their game on the 8th of October 2021 will the judges try out their games.",
+            "12. The winners will be announced on 9th October.",
+            "13. For further questions contact the coordinators."
+        ],
+        "prize": [
+            5000,
+            3000
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
+    },
+    "ml-workshop": {
+        "event-name": "Machine Learning & Data Science Workshop",
+        "department": "Computer Department",
+        "type": "Intra",
+        "location": "CC Lab",
+        "date": "8th OCT",
+        "time": "9:00 am to 5:00 pm",
+        "event-coordinators": [
+            {
+                "name": "Lex Mascarenhas",
+                "phone-number": "7744832463"
+            },
+            {
+                "name": "Kartik Binagekar",
+                "phone-number": "7709180828"
+            }
+        ],
+        "rules": [
+            ""
+        ],
+        "prize": [
+            0
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
+    },
+    "datahack": {
+        "event-name": "Datahack",
+        "department": "Computer Department",
+        "type": "Inter",
+        "location": "Online",
+        "date": "7th, 8th & 9th OCT",
+        "time": "Morning",
+        "event-coordinators": [
+            {
+                "name": "Srinivass Talaulikar",
+                "phone-number": "9657735214"
+            },
+            {
+                "name": "Anmol Singh",
+                "phone-number": "8600152154"
+            }
+        ],
+        "rules": [
+            "1. Participants will have to sign up online via the Website. Registration can be done before 10 am on Day1.",
+            "2. The participants need to ensure that the necessary pre-requisites/working environment is set up on their laptops in advance so that time allotted during the hackathon is not spent on software installations.",
+            "3. Individual applications.",
+            "4. Developed Solutions should be original and not copied.",
+            "5. Do not use proprietary software. Use open-source software."
+        ],
+        "prize": [
+            4000,
+            2500,
+            1500
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
+    },
+    "build-startup": {
+        "event-name": "Building a Startup of the Future, Now!",
+        "department": "Computer Department",
+        "type": "Intra",
+        "location": "Microsoft Teams",
+        "date": " 9th OCT- 10th OCT",
+        "time": "09:00 AM – 05:00 PM",
+        "event-coordinators": [
+            {
+                "name": "Devraj Chatribin",
+                "phone-number": "9764789978"
+            },
+            {
+                "name": "Husna Hamid Toragall",
+                "phone-number": "8975509292"
+            }
+        ],
+        "rules": [
+            "1. Registration for the workshop should compulsorily be a group participation. The minimum number of members should be 3 and maximum 5 in a group."
+        ],
+        "prize": [
+            "A 6-month long internship opportunity at Hexcoderz.",
+            "Guidance to actually build the startup and launch to market.",
+            "Access to their startup studio over the weekend to build products.",
+            "Certificate."
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
             }
         ]
     }
