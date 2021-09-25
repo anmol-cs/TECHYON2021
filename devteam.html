@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" class="">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ext-style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <title>Event</title>
-  </head>
-  
-  <body class="  bg-black dark:bg-white dark:text-gray-900 text-white">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ext-style.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <title>Event</title>
+</head>
+
+<body class="  bg-black dark:bg-white dark:text-gray-900 text-white">
   <div class=" container mx-auto">
- <!--Navbar below-->
+    <!--Navbar below-->
     <!--Navbar below-->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black ">
-      <div class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg container mx-auto   ">
-  
+      <div
+        class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg container mx-auto   ">
+
         <div x-data="{ open: false }"
           class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
           <div class="m-2  inline-flex justify-center space-x-2  md:w-screen lg:w-max">
-             <span><img class="logo" src="images/PCCE_Logo.png" alt="pcce_logo"></span> 
+            <span><img class="logo" src="images/PCCE_Logo.png" alt="pcce_logo"></span>
             <a href="index.html" class="  font-bold  outline-none  text-5xl  md:text-4xl ">Techyon</a>
           </div>
           <div class="p-4 flex flex-row  justify-end ">
-  
-  
+
+
             <div class="flex self-start lg:mx-6 pr-8 flex">
-  
+
               <div>
                 <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
                 <label for="toggle"
                   class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
                   <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
-                 
+
                   <div
                     class=" absolute 
                 toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
@@ -47,8 +49,8 @@
                   <span class=""> <i class="text-black fa fa-moon-o"></i></span>
                 </label>
               </div>
-  
-  
+
+
             </div>
             <!-- TOGGLE SWITCH ENDD -->
             <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open">
@@ -70,10 +72,10 @@
               href="index.html#Events">Events</a>
             <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
               href="index.html#Sponsors">Sponsors</a>
-  
+
             <a class=" py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
               href="index.html#Contactus">Contact</a>
-  
+
             <a class="py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
               href="index.html#Team">Team</a>
             <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
@@ -81,7 +83,7 @@
           </nav>
         </div>
       </div>
-  
+
     </div>
 
     <!-- back to top  -->
@@ -90,390 +92,405 @@
       <span><i class="fa fa-chevron-up "></i></span>
     </button>
     <div class="mx-auto container ">
-        <!--our team-->
+      <!--our team-->
 
-  <section id="Team" class=" flex items-center text-gray-600 mt-40 bg-black dark:bg-white  px-5 md:px-12 ">
-    <div class=" px-5 py-5 ">
-      <div class="text-center mb-12 ">
-        <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black">Dev Team</h1>
-      </div>
-      <div class="flex flex-wrap -m-4">
-
-        <!--1 card-->
-        <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/roshan.jpg"
-              alt="image">
-            
-              <div
-                class="  p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Roshan</h1>
-              <p class="leading-relaxed mb-6">Dark Mode is just a toggle away 	
-                &#127763;
-                 <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap justify-center ">
-
-
-                  <a target='_blank' href="https://www.linkedin.com/in/roshan-t-19a514141"
-                    class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                      <a target='_blank' href="https://github.com/Roshan-Tadadikar"
-                    class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
-                      <a target='_blank' href="http://wa.me/919579487036"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-
-                </div>
-              </div>
-            </div>
+      <section id="Team" class=" flex items-center text-gray-600 mt-40 bg-black dark:bg-white  px-5 md:px-12 ">
+        <div class=" px-5 py-5 ">
+          <div class="text-center mb-12 ">
+            <h1 class="text-4xl text-white font-semibold uppercase faq dark:text-black">Dev Team</h1>
           </div>
+          <div class="flex flex-wrap -m-4">
 
-
-        <!-- 1E -->
-        <!--2 card-->
-        <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="images/mockimage.png"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Shrey</h1>
-              <p class="leading-relaxed mb-6">Event pages needs to be dyanamic &#128526;
-                <br>IT Department</p>
-
-
-                <div class="flex flex-wrap justify-center">
-
-
-                  <a target='_blank' href="#"
-                  class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                    <a target='_blank' href="#"
-                  class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
-                    <a target='_blank' href="#"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 2E -->
-        <!--3 card-->
-        <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/abdullah.jpg"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Abdullah Nore</h1>
-              <p class="leading-relaxed mb-6">I made the Front End responsive &#129472 
-                <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap justify-center">
-
-
-                  <a target='_blank' href="https://www.linkedin.com/in/abdulllah-nore-954b741b8/"
-                  class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                    <a target='_blank' href="https://github.com/abdullahnore"
-                  class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
-                    <a target='_blank' href="http://wa.me/918796440786"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 3E -->
-        <!--4 card-->
-        <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/Devraj_Chatribin_Comp.jpg"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Devraj Chatribin</h1>
-              <p class="leading-relaxed mb-6">UI/UX
-                <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap justify-center">
-
-
-                  <a target='_blank' href="https://linkedin.com/in/devraj-chatribin"
-                  class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                    <a target='_blank' href="https://github.com/DevrajDC"
-                  class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
-                    <a target='_blank' href="http://wa.me/919764789978"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 4E -->
-        <!--5 card-->
-        <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/aayush.jpg"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Aayush Anand</h1>
-              <p class="leading-relaxed mb-6">UI/UX
-                <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap justify-center">
-
-
-                  <a target='_blank' href="https://www.linkedin.com/in/aadhgoa"
-                    class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                      <a target='_blank' href="https://www.github.com/aadhgoa"
-                    class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
-                      <a target='_blank' href="http://wa.me/917666023650"
-                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                      <span class="  text-2xl  text-white">
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 5E -->
-        <!--6card-->
-        <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/anmol.jpg"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Anmol</h1>
-              <p class="leading-relaxed mb-6"> I made the team &#x1F60F;
-                <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap  justify-center">
-
-
-                  <a target='_blank' href="https://www.linkedin.com/in/anmol-singh-12ab89159"
-                  class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                   
-                    <a target='_blank' href="https://whatsapp.com/dl/"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 6E -->
-         <!--7card-->
-         <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/mashayikh.jpg"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Mashayikh Shaikh</h1>
-              <p class="leading-relaxed mb-6"> Backend Developer
-                <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap  justify-center">
-
-
-                  <a target='_blank' href="https://www.linkedin.com/in/mashayikh~shaikh~1408/"
-                  class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                    
-                    <a target='_blank' href="http://wasap.my/919765140019"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 7E -->
-         <!--8card-->
-         <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-          <div
-            class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-            <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/pratik.jpg"
-              alt="image">
-            
-              <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-              <h1 class="text-xl font-semibold mb-3">Pratik Pawar</h1>
-              <p class="leading-relaxed mb-6"> Full Stack Dev
-                <br>Computer Department</p>
-
-
-                <div class="flex flex-wrap  justify-center">
-
-
-                  <a target='_blank' href="https://www.linkedin.com/in/pratik-pawar-37361520b"
-                  class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                  <span class="  text-2xl  text-white">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                    
-                    <a target='_blank' href="https://wa.me/917414914916"
-                    class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                    <span class="  text-2xl  text-white">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <!-- 8E -->
-             <!--9card-->
-             <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <!--1 card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
               <div
                 class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
-                <img   loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/amar.jpg"
-                  alt="image">
-                
-                  <div
-                    class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-    
-                  <h1 class="text-xl font-semibold mb-3">Amar</h1>
-                  <p class="leading-relaxed mb-6"> Full Stack Dev
-                    <br>Computer Department</p>
-    
-    
-                    <div class="flex flex-wrap  justify-center">
-    
-    
-                      <a target='_blank' href="https://www.linkedin.com/in/amar-narute-435540149/"
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/roshan.jpg" alt="image">
+
+                <div
+                  class="  p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Roshan</h1>
+                  <p class="leading-relaxed mb-6">Dark Mode is just a toggle away
+                    &#127763;
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap justify-center ">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/roshan-t-19a514141"
                       class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
-                        <a target='_blank' href="https://github.com/starver20"
+                    <a target='_blank' href="https://github.com/Roshan-Tadadikar"
                       class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
-                        <a target='_blank' href="https://wa.me/918262936391"
-                        class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
-                        <span class="  text-2xl  text-white">
-                          <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
-                    </div>
+                    <a target='_blank' href="http://wa.me/919579487036"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+
                   </div>
                 </div>
               </div>
-    
-    
+            </div>
+
+            <!-- 2E -->
+            <!--3 card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/abdullah.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Abdullah Nore</h1>
+                  <p class="leading-relaxed mb-6">I made the Front End responsive &#129472
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/abdulllah-nore-954b741b8/"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="https://github.com/abdullahnore"
+                      class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="http://wa.me/918796440786"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- 1E -->
+            <!--2 card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/shrey.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Shrey Keny</h1>
+                  <p class="leading-relaxed mb-6">Event pages need to be dyanamic &#128526;
+                    <br>IT Department
+                  </p>
+
+
+                  <div class="flex flex-wrap justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/shreykeny/"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="https://github.com/shreykeny"
+                      class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href=""
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <!-- 3E -->
+            <!--4 card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/Devraj_Chatribin_Comp.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Devraj Chatribin</h1>
+                  <p class="leading-relaxed mb-6">UI/UX
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap justify-center">
+
+
+                    <a target='_blank' href="https://linkedin.com/in/devraj-chatribin"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="https://github.com/DevrajDC"
+                      class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="http://wa.me/919764789978"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 4E -->
+            <!--5 card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/aayush.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Aayush Anand</h1>
+                  <p class="leading-relaxed mb-6">UI/UX
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/aadhgoa"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="https://www.github.com/aadhgoa"
+                      class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="http://wa.me/917666023650"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 5E -->
+            <!--6card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/anmol.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Anmol</h1>
+                  <p class="leading-relaxed mb-6"> I made the team &#x1F60F;
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap  justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/anmol-singh-12ab89159"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+
+                    <a target='_blank' href="https://whatsapp.com/dl/"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 6E -->
+            <!--7card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/mashayikh.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Mashayikh Shaikh</h1>
+                  <p class="leading-relaxed mb-6"> Backend Developer
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap  justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/mashayikh~shaikh~1408/"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+
+                    <a target='_blank' href="http://wasap.my/919765140019"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 7E -->
+            <!--8card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/pratik.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Pratik Pawar</h1>
+                  <p class="leading-relaxed mb-6"> Full Stack Dev
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap  justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/pratik-pawar-37361520b"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+
+                    <a target='_blank' href="https://wa.me/917414914916"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 8E -->
+            <!--9card-->
+            <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+                <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                  src="photos/amar.jpg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                  <h1 class="text-xl font-semibold mb-3">Amar</h1>
+                  <p class="leading-relaxed mb-6"> Full Stack Dev
+                    <br>Computer Department
+                  </p>
+
+
+                  <div class="flex flex-wrap  justify-center">
+
+
+                    <a target='_blank' href="https://www.linkedin.com/in/amar-narute-435540149/"
+                      class="bg-blue-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="https://github.com/starver20"
+                      class="bg-yellow-500 px-4 py-2  m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-github" aria-hidden="true"></i> </span> </a>
+                    <a target='_blank' href="https://wa.me/918262936391"
+                      class="bg-green-400 px-4 py-2 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      <span class="  text-2xl  text-white">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             <!-- 9E -->
-        
+
+          </div>
         </div>
-      </div>
-    </section>
-  <!--footer-->
-  <footer class="  text-gray-600 bg-gray-900 body-font dark:bg-gray-200 dark:text-black container mx-auto">
-    <div class=" flex flex-row flex-wrap lg:flex-nowrap  py-12 justify-center ">
-      <div class="   my-2 p-8 ">
-        <h1 class=" title-font uppercase mb-3 text-xl font-bold text-center  dark:text-gray-600  text-gray-300">
-          About Techyon
-        </h1>
-        <p class="mt-2 lg:px-24 text-sm text-white dark:text-gray-700 ">Techyon is an inter college technical event held
-          annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed more
-          than the speed of the light. It hosts various technical events across all the departments. </p>
-      </div>
+      </section>
+      <!--footer-->
+      <footer class="  text-gray-600 bg-gray-900 body-font dark:bg-gray-200 dark:text-black container mx-auto">
+        <div class=" flex flex-row flex-wrap lg:flex-nowrap  py-12 justify-center ">
+          <div class="   my-2 p-8 ">
+            <h1 class=" title-font uppercase mb-3 text-xl font-bold text-center  dark:text-gray-600  text-gray-300">
+              About Techyon
+            </h1>
+            <p class="mt-2 lg:px-24 text-sm text-white dark:text-gray-700 ">Techyon is an inter college technical event
+              held
+              annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed
+              more
+              than the speed of the light. It hosts various technical events across all the departments. </p>
+          </div>
 
-      <div class="   my-2 p-8 lg:w-1/2 ">
-        <h2 class=" font-bold text-white text-xl  dark:text-black text-center dark:text-gray-600  text-gray-300">Quick
-          Links</h2><br>
-        <nav class="  list-none flex flex-row space-x-2 justify-center leading-9   ">
-          <li>
-            <a href="index.html#Home" class="dark:text-gray-600  text-gray-400 hover:text-white  ">Home</a>
-          </li>
-          <li>
-            <a href="index.html#Events"
-              class="  dark:text-gray-600  text-gray-400 text-gray-300hover:text-white ">Events</a>
-          </li>
+          <div class="   my-2 p-8 lg:w-1/2 ">
+            <h2 class=" font-bold text-white text-xl  dark:text-black text-center dark:text-gray-600  text-gray-300">
+              Quick
+              Links</h2><br>
+            <nav class="  list-none flex flex-row space-x-2 justify-center leading-9   ">
+              <li>
+                <a href="index.html#Home" class="dark:text-gray-600  text-gray-400 hover:text-white  ">Home</a>
+              </li>
+              <li>
+                <a href="index.html#Events"
+                  class="  dark:text-gray-600  text-gray-400 text-gray-300hover:text-white ">Events</a>
+              </li>
 
-          <li>
-            <a href="index.html#Team" class="  dark:text-gray-600  text-gray-400 hover:text-white">Team</a>
-          </li>
-          <li>
-            <a class="dark:text-gray-600  text-gray-400 hover:text-white " href="index.html#Contactus">Contact</a>
-          </li>
-          <li>
-            <a href="index.html#Sponsors" class=" dark:text-gray-600  text-gray-400 hover:text-white">Sponsors</a>
-          </li>
-        </nav>
-      </div>
-    </div>
+              <li>
+                <a href="index.html#Team" class="  dark:text-gray-600  text-gray-400 hover:text-white">Team</a>
+              </li>
+              <li>
+                <a class="dark:text-gray-600  text-gray-400 hover:text-white " href="index.html#Contactus">Contact</a>
+              </li>
+              <li>
+                <a href="index.html#Sponsors" class=" dark:text-gray-600  text-gray-400 hover:text-white">Sponsors</a>
+              </li>
+            </nav>
+          </div>
+        </div>
 
 
-  </footer>
-<!--footer-->
-   
+      </footer>
+      <!--footer-->
+
     </div>
     <script src="app.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
+
 </html>
