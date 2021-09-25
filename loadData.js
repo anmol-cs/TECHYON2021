@@ -19,8 +19,7 @@ function getQueryString() {
     return result;
 }
 
-
-$.getJSON("../data/eventsData.json", function (data) {
+$.getJSON("./data/eventsData.json", function (data) {
     var param = getQueryString()["event"];
     console.log(param);
 
