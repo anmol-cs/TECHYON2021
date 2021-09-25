@@ -2,12 +2,12 @@
 //  dark mode
 console.log("Made with love by Computer Department :)");
 
-function myFunction() {
+function darkFunction() {
   const html = document.querySelector("html");
   html.classList.toggle("dark");
 }
 
-myFunction();
+darkFunction();
 
 
 

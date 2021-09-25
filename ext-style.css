@@ -2,6 +2,9 @@
   overflow: hidden;
   text-align: center;
 }
+a {
+  -webkit-tap-highlight-color: transparent;
+}
 .faq:before,
 .faq:after {
   background-color: #0b69e3;
