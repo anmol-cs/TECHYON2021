@@ -2,7 +2,8 @@
   overflow: hidden;
   text-align: center;
 }
-a {
+a,
+button {
   -webkit-tap-highlight-color: transparent;
 }
 .faq:before,
