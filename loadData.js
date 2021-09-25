@@ -2,7 +2,7 @@ const eventName = document.getElementById('event-name');
 const category = document.getElementById('category');
 const date = document.getElementById('date');
 const time = document.getElementById('time');
-const rules = document.getElementById('rules');
+const instructions = document.getElementById('instructions');
 const coordinator1 = document.getElementById('coordinator-1');
 const coordinator2 = document.getElementById('coordinator-2');
 const coordinator1Phone = document.getElementById('coordinator-1-phone');
@@ -34,10 +34,19 @@ $.getJSON("../data/eventsData.json", function (data) {
 
         let ruleText = "";
 
-        data[param]["rules"].forEach((rule) => {
-            ruleText = ruleText.concat(`<p> ${rule} </p>`)
-            rules.innerHTML = ruleText;
-        })
+        // data[param]["rules"].forEach((rule) => {
+        //     ruleText = ruleText.concat(`<p> ${rule} </p>`)
+        //     instructions.innerHTML = ruleText;
+        // })
+
+        for (var name in data[param]["rules"]) {
+            console.log(name, data[param]["rules"][name]);
+            // data[param]["rules"][name].forEach((element) => )
+            ruleText = ruleText.concat(`<h3"> ${name} </h3> <p> ${data[param]["rules"][name].forEach(el => {
+                return (`<ul> ${el}</ul>`)
+            })}</p>`);
+            instructions.innerHTML = ruleText;
+        }
 
         coordinator1.innerText = data[param]["event-coordinators"][0].name;
         coordinator2.innerText = data[param]["event-coordinators"][1].name;
