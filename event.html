@@ -16,12 +16,12 @@
 </head>
 
 <body class="bg-black dark:bg-white dark:text-gray-900 text-white">
-
-  <!--Navbar below-->
+  <div class="container mx-auto">
+<!--Navbar below-->
   <!--Navbar below-->
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black ">
-    <div class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg  ">
+    <div class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg  container mx-auto  ">
 
       <div x-data="{ open: false }"
         class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
@@ -38,13 +38,14 @@
               <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
               <label for="toggle"
                 class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
-                <span class=""> <i class="text-black fa fa-moon-o"></i></span>
+                <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
+               
                 <div
                   class=" absolute 
-                toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
+              toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
 
                 </div>
-                <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
+                <span class=""> <i class="text-black fa fa-moon-o"></i></span>
               </label>
             </div>
 
@@ -242,10 +243,13 @@
 
 
   </footer>
+<!--footer-->
+  </div>
 
+  
   <script src="loadData.js"></script>
 
-  <!--footer-->
+  
   <script src="app.js"></script>
 
 
