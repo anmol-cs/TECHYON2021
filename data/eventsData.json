@@ -235,5 +235,49 @@
                 "url": ""
             }
         ]
+    },
+    "bridge-building": {
+        "event-name": "Bridge Building",
+        "department": "Mechanical Department",
+        "type": "Intra",
+        "location": "Mechanical Floor PCCE",
+        "date": " 7th OCT",
+        "time": "11 AM",
+        "event-coordinators": [
+            {
+                "name": "Chetan Karanzalkar",
+                "phone-number": "8698472154"
+            },
+            {
+                "name": "Ramanand Morajkar",
+                "phone-number": "7387382385"
+            }
+        ],
+        "rules": {
+            "hi": [
+                "hi",
+                "hola",
+                "hello"
+            ],
+            "bye": [
+                "bye",
+                "See ya",
+                "So long"
+            ]
+        },
+        "prize": [
+            2000,
+            1000
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
     }
 }
