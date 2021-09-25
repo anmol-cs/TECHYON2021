@@ -33,6 +33,7 @@ $.getJSON("../data/eventsData.json", function (data) {
         time.innerText = data[param]["time"];
 
         let ruleText = "";
+        let infoText = "";
 
         // data[param]["rules"].forEach((rule) => {
         //     ruleText = ruleText.concat(`<p> ${rule} </p>`)
@@ -41,11 +42,12 @@ $.getJSON("../data/eventsData.json", function (data) {
 
         for (var name in data[param]["rules"]) {
             console.log(name, data[param]["rules"][name]);
-            // data[param]["rules"][name].forEach((element) => )
-            ruleText = ruleText.concat(`<h3"> ${name} </h3> <p> ${data[param]["rules"][name].forEach(el => {
-                return (`<ul> ${el}</ul>`)
-            })}</p>`);
+            data[param]["rules"][name].forEach((element) => {
+                infoText = infoText.concat(`<li> ${element} </li>`);
+            })
+            ruleText = ruleText.concat(`<h3> ${name} </h3> <p> ${infoText}</p>`);
             instructions.innerHTML = ruleText;
+            infoText = "";
         }
 
         coordinator1.innerText = data[param]["event-coordinators"][0].name;

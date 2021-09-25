@@ -16,11 +16,24 @@
                 "phone-number": "8390629943"
             }
         ],
-        "rules": [
-            "1. The contest shall consist of solving a series of challenges to reach the goal.",
-            "2. The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test.",
-            "3. "
-        ],
+        "rules": {
+            "Rules": [
+                "The contest shall consist of solving a series of challenges to reach the goal.",
+                "The contest will mainly deal with computer-based puzzles and tasks. Your knowledge of Computers, the internet (latest happenings around the world) and related technical and Non-technical stuff will be put to the test."
+            ],
+            "Round 1 Rules": [
+                "1 Student/participant.",
+                "25 MCQ/Questions to be answered in 60min.",
+                "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
+                "Internet access is allowed."
+            ],
+            "Round 2 Rules": [
+                "1 Student/participant.",
+                "25 MCQ/Questions to be answered in 60min.",
+                "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
+                "Internet access is allowed."
+            ]
+        },
         "prize": [
             1500,
             500
@@ -53,16 +66,18 @@
                 "phone-number": "9112372022"
             }
         ],
-        "rules": [
-            "1. Title and names of the group members should be mentioned.",
-            "2. Two presenter per team max.",
-            "3. Presentation time of 7mins per team to present idea followed by questions from judges.",
-            "4. Contents should be clearly listed using appropriate fonts and colors",
-            "5. Use of proper headings/subtitles are desired.",
-            "6. Content should give idea of what the project is about",
-            "7. Decision made by the Coordinator/Company will be final incase any problems",
-            "8. Mode :Microsoft Team"
-        ],
+        "rules": {
+            "Rules": [
+                "1. Title and names of the group members should be mentioned.",
+                "2. Two presenter per team max.",
+                "3. Presentation time of 7mins per team to present idea followed by questions from judges.",
+                "4. Contents should be clearly listed using appropriate fonts and colors",
+                "5. Use of proper headings/subtitles are desired.",
+                "6. Content should give idea of what the project is about",
+                "7. Decision made by the Coordinator/Company will be final incase any problems",
+                "8. Mode :Microsoft Team"
+            ]
+        },
         "prize": [
             2000,
             1000
@@ -95,21 +110,23 @@
                 "phone-number": "9657994646"
             }
         ],
-        "rules": [
-            "1. Only registered teams will be allowed to share their game applications.",
-            "2. The team will be able to work on their project from 28th September onwards to 6th October.",
-            "3. Once registered all team members must join the WhatsApp group as all schedule announcements will be made on it.",
-            "4. The WhatsApp group will also be used to share resources on how to make games to help newer developers such to encourage more participation.",
-            "5. A minimum of 1 level of your game must be completed.",
-            "6. You can create either one of these types of games: Mobile, PC (Windows), Web",
-            "7. Augmented reality and virtual reality applications are also allowed",
-            "8. Your games will be judge according to the following criteria of Theme, Core gameplay, Asset diversity, Technical implementation, Presentation.",
-            "9. You will be allowed to use any individual assets, but you cannot use any full scene or full game prefabs. (E.g., A premade house model is acceptable, but a full scene with the player and environment already made is not.). For further details you can contact the coordinators.",
-            "10. Once completed you must share the link to your game application to us using any online storage service (e.g., google drive) before 7th October 2021 10:00 a.m.",
-            "11. Then on the very same day we will evaluate and pick the few best projects and they will have to explain a little about their game on the 8th of October 2021 will the judges try out their games.",
-            "12. The winners will be announced on 9th October.",
-            "13. For further questions contact the coordinators."
-        ],
+        "rules": {
+            "Rules": [
+                "1. Only registered teams will be allowed to share their game applications.",
+                "2. The team will be able to work on their project from 28th September onwards to 6th October.",
+                "3. Once registered all team members must join the WhatsApp group as all schedule announcements will be made on it.",
+                "4. The WhatsApp group will also be used to share resources on how to make games to help newer developers such to encourage more participation.",
+                "5. A minimum of 1 level of your game must be completed.",
+                "6. You can create either one of these types of games: Mobile, PC (Windows), Web",
+                "7. Augmented reality and virtual reality applications are also allowed",
+                "8. Your games will be judge according to the following criteria of Theme, Core gameplay, Asset diversity, Technical implementation, Presentation.",
+                "9. You will be allowed to use any individual assets, but you cannot use any full scene or full game prefabs. (E.g., A premade house model is acceptable, but a full scene with the player and environment already made is not.). For further details you can contact the coordinators.",
+                "10. Once completed you must share the link to your game application to us using any online storage service (e.g., google drive) before 7th October 2021 10:00 a.m.",
+                "11. Then on the very same day we will evaluate and pick the few best projects and they will have to explain a little about their game on the 8th of October 2021 will the judges try out their games.",
+                "12. The winners will be announced on 9th October.",
+                "13. For further questions contact the coordinators."
+            ]
+        },
         "prize": [
             5000,
             3000
@@ -142,9 +159,11 @@
                 "phone-number": "7709180828"
             }
         ],
-        "rules": [
-            ""
-        ],
+        "rules": {
+            "": [
+                ""
+            ]
+        },
         "prize": [
             0
         ],
@@ -168,7 +187,7 @@
         "time": "Morning",
         "event-coordinators": [
             {
-                "name": "Srinivass Talaulikar",
+                "name": "Srinivass",
                 "phone-number": "9657735214"
             },
             {
@@ -176,13 +195,17 @@
                 "phone-number": "8600152154"
             }
         ],
-        "rules": [
-            "1. Participants will have to sign up online via the Website. Registration can be done before 10 am on Day1.",
-            "2. The participants need to ensure that the necessary pre-requisites/working environment is set up on their laptops in advance so that time allotted during the hackathon is not spent on software installations.",
-            "3. Individual applications.",
-            "4. Developed Solutions should be original and not copied.",
-            "5. Do not use proprietary software. Use open-source software."
-        ],
+        "rules": {
+            "Guidelines": [
+                "Participants will have to sign up online via the Website. Registration can be done before 10 am on Day1.",
+                "The participants need to ensure that the necessary pre-requisites/working environment is set up on their laptops in advance so that time allotted during the hackathon is not spent on software installations."
+            ],
+            "Rules": [
+                "Individual applications.",
+                "Developed Solutions should be original and not copied.",
+                "Do not use proprietary software. Use open-source software."
+            ]
+        },
         "prize": [
             4000,
             2500,
@@ -216,15 +239,18 @@
                 "phone-number": "8975509292"
             }
         ],
-        "rules": [
-            "1. Registration for the workshop should compulsorily be a group participation. The minimum number of members should be 3 and maximum 5 in a group."
-        ],
-        "prize": [
-            "A 6-month long internship opportunity at Hexcoderz.",
-            "Guidance to actually build the startup and launch to market.",
-            "Access to their startup studio over the weekend to build products.",
-            "Certificate."
-        ],
+        "rules": {
+            "Rules": [
+                "1. Registration for the workshop should compulsorily be a group participation. The minimum number of members should be 3 and maximum 5 in a group."
+            ],
+            "Prizes": [
+                "A 6-month long internship opportunity at Hexcoderz.",
+                "Guidance to actually build the startup and launch to market.",
+                "Access to their startup studio over the weekend to build products",
+                "Certificate."
+            ]
+        },
+        "prize": [],
         "sponsors": [
             {
                 "name": "",
@@ -254,15 +280,15 @@
             }
         ],
         "rules": {
-            "hi": [
-                "hi",
-                "hola",
-                "hello"
+            "Materials": [
+                "hi1",
+                "hi2",
+                "hi3"
             ],
             "bye": [
-                "bye",
-                "See ya",
-                "So long"
+                "bye1",
+                "bye2",
+                "bye3"
             ]
         },
         "prize": [
@@ -279,5 +305,198 @@
                 "url": ""
             }
         ]
+    },
+    "contraption": {
+        "event-name": "Contraption",
+        "department": "Mechanical Department",
+        "type": "Inter",
+        "location": "PCCE Verna (Online and Offline mode)",
+        "date": " 9th OCT",
+        "time": "2 PM",
+        "event-coordinators": [
+            {
+                "name": "Sudeep Pagui",
+                "phone-number": "7028064935"
+            },
+            {
+                "name": "Jasim Shaikh",
+                "phone-number": "9172186714"
+            }
+        ],
+        "rules": {
+            "Rules": [
+                "The team leaders will be added to a whatsapp group after registration.",
+                "The event will be held in offline mode in Padre Conceicao college of engineering, Verna.",
+                "Teams can start their setup from day 1 of Techyon in the area provided to them.",
+                "Incase the participating team cannot make it to the college they can present via Google meet and recorded video, the rules of the same will be sent on the whatsapp group.",
+                "Final decision will be made by the judges and no objections will be entertained after the results are declared.",
+                "A space of 3mX3mX3m (l*b*h) can be used by each team.",
+                "Each hand touches will cause deduction of 10 points.",
+                "Only one chance is allowed to complete the process.",
+                "Use of explosives is not allowed",
+                "Any other queries will be answered in the whatsapp group itself."
+            ],
+            "Allocation of points": [
+                "Total no. of energy conversion - 30 points",
+                "Number of distinct energy conversions -30 points",
+                "Extra ordinary conversion - 40 points(depending on judges)"
+            ],
+            "Participation": [
+                "Maximum 4 in a team"
+            ]
+        },
+        "prize": [
+            4000,
+            2500
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ],
+        "form": "https://forms.gle/5qWDCCsbFfQmrgbV9"
+    },
+    "mechanism-building": {
+        "event-name": "Mechanism building",
+        "department": "Mechanical Department",
+        "type": "Inter",
+        "location": "PCCE Verna (Online and Offline mode)",
+        "date": " 8th OCT",
+        "time": "2 PM",
+        "event-coordinators": [
+            {
+                "name": "Kunal Borkar",
+                "phone-number": "9850543807"
+            },
+            {
+                "name": "Shreyas Athalye",
+                "phone-number": "8459982117"
+            }
+        ],
+        "rules": {
+            "Problem statement": [
+                "To build a unique mechanism which has a useful purpose that gives an output. The output may be the application of force, linear or rotary motion."
+            ],
+            "Rules:": [
+                "A team should consist of 2-5 members",
+                "The event will be held in offline mode.",
+                "Incase the participating team cannot make it to the college they can present via Google meet and recorded video, the rules of the same will be sent on the whatsapp group.",
+                "A working model should be assembled and ready for display prior to competition date",
+                "Participants will be given time to present their mechanism to the judges.",
+                "Buying the entire mechanism form any supplier will lead to disqualification.",
+                "There are no restrictions on type of material used.",
+                "Judges decision will be final and no objections will be entertained after the results are declared.",
+                "Any other queries regarding the event can be asked in the whatsapp group."
+            ]
+        },
+        "prize": [
+            3000,
+            1500
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ],
+        "form": "https://forms.gle/hStF2jDDuxEE73EN7"
+    },
+    "solid-works": {
+        "event-name": "Solid Works",
+        "department": "Mechanical Department",
+        "type": "Intra",
+        "location": "Online",
+        "date": "9th OCT",
+        "time": "9:30 AM",
+        "event-coordinators": [
+            {
+                "name": "Akhilesh Rege",
+                "phone-number": "9307266309"
+            },
+            {
+                "name": "Saiesh",
+                "phone-number": "9545405911"
+            }
+        ],
+        "rules": {
+            "Rules:": [
+                "This is an individual event and no teams of 2 or more will be entertained.",
+                "The event will be held online via Google Classroom.",
+                "Time limit for the completion of the solid model and submission of the same will be 2 hours only.",
+                "Each participant will have to complete 2 designs in the given period upto the specifications required.",
+                "Exceeding the time limit will result in reduction of points. The solid model to be designed will be sent on the spot.",
+                "The model will be checked for dimensional accuracy and finishing (chamfer, fillet, etc.)",
+                "It is requested to remain honest and avoid taking help or cheating during the event.",
+                "Any doubts about the rules can contact the coordinators in the Whatsapp group of the participants that will be created.",
+                "The judging criteria and decision shall be final and no argument will be entertained for the same."
+            ]
+        },
+        "prize": [
+            2000,
+            1000
+        ],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ],
+        "form": "https://forms.gle/SeeZLpvDBhjMoQhq9"
+    },
+    "robotics-workshop": {
+        "event-name": "Robotics Workshop",
+        "department": "Mechanical Department",
+        "type": "Intra",
+        "location": "Online",
+        "date": "8th OCT",
+        "time": "10 AM",
+        "event-coordinators": [
+            {
+                "name": "Azel Mascarenhas",
+                "phone-number": "7875225296"
+            },
+            {
+                "name": "Saeel Bhat",
+                "phone-number": "7083055352"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "Workshop will be on basic concepts of robotics & Arduino.",
+                "Insight on different robotics competition in Goa.",
+                "Briefing on team BHP.",
+            ],
+            "Instructions": [
+                "Use the registration link to register for the workshop.",
+                "Those registered will be added in a whatsapp group.",
+                "The details of the workshop will then be shared in the whatsapp group itself.",
+                "The workshop is meant for the 1st and 2nd year students only."
+            ]
+        },
+        "prize": [],
+        "sponsors": [
+            {
+                "name": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "url": ""
+            }
+        ],
+        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9"
     }
 }
