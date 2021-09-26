@@ -446,7 +446,7 @@
         "event-coordinators": [
             {
                 "name": "Aishwarya Kumbhar",
-                "Blake Da Costa": "9518323715"
+                "phone-number": "9518323715"
             },
             {
                 "name": "Blake Da Costa",
@@ -487,7 +487,7 @@
             2500,
             1500
         ],
-        "form": "https://forms.gle/vqv1sWgL2cAj4pfBA"
+        "form": "https://forms.gle/xsvYhYasYbbnDzJM7"
     },
     "line-follower": {
         "event-name": "Line Follower",
@@ -499,7 +499,7 @@
         "event-coordinators": [
             {
                 "name": "Yogesh Kholkar",
-                "Blake Da Costa": "9373459866"
+                "phone-number": "9373459866"
             },
             {
                 "name": "Prajval Padate",
@@ -547,7 +547,7 @@
         "event-coordinators": [
             {
                 "name": "Mitali Kodkani",
-                "Blake Da Costa": "9834749789"
+                "phone-number": "9834749789"
             },
             {
                 "name": "Shubham Bhalerao",
@@ -575,7 +575,7 @@
         "event-coordinators": [
             {
                 "name": "Shriram Parab",
-                "Blake Da Costa": "9765832763"
+                "phone-number": "9765832763"
             },
             {
                 "name": "Amey Shetye",
@@ -615,7 +615,7 @@
         "event-coordinators": [
             {
                 "name": "Sweatlana Martins",
-                "Blake Da Costa": "7499339378"
+                "phone-number": "7499339378"
             },
             {
                 "name": "Apeksha Kamble",
@@ -663,7 +663,7 @@
         "event-coordinators": [
             {
                 "name": "Ashutosh Sardessai",
-                "Blake Da Costa": "9226769721"
+                "phone-number": "9226769721"
             },
             {
                 "name": "Sarvesh Lad",
@@ -698,31 +698,81 @@
         "time": "11AM - 1PM",
         "event-coordinators": [
             {
-                "name": "Ashutosh Sardessai",
-                "Blake Da Costa": "9226769721"
+                "name": "Anacia Dias",
+                "phone-number": "9371347514"
             },
             {
-                "name": "Sarvesh Lad",
-                "phone-number": "9518745617"
+                "name": "Janice Fernandes",
+                "phone-number": "7972473171"
             }
         ],
         "rules": {
+            "Description": [
+                "BE IT poster making competition. Showcase your project ideas  through posters and take ideate 2021 home. "
+            ],
+            "Poster presentation should include the following:": [
+                "Title",
+                "Team members of the project group",
+                "Abstract (brief summary and objectives)",
+                "The Motivation behind the project",
+                "Block diagram",
+                "Algorithm/ Flow Chart/Technical Details"
+            ],
             "Rules": [
-                "The poster should depicts your project. It should showcase your creativity and innovation.",
-                "Each team consists of the project group",
-                "Each team can display only one poster.",
-                "The poster should be on a flex sheet.",
-                "The dimensions of the poster must be 5ft*4ft(fixed size).",
-                "The poster should have title,objective, block diagram/flowchart,advantages & disadvantages,future scope and it's applications",
-                "Participants must be present at the designated class/lab prior to the event time, failing which will lead to disqualification",
-                "Participants must register online prior to the event",
-                "Entry is Free"
+                "There should be only 2 presenters from each team.",
+                "You will be given 10 min to present your ideas, which will be  then followed by a 3 min Q/A session.",
+                "Diagrams and flowcharts should be neat and clear.",
+                "Contents should be readable.",
+                "Registrations will be open from 9:15 to 9:30",
+                "All team members have to be present on the IT floor by 9:30 sharp.",
+                "Poster must be done in the college by the team between 9:45  to 10:45. "
+            ],
+            "Ideas will be judged on the following criteria:": [
+                "Feasibility",
+                "Innovation",
+                "Applications",
+                "Sustainability"
             ]
         },
         "prize": [
             2000,
             1000
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
+        "form": ""
+    },
+    "master-minds": {
+        "event-name": "Masterminds",
+        "department": "Information Technology Department",
+        "type": "FE PCCE",
+        "location": "Online",
+        "date": "8th OCT",
+        "time": "9AM - 10AM",
+        "event-coordinators": [
+            {
+                "name": "",
+                "phone-number": ""
+            },
+            {
+                "name": "",
+                "phone-number": ""
+            }
+        ],
+        "rules": {
+            "Description": [
+                "An Online Quiz Competition exclusively for all the First Year of students of PCCE . An opportunity for participants to test their knowledge of academics as well as aptitude"
+            ],
+            "Rules": [
+                "The participants will answer 30-40 questions in 1st & 2nd round. It will be a rapid fire knockout  round with a 20 mins Timer.",
+                "The third round will be a tiebreaker round with participant answering maximum questions in less time wins.(Timer- 15 mins)",
+                "The Quiz will be multiple choice based.",
+                "The participants will be given code for each round to join the platform.",
+                "All participants are requested to ensure proper internet connectivity during the quiz.",
+                "The decision of the Judges will be final."
+            ]
+        },
+        "prize": [
+            1000
+        ],
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform"
     }
 }
