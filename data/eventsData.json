@@ -37,16 +37,6 @@
         "prize": [
             1500,
             500
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ]
     },
     "comp-ideate": {
@@ -81,16 +71,6 @@
         "prize": [
             2000,
             1000
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ]
     },
     "gamejam": {
@@ -130,16 +110,6 @@
         "prize": [
             5000,
             3000
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ]
     },
     "ml-workshop": {
@@ -166,16 +136,6 @@
         },
         "prize": [
             0
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ]
     },
     "datahack": {
@@ -210,16 +170,6 @@
             4000,
             2500,
             1500
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ]
     },
     "build-startup": {
@@ -250,17 +200,7 @@
                 "Certificate."
             ]
         },
-        "prize": [],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
-        ]
+        "prize": []
     },
     "bridge-building": {
         "event-name": "Bridge Building",
@@ -281,30 +221,57 @@
         ],
         "rules": {
             "Materials": [
-                "hi1",
-                "hi2",
-                "hi3"
+                "50 straws of 25 cm length.",
+                "Cello Tape",
+                "Glue (only fevicol to be used)",
+                "Stapler if required",
+                "Tape or stapler should be used only on the joints and junctions of the straws and not on its entire length.",
+                "Taping the entire Roadway is not allowed.",
+                "Compulsory event for all the First Years."
             ],
-            "bye": [
-                "bye1",
-                "bye2",
-                "bye3"
+            "Note": [
+                "Not necessary to use all the straws.",
+                "Only straws will be provided.",
+                "The team leader will be added to a Whatsapp group where all the other instructions and queries regarding the event will be answerd."
+            ],
+            "Dimensions": [
+                "Width=8 to 10 cm",
+                "Total length=40 cm max",
+                "Total height= 15 cm max above the support.",
+                "Roadway: 3cm max thickness (vehicle/ box of 15cm x 8cm dimensions must be able to pass through the entire length of the bridge with no obstruction)."
+            ],
+            "Duration": [
+                "60 minutes for building the bridge"
+            ],
+            "Loading conditions": [
+                "The load will be applied vertically at the centre of the bridge."
+            ],
+            "Support": [
+                "Support will be provided for the bridge to sit on.",
+                "Supports will be placed 30 cm apart."
+            ],
+            "Members": [
+                "Maximum 5"
+            ],
+            "Weight": [
+                "If there is a tie, bridge having minimum weight will be considered as winner."
+            ],
+            "Round 1 (qualification round)": [
+                "Bridges failing to meet the given dimensions or failing to abide by the above rules will be disqualified."
+            ],
+            "Round 2 (Load and Look Test)": [
+                "Judges will give marks out of 100 for the overall aesthetics of the bridge.",
+                "These marks will be then added to the maximum load the bridge takes before collapsing.",
+                "The bridge with higher total points will be declared as the winner.",
+                "Eg:- Marks for looks – 70, Total load taken - 1100gm, Total points – 1100+70=1170",
+                "Judges decision will be final and no issues will be entertained after the declaration of the results."
             ]
         },
         "prize": [
             2000,
             1000
         ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
-        ]
+        "form": "https://forms.gle/kDHbgTmeymmiUFTd9"
     },
     "contraption": {
         "event-name": "Contraption",
@@ -349,16 +316,6 @@
             4000,
             2500
         ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
-        ],
         "form": "https://forms.gle/5qWDCCsbFfQmrgbV9"
     },
     "mechanism-building": {
@@ -397,16 +354,6 @@
         "prize": [
             3000,
             1500
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ],
         "form": "https://forms.gle/hStF2jDDuxEE73EN7"
     },
@@ -487,16 +434,259 @@
             ]
         },
         "prize": [],
-        "sponsors": [
+        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9"
+    },
+    "tech-masters": {
+        "event-name": "TechMasters",
+        "department": "Electronics and Telecommunication Department",
+        "type": "Inter",
+        "location": "Auditorium, PCCE, Verna",
+        "date": "8th OCT",
+        "time": "10 AM",
+        "event-coordinators": [
             {
-                "name": "",
-                "url": ""
+                "name": "Aishwarya Kumbhar",
+                "Blake Da Costa": "9518323715"
             },
             {
-                "name": "",
-                "url": ""
+                "name": "Blake Da Costa",
+                "phone-number": "9284711895"
             }
         ],
-        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9"
+        "rules": {
+            "Rules": [
+                "Maximum 2 participants per team allowed.",
+                "Total number of rounds – 3",
+                "Both participants of a team should be from same college.",
+                "If dishonest methods used, teams will be disqualified immediately.",
+                "Tie-breaker set of questions will be provided in case of tie between teams."
+            ],
+            "Round 1: General round": [
+                "Written examination in case of more teams registered.",
+                "Each team will be provided with set of 15 objective questions, teams have to solve the questions within 15 minutes.",
+                "No negative marking.",
+                "Further 3/5 questions would be asked in case of tie between teams for final selection.",
+                "Top scoring teams will be shortlisted for Rapid fire round."
+            ],
+            "Round 2: Rapid fire": [
+                "Shortlisted teams will be asked set of questions one after another.",
+                "Very short time limit assigned for each question per team.",
+                "No negative marking.",
+                "Team discussion allowed.",
+                "If a team cannot answer the question, they can say pass for the next question. The question will not be forwarded to the next team."
+            ],
+            "Round 3: Buzzer round": [
+                "A question will be posed to all teams and the team which presses the buzzer first will be given the chance to answer.",
+                "There will be negative marking.",
+                "10 marks will be awarded for correct answer and 5 marks will be deducted for wrong answer. No answer no deduction of marks.",
+                "This round will be video recorded in case teams press the buzzer at same time, to avoid conflicts.",
+                "Winner will be declared who has highest marks."
+            ]
+        },
+        "prize": [
+            2500,
+            1500
+        ],
+        "form": "https://forms.gle/vqv1sWgL2cAj4pfBA"
+    },
+    "line-follower": {
+        "event-name": "Line Follower",
+        "department": "Electronics and Telecommunication Department",
+        "type": "Inter",
+        "location": "Class L14, PCCE, Verna",
+        "date": "7th OCT",
+        "time": "10 AM",
+        "event-coordinators": [
+            {
+                "name": "Yogesh Kholkar",
+                "Blake Da Costa": "9373459866"
+            },
+            {
+                "name": "Prajval Padate",
+                "phone-number": "9764176520"
+            }
+        ],
+        "rules": {
+            "The overall specifications of the bot must not exceed the following (including tolerance)": [
+                "28 cm in length",
+                "22 cm in width",
+                "20 cm in overall height ",
+                "5 kg in total weight.",
+                "no lego and ready made bot.",
+                "Max voltage 12V"
+            ],
+            "Rules": [
+                "A team can comprise of a maximum of 3 members.",
+                "The competition will be of 2 rounds. Round 1 shall be a qualifier round and round 2 shall be the final round.",
+                "In round 1, each team will give 2 time trials. Least time and with best out of 2 given trails will be judged upon.",
+                "For the 1st trial a test run of 3 Mins will be given after which, immediately 1st time trial will follow ",
+                "Team can give 2nd and Final trail immediately after 1st or later in the competition . There won't be any TEST RUN for 2nd trial. ",
+                "The bot must cover the entire track within 4 min minutes to qualify for the final round",
+                "Any shortcut paths and deviation from the main line will lead to placing of the bot back to the nearest check point. Coordinators decision will be counted as the final. ",
+                "In case if no bot is able to complete the track in given time, bot covering maximum checkpoint in minimum time will be shortlisted for the final round. ",
+                "Width of the line will be 3cm.The participants shall be informed in prior by the event coordinators if there is any change in the width of the line.",
+                "The Line Follower Bot must be fully self-contained and must not be externally operated by wire or remote radio control during the course of the race.",
+                "Before commencement of the actual racing, the teams will be allowed to test their bots on the track but only for limited period of time as decided by the coordinators",
+                "Once the bot is placed on the track, a maximum of 8 touches will be allowed to reset the bot on the right track and a penalty of 5 sec per touch shall be added to the total time.",
+                "Winner shall be the group which finishes the track in the shortest time. In case no team manages to finish the track, then the prize shall be given to the team who completes most part of the track in shortest time and with minimum touches. "
+            ]
+        },
+        "prize": [
+            3500,
+            1500
+        ],
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0"
+    },
+    "ard-u-know": {
+        "event-name": "Ard-U-Know",
+        "department": "Electronics and Telecommunication Department",
+        "type": "Intra",
+        "location": "ETC Lab-8",
+        "date": "7th, 8th, 9th OCT",
+        "time": "2PM",
+        "event-coordinators": [
+            {
+                "name": "Mitali Kodkani",
+                "Blake Da Costa": "9834749789"
+            },
+            {
+                "name": "Shubham Bhalerao",
+                "phone-number": "8329688423"
+            }
+        ],
+        "rules": {
+            "Description": [
+                " Workshop for EComp students on Arduino Basics"
+            ],
+            "Prize": [
+                "Certificate of participation"
+            ]
+        },
+        "prize": [],
+        "form": ""
+    },
+    "electronics-art": {
+        "event-name": "Electronics Art",
+        "department": "Electronics and Telecommunication Department",
+        "type": "Open",
+        "location": "L2 / L4, PCCE Verna",
+        "date": "7th OCT",
+        "time": "10AM",
+        "event-coordinators": [
+            {
+                "name": "Shriram Parab",
+                "Blake Da Costa": "9765832763"
+            },
+            {
+                "name": "Amey Shetye",
+                "phone-number": "9021334983"
+            }
+        ],
+        "rules": {
+            "Event Theme : LIFE IN DEEP BLUE 🐙🦑🦐🦞🦀🐡🐠🐟🐬🐳🐋": [
+                "Under this theme participants are required to make a small miniature representation of underwater landscape having any 1 aquatic animal compulsory ",
+                "The size of the artwork cannot exceed more then 50*50*50 cm",
+                "Use of all electronic components is allowed such as different leds ,led panels,sensors and all those components which will bring the spark in the artwork",
+                "Use of microcontrollers is also allowed",
+                "Participants should be present at the designated class/lab prior the event timing ,failing to will lead to disqualification",
+                "Open to all departments",
+                "No entry fee"
+            ],
+            "Judging criteria and points table will be out of 50 points": [
+                "1)Creativity(Art skills) -15",
+                "2)Technical work-15",
+                "3)Explaination-5",
+                "4)Innovative presentation/Overall visual factor(like a showpiece)-15"
+            ]
+        },
+        "prize": [
+            3000,
+            1500
+        ],
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link"
+    },
+    "code-fest": {
+        "event-name": "Codefest",
+        "department": "Electronics and Telecommunication Department",
+        "type": "Intra",
+        "location": "Online",
+        "date": "9th OCT",
+        "time": "10AM",
+        "event-coordinators": [
+            {
+                "name": "Sweatlana Martins",
+                "Blake Da Costa": "7499339378"
+            },
+            {
+                "name": "Apeksha Kamble",
+                "phone-number": "7719918990"
+            }
+        ],
+        "rules": {
+            "C/Python Programming": [
+                "Compulsory Event for all TE ETC students",
+                "Individual Event",
+                "This contest will contain total of 3 rounds",
+                "It will be time based"
+            ],
+            "Round 1 (30min)": [
+                "Will contain total of 30 questions",
+                "+1 for correct answers (no negative marking)",
+                "60% needed to qualify from Round 1 to Round 2"
+            ],
+            "Round 2 (20min)": [
+                "Will contain total of 20 questions",
+                "+1 for correct answers (no negative marking)",
+                "60% needed to qualify from Round 2 to Round 3"
+            ],
+            "Round 3 (20min)": [
+                "Will contain total of 10 questions",
+                "+1 for correct answers(no negative marking)"
+            ],
+            "Note:": [
+                "Rules are same for both C and Python programming",
+                "Winner will be decided based on the highest marks scored in all the 3 rounds together"
+            ]
+        },
+        "prize": [
+            1500
+        ],
+        "form": "https://forms.gle/ehrppDb8FZGhnvz26"
+    },
+    "poster-presentation": {
+        "event-name": "Poster Presentation",
+        "department": "Electronics and Telecommunication Department",
+        "type": "Intra",
+        "location": " L12, L13, L14, PCCE Verna",
+        "date": "8th OCT",
+        "time": "2PM - 5PM",
+        "event-coordinators": [
+            {
+                "name": "Ashutosh Sardessai",
+                "Blake Da Costa": "9226769721"
+            },
+            {
+                "name": "Sarvesh Lad",
+                "phone-number": "9518745617"
+            }
+        ],
+        "rules": {
+            "Rules": [
+                "The poster should depicts your project. It should showcase your creativity and innovation.",
+                "Each team consists of the project group",
+                "Each team can display only one poster.",
+                "The poster should be on a flex sheet.",
+                "The dimensions of the poster must be 5ft*4ft(fixed size).",
+                "The poster should have title,objective, block diagram/flowchart,advantages & disadvantages,future scope and it's applications",
+                "Participants must be present at the designated class/lab prior to the event time, failing which will lead to disqualification",
+                "Participants must register online prior to the event",
+                "Entry is Free"
+            ]
+        },
+        "prize": [
+            2000,
+            1000
+        ],
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
     }
 }
