@@ -49,6 +49,12 @@ button {
 .orbitron {
   font-family: "Orbitron", sans-serif;
 }
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.chakra {
+  font-family: "Chakra Petch", sans-serif;
+}
 
 .accordionWrapper {
   box-sizing: border-box;
@@ -137,5 +143,5 @@ button {
   }
 }
 .show {
-  animation: zoom-in 0.2s;
+  animation: zoom-in 0.3s;
 }

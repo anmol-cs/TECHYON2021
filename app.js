@@ -65,7 +65,7 @@ $(document).ready(function()
         $('.event_item').removeClass('hide');
         setTimeout(function() {
           $('.event_item').removeClass('show');
-      }, 250);
+      }, 350);
         
        
       
@@ -76,7 +76,7 @@ $(document).ready(function()
         $('.'+category).removeClass('hide');
         setTimeout(function() {
           $('.'+category).removeClass('show');
-      }, 250);
+      }, 350);
        
       
      
