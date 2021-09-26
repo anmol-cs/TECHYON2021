@@ -688,5 +688,41 @@
             1000
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
+    },
+    "it-ideate": {
+        "event-name": "IDEATE ",
+        "department": "Information Technology Department",
+        "type": "Intra",
+        "location": "IT Dept",
+        "date": "7th OCT",
+        "time": "11AM - 1PM",
+        "event-coordinators": [
+            {
+                "name": "Ashutosh Sardessai",
+                "Blake Da Costa": "9226769721"
+            },
+            {
+                "name": "Sarvesh Lad",
+                "phone-number": "9518745617"
+            }
+        ],
+        "rules": {
+            "Rules": [
+                "The poster should depicts your project. It should showcase your creativity and innovation.",
+                "Each team consists of the project group",
+                "Each team can display only one poster.",
+                "The poster should be on a flex sheet.",
+                "The dimensions of the poster must be 5ft*4ft(fixed size).",
+                "The poster should have title,objective, block diagram/flowchart,advantages & disadvantages,future scope and it's applications",
+                "Participants must be present at the designated class/lab prior to the event time, failing which will lead to disqualification",
+                "Participants must register online prior to the event",
+                "Entry is Free"
+            ]
+        },
+        "prize": [
+            2000,
+            1000
+        ],
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
     }
 }
