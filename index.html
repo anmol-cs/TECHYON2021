@@ -25,7 +25,7 @@
 
 
   <div class="container mx-auto">
-    <!--Navbar below-->
+   <header> <!--Navbar below-->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black  ">
       <div
@@ -93,6 +93,7 @@
       </div>
 
     </div>
+  </header>
     <!--  header images /title -->
     <div class=" container mx-auto text-white mt-32 ">
       <div class="   flex flex-row-reverse     lg:justify-between flex-wrap  ">
@@ -205,32 +206,32 @@
         </div>
         <div class="flex flex-row   w-full justify-center flex-wrap">
           <button
-            class=" btn  bg-blue-400  px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center"
-            onclick="filterObject('all')"> <span class=" sm:text-xl lg:text-2xl  text-white">ALL</span></button>
+            class=" category_item btn  bg-blue-400  px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center" id="ALL"
+         > <span class=" sm:text-xl lg:text-2xl  text-white">ALL</span></button>
           <button
-            class="btn  bg-blue-400 px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center"
-            onclick="filterObject('MECH')"> <span class=" sm:text-xl lg:text-2xl  text-white">MECH</span></button>
+            class="btn  category_item bg-blue-400 px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center " id="MECH"
+         > <span class=" sm:text-xl lg:text-2xl  text-white">MECH</span></button>
           <button
-            class="btn bg-blue-400 px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center"
-            onclick="filterObject('IT')"> <span class=" sm:text-xl lg:text-2xl  text-white">IT</span></button>
+            class="btn category_item bg-blue-400 px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center" id="IT"
+     > <span class=" sm:text-xl lg:text-2xl  text-white">IT</span></button>
           <button
-            class="btn  bg-blue-400  px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center"
-            onclick="filterObject('COMP')"> <span class=" sm:text-xl lg:text-2xl  text-white">COMP</span> </button>
+            class="btn  category_item bg-blue-400  px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center" id="COMP"
+           > <span class=" sm:text-xl lg:text-2xl  text-white">COMP</span> </button>
 
           <button
-            class="btn  bg-blue-400 px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center"
-            onclick="filterObject('ETC')">
+            class="btn category_item bg-blue-400 px-4 py-2  m-1 rounded-sm transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center" id="ETC"
+            >
             <span class=" sm:text-xl lg:text-2xl  text-white">ETC</span></button>
         </div>
 
         <div class="flex flex-wrap lg:p-24 ">
           <!-- COMP  -->
           <!--1 card-->
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
+          <div class=" event_item COMP  p-2 sm:w-1/2 lg:w-1/3  ">
 
 
             <div
-              class="h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href="event.html?event=decrypt">
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
                 <div
@@ -248,7 +249,7 @@
           </div>
           <!--2card-->
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
+          <div class="event_item    p-2 sm:w-1/2 lg:w-1/3  COMP">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=comp-ideate'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -265,7 +266,7 @@
 
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=gamejam'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -280,7 +281,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=ml-workshop'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -295,7 +296,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=datahack'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -310,7 +311,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE COMP">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=build-startup'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -325,7 +326,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE MECH">
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=bridge-building'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -340,7 +341,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE MECH">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=contraption'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -355,7 +356,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE MECH">
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=mechanism-building'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -370,7 +371,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE MECH">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=solid-works'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -385,7 +386,7 @@
             </div>
           </div>
 
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE MECH">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=robotics-workshop'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -404,7 +405,7 @@
 
           <!-- ETC -->
           <!--1card-->
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE ETC">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=comp-ideate'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">
@@ -423,7 +424,7 @@
           <!--1E -->
           <!-- IT -->
           <!--1 card-->
-          <div class="p-2 sm:w-1/2 lg:w-1/3 cardE IT">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
             <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
               <a href='event.html?event=comp-ideate' class="bg-transparent">
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/mocktest.jpg" alt="image">

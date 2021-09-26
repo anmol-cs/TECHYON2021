@@ -17,74 +17,74 @@
 
 <body class="  bg-black dark:bg-white dark:text-gray-900 text-white">
   <div class=" container mx-auto">
-    <!--Navbar below-->
-    <!--Navbar below-->
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-    <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black ">
-      <div
-        class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg container mx-auto   ">
-
-        <div x-data="{ open: false }"
-          class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
-          <div class="m-2  inline-flex justify-center space-x-2  md:w-screen lg:w-max">
-            <span><img class="logo" src="images/PCCE_Logo.png" alt="pcce_logo"></span>
-            <a href="index.html" class="  font-bold  outline-none  text-5xl  md:text-4xl ">Techyon</a>
-          </div>
-          <div class="p-4 flex flex-row  justify-end ">
-
-
-            <div class="flex self-start lg:mx-6 pr-8 flex">
-
-              <div>
-                <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
-                <label for="toggle"
-                  class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
-                  <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
-
-                  <div
-                    class=" absolute 
-                toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
-
-                  </div>
-                  <span class=""> <i class="text-black fa fa-moon-o"></i></span>
-                </label>
+    <header>
+      <!--Navbar below-->
+        <!--Navbar below-->
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black ">
+          <div class="  fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg  ">
+      
+            <div x-data="{ open: false }"
+              class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
+              <div class="m-2  inline-flex justify-center space-x-2  md:w-screen lg:w-max">
+                <!-- <span><img class="logo" src="images/P_FINAL25.png" alt="pcce_logo"></span> -->
+                <a href="index.html" class="  font-bold  outline-none  text-5xl  md:text-4xl ">Techyon</a>
               </div>
-
-
+              <div class="p-4 flex flex-row  justify-end ">
+      
+      
+                <div class="flex self-start lg:mx-6 pr-8 flex">
+      
+                  <div>
+                    <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
+                    <label for="toggle"
+                      class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
+                      <span class=""> <i class="text-black fa fa-moon-o"></i></span>
+                      <div
+                        class=" absolute 
+                      toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
+      
+                      </div>
+                      <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
+                    </label>
+                  </div>
+      
+      
+                </div>
+                <!-- TOGGLE SWITCH ENDD -->
+                <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open">
+                  <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
+                    <path x-show="!open" fill-rule="evenodd"
+                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                      clip-rule="evenodd"></path>
+                    <path x-show="open" fill-rule="evenodd"
+                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </button>
+              </div>
+              <nav :class="{'flex': open, 'hidden': !open}"
+                class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
+                <a class="  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="index.html#Home">Home</a>
+                <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="index.html#Events">Events</a>
+                <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="index.html#Sponsors">Sponsors</a>
+      
+                <a class=" py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="index.html#Contactus">Contact</a>
+      
+                <a class="py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="index.html#Team">Team</a>
+                <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
+                  href="#">Results</a>
+              </nav>
             </div>
-            <!-- TOGGLE SWITCH ENDD -->
-            <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open">
-              <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
-                <path x-show="!open" fill-rule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                  clip-rule="evenodd"></path>
-                <path x-show="open" fill-rule="evenodd"
-                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"></path>
-              </svg>
-            </button>
           </div>
-          <nav :class="{'flex': open, 'hidden': !open}"
-            class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
-            <a class="  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-              href="index.html#Home">Home</a>
-            <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-              href="index.html#Events">Events</a>
-            <a class="   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-              href="index.html#Sponsors">Sponsors</a>
-
-            <a class=" py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-              href="index.html#Contactus">Contact</a>
-
-            <a class="py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-              href="index.html#Team">Team</a>
-            <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
-              href="#">Results</a>
-          </nav>
+      
         </div>
-      </div>
-
-    </div>
+      </header>
 
     <!-- back to top  -->
     <button onclick="topFunction()" id="myBtn"
