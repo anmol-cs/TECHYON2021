@@ -9,7 +9,14 @@ function darkFunction() {
 
 darkFunction();
 
-
+// animation aos 
+AOS.init({
+  offset:130,
+  
+  duration :1000
+ 
+ 
+ });
 
 // back to top
 
