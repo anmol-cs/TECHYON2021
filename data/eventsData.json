@@ -202,6 +202,104 @@
         },
         "prize": []
     },
+    "code-crunch": {
+        "event-name": "Code Crunch",
+        "department": "Computer Department",
+        "type": "Inter college",
+        "location": "Online",
+        "date": "7th OCT - 9th OCT",
+        "time": "",
+        "event-coordinators": [
+            {
+                "name": "Sakshi Palekar",
+                "phone-number": "9146884970"
+            },
+            {
+                "name": "Vedang Rane ",
+                "phone-number": "9518717583"
+            }
+        ],
+        "rules": {
+            "Team Size": [
+                "Maximum 3 people in a team."
+            ],
+            "Programming Language": [
+                "Open. The students can decide which programming language they want to use for task completion."
+            ],
+            "Day 1:": [
+                "A set of tasks will be given to be completed within the next two days. Team must submit the status of the completed tasks on Day 1, after pushing the code in the GitHub repository."
+            ],
+            "Day 2:": [
+                "Teams can continue working on the pending tasks.",
+                "An automated system will inform the teams about the test score of any one of the tasks. Using the test score data, the teams can figure out the solution to fix the scored task and the unscored tasks.",
+                "The teams must submit the final code for review. Code freeze time will be announced on Day-1.",
+                "Example: Code Freeze at 7:00 PM on 8th Oct 2021",
+                "Once the code is freezed, the teams won’t have write access to repository. The code will be reviewed and we will release the scores on the same day"
+            ],
+            "Day 3:": [
+                "Top 5 Teams will have to give a presentation of the completed tasks to the judges. Students need to run the application and explain their code.",
+                "Judges can ask any technical questions related to the written code or the task."
+            ],
+            "Task Details:": [],
+            "1] Development:": [
+                "Students will be building a REST API application, which will be connecting to 3rd Party API’s (example:Twitter) to fetch data and give customized data as output. For each task a REST API has to be created. The REST API endpoint will have a set of inputs and expected output.REST API endpoint description and expected output will be provided to students using postman collection. They will import the postman collection and use them to make the REST requests."
+            ],
+            "2] Source Code Repository:": [
+                "All code needs to be committed and pushed on the GitHub repository (https://github.com/). Students need to be familiar with simple git usage and should be able to push the code. The final code should be available on GitHub for review.",
+                "Submit Github Usernames - Each team has to submit the names of their team members at least 1 day before the start of Day1. A Git repository will be created for each team and all team members will be granted access to the repository."
+            ],
+            "3] Hosting": [
+                "A student can create an account on either Vercel or Heroku website. Host the REST APIapplication on the hosting platform. The students can choose any other hosting platform also.",
+                "The students should share the hosted API URL."
+            ],
+            "Prerequisites:": [],
+            "Software Required for the Task:": [
+                "Postman (desktop Application)",
+                "Git",
+                "Software to support programming language of your choice, which can help you build. REST API’s (NodeJS/Python/JavaScript/C#/Java/PHP/GO/NestJS/Kotlin or any other )"
+            ],
+            "Required Accounts:": [
+                "GitHub account (https://github.com/)",
+                "Twitter account (https://twitter.com/)",
+                "Apply for twitter developer account application(https://developer.twitter.com/en/apply-for-access)",
+                "Create a Twitter App. This will be used to make calls to the REST API’s",
+                "Vercel (https://vercel.com/) or Heroku (https://id.heroku.com/) or any other free hosting platform"
+            ],
+            "Note": [
+                "Make sure you have the above accounts created and ready"
+            ],
+            "Submissions:": [
+                "Students will be given a Submission form URL where they have to submit the details requested in the form.",
+                "Important data that needs to be kept ready for submission is the hosted API URL.",
+                "The submission form should be used on Day 1 and Day 2 to update the status of the completed tasks. Only one person from the team, needs to fill and submit the form."
+            ]
+        },
+        "prize": [
+            4000,
+            2500,
+            1500
+        ]
+    },
+    "rpa": {
+        "event-name": "RPA Programming Workshop",
+        "department": "Computer Department",
+        "type": "Intra",
+        "location": "MS Teams",
+        "date": "8th OCT",
+        "time": "9AM - 1PM",
+        "event-coordinators": [
+            {
+                "name": "Pritesh Prakash Naik",
+                "phone-number": "8408893997"
+            },
+            {
+                "name": "Aayush Anand",
+                "phone-number": "7666023650"
+            }
+        ],
+        "rules": {},
+        "prize": []
+    },
     "bridge-building": {
         "event-name": "Bridge Building",
         "department": "Mechanical Department",
@@ -390,16 +488,6 @@
         "prize": [
             2000,
             1000
-        ],
-        "sponsors": [
-            {
-                "name": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "url": ""
-            }
         ],
         "form": "https://forms.gle/SeeZLpvDBhjMoQhq9"
     },
@@ -690,7 +778,7 @@
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
     },
     "it-ideate": {
-        "event-name": "IDEATE ",
+        "event-name": "IDEATE",
         "department": "Information Technology Department",
         "type": "Intra",
         "location": "IT Dept",
@@ -749,12 +837,12 @@
         "time": "9AM - 10AM",
         "event-coordinators": [
             {
-                "name": "",
-                "phone-number": ""
+                "name": "Tanad Bandodkar",
+                "phone-number": "7972423090"
             },
             {
-                "name": "",
-                "phone-number": ""
+                "name": "Aryan Shetye",
+                "phone-number": "9022798961"
             }
         ],
         "rules": {
@@ -774,5 +862,220 @@
             1000
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform"
+    },
+    "blockchain": {
+        "event-name": "Talk on Blockchain with Jason Fernandes",
+        "department": "Information Technology Department",
+        "type": "Open (SE, TE, BE)",
+        "location": "Online",
+        "date": "8th OCT",
+        "time": "3PM - 4PM",
+        "event-coordinators": [
+            {
+                "name": "Shrey Keny",
+                "phone-number": "9172229356"
+            },
+            {
+                "name": "Brain Fernandes",
+                "phone-number": "7887493404"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "Jason Fernandes is an entrepreneur, blockchain speaker and crypto analyst. He’s the Chief Business Officer at NFT Technologies & the founder at TokenJay. Join us for a webinar on Blockchain with Jason!"
+            ]
+        },
+        "prize": [],
+        "form": "https://forms.gle/uZGV2XjkoeG2ed839"
+    },
+    "it-career": {
+        "event-name": "Approach and mindset for a career in IT industry",
+        "department": "Information Technology Department",
+        "type": "Open",
+        "location": "Auditorium, PCCE Verna",
+        "date": "8th OCT",
+        "time": "10AM - 12PM",
+        "event-coordinators": [
+            {
+                "name": "Shrey Keny",
+                "phone-number": "9172229356"
+            },
+            {
+                "name": "Brain Fernandes",
+                "phone-number": "7887493404"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "The IT industry is booming in Goa. Join us for a session with Mr. Kiran Raikar (Module Lead, Persistent Systems) and explore the approach and mindset needed for a career in the IT industry"
+            ]
+        },
+        "prize": [],
+        "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A"
+    },
+    "software-testing": {
+        "event-name": "Workshop : Software Testing",
+        "department": "Information Technology Department",
+        "type": "Open",
+        "location": "Online",
+        "date": "9th OCT",
+        "time": "10AM - 12PM",
+        "event-coordinators": [
+            {
+                "name": "Shrey Keny",
+                "phone-number": "9172229356"
+            },
+            {
+                "name": "Brain Fernandes",
+                "phone-number": "7887493404"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "Join us for a webinar on Software Testing  by Ms. Shradha Gaonkar, who is the Technical Test Lead at Infosys"
+            ]
+        },
+        "prize": [],
+        "form": "https://forms.gle/yoqQWkzFA9NRMLGQA"
+    },
+    "web-design": {
+        "event-name": "Hands on Workshop on Web Design",
+        "department": "Information Technology Department",
+        "type": "FE-IT only",
+        "location": "IT LAB 4",
+        "date": "8th & 9th OCT",
+        "time": "8th Oct: 2PM - 4PM, 9th Oct: 12PM - 2PM",
+        "event-coordinators": [
+            {
+                "name": "Shrinivas Acharya",
+                "phone-number": "7588025253"
+            },
+            {
+                "name": "Fiza Shaikh",
+                "phone-number": "9370606894"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "A Hands on workshop on Web Design exclusively for the First Year students of the IT department. Workshop will be held by Mr Siddesh Savant and Ms Ravina Quadros."
+            ]
+        },
+        "prize": [],
+        "form": ""
+    },
+    "game-dev": {
+        "event-name": "Hands on Workshop on Game Development",
+        "department": "Information Technology Department",
+        "type": "FE-IT only",
+        "location": "CC Lab",
+        "date": "8th & 9th OCT",
+        "time": "8th Oct: 2PM - 4PM, 9th Oct: 12PM - 2PM",
+        "event-coordinators": [
+            {
+                "name": "Shrinivas Acharya",
+                "phone-number": "7588025253"
+            },
+            {
+                "name": "Fiza Shaikh",
+                "phone-number": "9370606894"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "A Hands on workshop on Game Development  exclusively for the First Year students of the IT department. Workshop will be held  by Dr Terence Johnson"
+            ]
+        },
+        "prize": [],
+        "form": ""
+    },
+    "war-of-web": {
+        "event-name": "WAR OF WEBS",
+        "department": "Information Technology Department",
+        "type": "Inter college",
+        "location": "Online",
+        "date": "7th & 9th OCT",
+        "time": "7th Oct: 4:30PM, 9th Oct: 11:30AM",
+        "event-coordinators": [
+            {
+                "name": "Nadia Fernandes",
+                "phone-number": "7768932755"
+            },
+            {
+                "name": "Mashada Vaz",
+                "phone-number": "7038703656"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "An Online Web Designing Contest. This event is the perfect platform for aspiring web designers to kickstart their front-end journey and tech wizards to flaunt their designing skills."
+            ],
+            "Rules": [
+                "Two members per team",
+                "Round 1 : This round will consist of multiple-choice questions on Basics of Web Development.",
+                "Round 2: In this round, shortlisted participants from Round 1 will need to design a website (Mobile responsive). The topic will be given 24 hours prior to the time of submission.",
+                "Permitted Tools: Application Software (Sublime, VS Code, etc.), Languages (HTML, LESS, SASS, jQuery, JS, etc.), Framework (Bootstrap, Tailwind, etc.)",
+                "Judges decision will be final",
+                "Submissions beyond deadline will be considered invalid",
+                "Incase of any queries kindly contact the coordinators"
+            ]
+        },
+        "prize": [
+            7000,
+            4000
+        ],
+        "form": "https://forms.gle/tutVWdaLszuRBbht5"
+    },
+    "containers": {
+        "event-name": "Containers 101",
+        "department": "Information Technology Department",
+        "type": "Open",
+        "location": "Online",
+        "date": "7th OCT",
+        "time": "2PM - 4PM",
+        "event-coordinators": [
+            {
+                "name": "Ankit Kumar",
+                "phone-number": "9370982428"
+            },
+            {
+                "name": "Arya Pethkar",
+                "phone-number": "9762117560"
+            }
+        ],
+        "rules": {
+            "Description": [
+                "A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another."
+            ]
+        },
+        "prize": [],
+        "form": "https://forms.gle/qP2xU6A97YPZaRZq8"
+    },
+    "codedathon": {
+        "event-name": "Codeathon 2021",
+        "department": "Information Technology Department",
+        "type": "",
+        "location": "Online",
+        "date": "",
+        "time": "",
+        "event-coordinators": [
+            {
+                "name": "",
+                "phone-number": ""
+            },
+            {
+                "name": "",
+                "phone-number": ""
+            }
+        ],
+        "rules": {
+            "Description": [
+                "Coming soon"
+            ]
+        },
+        "prize": [
+            30000,
+            20000
+        ],
+        "form": ""
     }
 }

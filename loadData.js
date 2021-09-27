@@ -7,8 +7,9 @@ const coordinator1 = document.getElementById('coordinator-1');
 const coordinator2 = document.getElementById('coordinator-2');
 const coordinator1Phone = document.getElementById('coordinator-1-phone');
 const coordinator2Phone = document.getElementById('coordinator-2-phone');
-
-
+const firstPlace = document.getElementById('first-place');
+const secondPlace = document.getElementById('second-place');
+const eventNameHeading = document.getElementById('event-name-heading');
 
 function getQueryString() {
     var result = {}, queryString = location.search.slice(1),
@@ -53,7 +54,10 @@ $.getJSON("./data/eventsData.json", function (data) {
         coordinator2.innerText = data[param]["event-coordinators"][1].name;
         coordinator1Phone.href = "https://wa.me/91" + data[param]["event-coordinators"][0]["phone-number"];
         coordinator2Phone.href = "https://wa.me/91" + data[param]["event-coordinators"][1]["phone-number"];
+        firstPlace.innerHTML = data[param]["prize"][0];
+        secondPlace.innerHTML = data[param]["prize"][1];
 
+        eventNameHeading.innerHTML = data[param]["event-name"];
     }
 
     else {
