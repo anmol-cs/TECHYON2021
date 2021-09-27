@@ -1,6 +1,6 @@
 
 //  dark mode
-console.log("Made with love by Computer Department :)");
+console.log("Made with love by IT and Computer Department :)");
 
 function darkFunction() {
   const html = document.querySelector("html");
