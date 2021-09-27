@@ -1,7 +1,8 @@
 
 //  dark mode
 console.log("Made with love by IT and Computer Department :)");
-
+console.log(" Have a Good day  :)");
+console.log(" Biryani is love :)");
 function darkFunction() {
   const html = document.querySelector("html");
   html.classList.toggle("dark");
