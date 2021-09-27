@@ -43,7 +43,20 @@ button {
 }
 .ievent {
   height: 600px;
-  width: 500px;
+  width: 450px;
+  object-position: center;
+}
+@media screen and (max-width: 540px) {
+  .ievent {
+    height: 500px;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ievent {
+    height: 450px;
+    width: 270px;
+  }
 }
 
 .orbitron {
@@ -143,5 +156,30 @@ button {
   }
 }
 .show {
-  animation: zoom-in 0.3s;
+  animation: zoom-in 0.3s ease-in-out;
+}
+
+.logo_animation {
+  opacity: 0;
+  animation: slide-left 1s 1s forwards;
+}
+.logo_zoom {
+  opacity: 0;
+  animation: zoom-in 0.3s 1s forwards;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-1000px);
+
+    transform-origin: left;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.illustration {
+  opacity: 0;
+  animation: zoom-in 0.3s 1s forwards;
 }
