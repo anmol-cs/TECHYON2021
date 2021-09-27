@@ -43,7 +43,20 @@ button {
 }
 .ievent {
   height: 600px;
-  width: 500px;
+  width: 450px;
+  object-position: center;
+}
+@media screen and (max-width: 540px) {
+  .ievent {
+    height: 500px;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ievent {
+    height: 450px;
+    width: 270px;
+  }
 }
 
 .orbitron {
