@@ -378,7 +378,8 @@
             2000,
             1000
         ],
-        "form": "https://forms.gle/kDHbgTmeymmiUFTd9"
+        "form": "https://forms.gle/kDHbgTmeymmiUFTd9",
+        "poster": "../posters/MECH/bridge.jpg"
     },
     "contraption": {
         "event-name": "Contraption",
@@ -420,7 +421,8 @@
             4000,
             2500
         ],
-        "form": "https://forms.gle/5qWDCCsbFfQmrgbV9"
+        "form": "https://forms.gle/5qWDCCsbFfQmrgbV9",
+        "poster": "../posters/MECH/contraption.jpg"
     },
     "mechanism-building": {
         "event-name": "Mechanism building",
@@ -465,7 +467,8 @@
             3000,
             1500
         ],
-        "form": "https://forms.gle/hStF2jDDuxEE73EN7"
+        "form": "https://forms.gle/hStF2jDDuxEE73EN7",
+        "poster": "../posters/MECH/mechanism.jpg"
     },
     "solid-works": {
         "event-name": "Solid Works",
@@ -503,7 +506,8 @@
             2000,
             1000
         ],
-        "form": "https://forms.gle/SeeZLpvDBhjMoQhq9"
+        "form": "https://forms.gle/SeeZLpvDBhjMoQhq9",
+        "poster": "../posters/MECH/solidworks.jpg"
     },
     "robotics-workshop": {
         "event-name": "Robotics Workshop",
@@ -537,7 +541,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9"
+        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9",
+        "poster": ""
     },
     "tech-masters": {
         "event-name": "TechMasters",
@@ -590,7 +595,8 @@
             2500,
             1500
         ],
-        "form": "https://forms.gle/xsvYhYasYbbnDzJM7"
+        "form": "https://forms.gle/xsvYhYasYbbnDzJM7",
+        "poster": "../posters/ETC/techmasters.jpg"
     },
     "line-follower": {
         "event-name": "Line Follower",
@@ -638,7 +644,8 @@
             3500,
             1500
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0",
+        "poster": "../posters/ETC/line-follower.jpg"
     },
     "ard-u-know": {
         "event-name": "Ard-U-Know",
@@ -666,7 +673,8 @@
             ]
         },
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": "../posters/ETC/arduino.jpg"
     },
     "electronics-art": {
         "event-name": "Electronics Art",
@@ -706,7 +714,8 @@
             3000,
             1500
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link",
+        "poster": "../posters/ETC/electronics-art.jpg"
     },
     "code-fest": {
         "event-name": "Codefest",
@@ -754,7 +763,8 @@
         "prize": [
             1500
         ],
-        "form": "https://forms.gle/ehrppDb8FZGhnvz26"
+        "form": "https://forms.gle/ehrppDb8FZGhnvz26",
+        "poster": "../posters/ETC/codefest.jpg"
     },
     "poster-presentation": {
         "event-name": "Poster Presentation",
@@ -790,7 +800,8 @@
             2000,
             1000
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link",
+        "poster": "../posters/ETC/poster-presentation.jpg"
     },
     "it-ideate": {
         "event-name": "IDEATE",
@@ -841,7 +852,8 @@
             2000,
             1000
         ],
-        "form": ""
+        "form": "",
+        "poster": "../posters/IT/ideate.jpg"
     },
     "master-minds": {
         "event-name": "Masterminds",
@@ -876,7 +888,8 @@
         "prize": [
             1000
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform",
+        "poster": "../posters/IT/masterminds.jpg"
     },
     "blockchain": {
         "event-name": "Talk on Blockchain with Jason Fernandes",
@@ -901,7 +914,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/uZGV2XjkoeG2ed839"
+        "form": "https://forms.gle/uZGV2XjkoeG2ed839",
+        "poster": ""
     },
     "it-career": {
         "event-name": "Approach and mindset for a career in IT industry",
@@ -926,7 +940,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A"
+        "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A",
+        "poster": "../posters/IT/it-career.jpg"
     },
     "software-testing": {
         "event-name": "Workshop : Software Testing",
@@ -951,7 +966,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/yoqQWkzFA9NRMLGQA"
+        "form": "https://forms.gle/yoqQWkzFA9NRMLGQA",
+        "poster": "../posters/IT/software-test.jpg"
     },
     "web-design": {
         "event-name": "Hands on Workshop on Web Design",
@@ -976,7 +992,8 @@
             ]
         },
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": "../posters/IT/web-design.jpg"
     },
     "game-dev": {
         "event-name": "Hands on Workshop on Game Development",
@@ -1001,7 +1018,8 @@
             ]
         },
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": ""
     },
     "war-of-web": {
         "event-name": "WAR OF WEBS",
@@ -1038,7 +1056,8 @@
             7000,
             4000
         ],
-        "form": "https://forms.gle/tutVWdaLszuRBbht5"
+        "form": "https://forms.gle/tutVWdaLszuRBbht5",
+        "poster": "../posters/IT/war-of-webs.jpg"
     },
     "containers": {
         "event-name": "Containers 101",
@@ -1063,7 +1082,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/qP2xU6A97YPZaRZq8"
+        "form": "https://forms.gle/qP2xU6A97YPZaRZq8",
+        "poster": "../posters/IT/containers.jpeg"
     },
     "codedathon": {
         "event-name": "Codeathon 2021",
@@ -1091,6 +1111,7 @@
             30000,
             20000
         ],
-        "form": ""
+        "form": "",
+        "poster": "../posters/IT/Codathon-2021.jpg"
     }
 }
