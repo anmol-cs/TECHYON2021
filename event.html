@@ -98,8 +98,8 @@
         <a href="index.html#home"
           class=" uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 ">home</a>
         <span class=" font-semibold text-gray-500 "><i class="">/</i></span>
-        <a href="#"
-          class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600  ">codecrunch</a>
+        <a href="#" id="event-name-heading"
+          class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600  "></a>
         <span class=" font-semibold text-gray-400 "><i class="">/</i></span>
         <a href="index.html#Events"
           class="uppercase font-semibold dark:text-gray-600  text-gray-400 hover:text-blue-600 transition duration-200  border-b-4  border-transparent ease-in hover:border-blue-600 ">Events</a>
@@ -109,7 +109,7 @@
 
     <div class="flex flex-row lg:space-x-12 flex-wrap   lg:flex-nowrap justify-center ">
       <div class=" ">
-        <img src="images/mockevent.PNG" class="ievent object-fit" alt="">
+        <img id="poster-image" src="" class="ievent object-fit" alt="">
       </div>
 
       <div class="w-full md:w-3/5   ">
@@ -120,61 +120,63 @@
           <h1 class=" uppercase mb-3 text-xl font-bold ">Date: <span id="date"> </span> </h1>
           <h1 class=" uppercase mb-3 text-xl font-bold ">Time: <span id="time"> </span> </h1>
           <h1 class=" uppercase mb-2 text-xl font-bold ">Instructions</h1>
-          
-            <p id="instructions" class="text-lg ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam perspiciatis dolorem voluptatibus!
+
+          <p id="instructions" class="text-lg ">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam perspiciatis dolorem voluptatibus!
               Saepe animi voluptas sit sed non repellat fugiat est atque, distinctio, earum sequi omnis quia modi quisquam
               nam nisi tenetur vitae nihil nulla molestias aliquam possimus cumque magni. Explicabo ratione, aspernatur
               unde quo veniam repellendus, sunt pariatur accusantium deserunt cumque reiciendis exercitationem deleniti
               voluptates non dolor corrupti assumenda possimus magnam neque tempore? Facere ullam sequi dolore accusantium
               repellendus quidem, placeat fugit vel. Temporibus est officiis incidunt obcaecati expedita cupiditate fuga,
               fugiat labore nemo cumque soluta consequuntur ab, odit eveniet possimus, vitae repellendus deserunt quia
-              minima at illum!
-            </p>
-          
+              minima at illum! -->
+          </p>
+
         </div>
-           <!-- PRIZE-->
-           <div class="  mb-6   ">
-            <div class="  text-center ">
-              <h1 class=" faq  text-lg font-semibold uppercase dark:text-gray-600  text-gray-300 ">Prize</h1>
-            </div>
-            <div class="flex flex-row justify-center flex-wrap  ">
-  
-              <!--1 card-->
-              <div class="   ">
-                <div class=" w-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden   ">
-  
-                  <div class="p-4 inline-flex   space-x-2 text-white  dark:text-gray-900 dark:hover:text-gray-400">
-  
-                    <h1 id="" class="dark:text-gray-600   whitespace-nowrap  text-gray-300 uppercase  text-xl   font-semi-bold">
-                      &#129351; 1st place:<span class="font-bold">4000</span>&#8377;
-                    </h1>
-  
-  
-                 
-                  </div>
-                </div>
-              </div>
-              <!--1 ENDD-->
-              <!--1 card-->
-              <div class=" b ">
-                <div class=" border-gray-200 border-opacity-60 rounded-lg overflow-hidden   ">
-  
-                  <div class="p-4 inline-flex  space-x-2 text-white  dark:text-gray-900 dark:hover:text-gray-400">
-                    <h1 id="" class="dark:text-gray-600 whitespace-nowrap  text-gray-300 uppercase  text-xl font-semi-bold  ">
-                      &#129352;2nd place: <span class="font-bold">2000</span>&#8377; 
-                    </h1>
-  
-  
-                  
-                  </div>
-                </div>
-              </div>
-              <!--1 ENDD-->
-  
-  
-            </div>
+        <!-- PRIZE-->
+        <div class="  mb-6   ">
+          <div class="  text-center ">
+            <h1 class=" faq  text-lg font-semibold uppercase dark:text-gray-600  text-gray-300 ">Prize</h1>
           </div>
+          <div class="flex flex-row justify-center flex-wrap  ">
+
+            <!--1 card-->
+            <div class="   ">
+              <div class=" w-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden   ">
+
+                <div class="p-4 inline-flex   space-x-2 text-white  dark:text-gray-900 dark:hover:text-gray-400">
+
+                  <h1 id=""
+                    class="dark:text-gray-600   whitespace-nowrap  text-gray-300 uppercase  text-xl   font-semi-bold">
+                    &#129351; 1st place: &#8377;<span id="first-place" class="font-bold">4000</span>
+                  </h1>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!--1 ENDD-->
+            <!--1 card-->
+            <div class=" b ">
+              <div class=" border-gray-200 border-opacity-60 rounded-lg overflow-hidden   ">
+
+                <div class="p-4 inline-flex  space-x-2 text-white  dark:text-gray-900 dark:hover:text-gray-400">
+                  <h1 id=""
+                    class="dark:text-gray-600 whitespace-nowrap  text-gray-300 uppercase  text-xl font-semi-bold  ">
+                    &#129352;2nd place: &#8377;<span id="second-place" class="font-bold">2000</span>
+                  </h1>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!--1 ENDD-->
+
+
+          </div>
+        </div>
         <!-- coordinator-->
         <div class="  mb-6   ">
           <div class="  text-center ">
@@ -240,7 +242,7 @@
         </div>
         <!-- button -->
         <div class=" flex lg:w-1/4">
-          <a target='_blank' href='#'
+          <a id="register-button" target='_blank' href='#'
             class="bg-blue-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black text-white  text-center">
             <span class="  text-white">
               <i class="fa fa-arrow-right" aria-hidden="true"></i> </span>Register </a>
