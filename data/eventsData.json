@@ -53,8 +53,8 @@
                 "phone-number": "7722076646"
             },
             {
-                "name": "Rhea",
-                "phone-number": "9112372022"
+                "name": "Walushka",
+                "phone-number": "7058134018"
             }
         ],
         "rules": {
@@ -207,7 +207,7 @@
         },
         "prize": [],
         "form": "https://forms.gle/wcUsYocXsmtdeJTR9",
-        "poster": "https://lh6.googleusercontent.com/HZ4UWbBu7q1IPDmT3Z6HXs2_pt_V5K1HWgXSVrbWxs-5IP3pbxx7W6zKCHI-Wdz8upgpbyW7yT8TEsQsoIo=w2880-h1592-rw"
+        "poster": "https://drive.google.com/drive/folders/1sFmwBdaLOKodImApUNmtMkTllUsnzea5"
     },
     "code-crunch": {
         "event-name": "Code Crunch",
@@ -312,7 +312,7 @@
     "bridge-building": {
         "event-name": "Bridge Building",
         "department": "Mechanical Department",
-        "type": "Intra",
+        "type": "Intra college open event",
         "location": "Mechanical Floor PCCE",
         "date": " 7th OCT",
         "time": "11 AM",
@@ -336,11 +336,6 @@
                 "Taping the entire Roadway is not allowed.",
                 "Compulsory event for all the First Years."
             ],
-            "Note": [
-                "Not necessary to use all the straws.",
-                "Only straws will be provided.",
-                "The team leader will be added to a Whatsapp group where all the other instructions and queries regarding the event will be answerd."
-            ],
             "Dimensions": [
                 "Width=8 to 10 cm",
                 "Total length=40 cm max",
@@ -350,40 +345,46 @@
             "Duration": [
                 "60 minutes for building the bridge"
             ],
-            "Loading conditions": [
-                "The load will be applied vertically at the centre of the bridge."
+            "Rules": [
+                "A team should consist of maximum 5 members.",
+                "Tape or stapler should be used only on the joints and junctions of the straws and not on its entire length.",
+                "Taping the entire Roadway is not allowed.",
+                "Loading conditions: <br/> The load will be applied vertically at the center of the bridge </br> The load will be applied directly to the roadway.",
+                " Support: <br/> Support will be provided for the bridge to sit on. <br/>  Supports will be placed 30 cm apart.",
+                "Weight: <br/>   If there is a tie, bridge having minimum weight will be considered as the winner."
             ],
-            "Support": [
-                "Support will be provided for the bridge to sit on.",
-                "Supports will be placed 30 cm apart."
-            ],
-            "Members": [
-                "Maximum 5"
-            ],
-            "Weight": [
-                "If there is a tie, bridge having minimum weight will be considered as winner."
-            ],
+            "Judging Criteria": [],
             "Round 1 (qualification round)": [
-                "Bridges failing to meet the given dimensions or failing to abide by the above rules will be disqualified."
+                "Bridges failing to meet the given dimensions or failing to abide by the above rules will be disqualified"
             ],
             "Round 2 (Load and Look Test)": [
-                "Judges will give marks out of 100 for the overall aesthetics of the bridge.",
-                "These marks will be then added to the maximum load the bridge takes before collapsing.",
+                "Judges will give marks out of 100 for the overall aesthetics of the bridge. These marks will be then added to the maximum load the bridge takes before collapsing.",
                 "The bridge with higher total points will be declared as the winner.",
-                "Eg:- Marks for looks – 70, Total load taken - 1100gm, Total points – 1100+70=1170",
-                "Judges decision will be final and no issues will be entertained after the declaration of the results."
+                " Eg:- Marks for looks – 70 <br/> Total load taken-  1100gm <br />  Total  points – 1100+70=1170"
+            ],
+            "NOTE": [
+                "Judges decision will be final and no objections will be entertained after the declaration of the results."
+            ],
+            "Instructions": [
+                "Compulsory event for all the First Years.",
+                "Only straws will be provided.",
+                "Not necessary to use all the straws.",
+                "The team leaders will be added to a Whatsapp group where all the other instructions and queries regarding the event will be answered.",
+                "Vehicle/ box must be able to pass through the entire length of the bridge with no obstruction.",
+                "E-Certificates will be given to all the participants."
             ]
         },
         "prize": [
             2000,
             1000
         ],
-        "form": "https://forms.gle/kDHbgTmeymmiUFTd9"
+        "form": "https://forms.gle/kDHbgTmeymmiUFTd9",
+        "poster": "../posters/MECH/bridge.jpg"
     },
     "contraption": {
         "event-name": "Contraption",
         "department": "Mechanical Department",
-        "type": "Inter",
+        "type": "Inter college",
         "location": "PCCE Verna (Online and Offline mode)",
         "date": " 9th OCT",
         "time": "2 PM",
@@ -399,36 +400,34 @@
         ],
         "rules": {
             "Rules": [
+                "A team should consist of maximum 4 members.",
+                "A space of 3mX3mX3m (l*b*h) can be used by each team.",
+                "Each hand touches will cause deduction of 10 points.",
+                "Only one chance is allowed to complete the process.",
+                "Use of explosives is not allowed.",
+                "The setup should be ready to be presented to the judges on the given day and time.",
+                "Final decision will be made by the judges and no objections will be entertained after the results are declared."
+            ],
+            "Instructions": [
                 "The team leaders will be added to a whatsapp group after registration.",
                 "The event will be held in offline mode in Padre Conceicao college of engineering, Verna.",
                 "Teams can start their setup from day 1 of Techyon in the area provided to them.",
                 "Incase the participating team cannot make it to the college they can present via Google meet and recorded video, the rules of the same will be sent on the whatsapp group.",
-                "Final decision will be made by the judges and no objections will be entertained after the results are declared.",
-                "A space of 3mX3mX3m (l*b*h) can be used by each team.",
-                "Each hand touches will cause deduction of 10 points.",
-                "Only one chance is allowed to complete the process.",
-                "Use of explosives is not allowed",
-                "Any other queries will be answered in the whatsapp group itself."
-            ],
-            "Allocation of points": [
-                "Total no. of energy conversion - 30 points",
-                "Number of distinct energy conversions -30 points",
-                "Extra ordinary conversion - 40 points(depending on judges)"
-            ],
-            "Participation": [
-                "Maximum 4 in a team"
+                "Any other queries regarding the event will be answered on the group.",
+                "E-Certificates will be given to all the participants."
             ]
         },
         "prize": [
             4000,
             2500
         ],
-        "form": "https://forms.gle/5qWDCCsbFfQmrgbV9"
+        "form": "https://forms.gle/5qWDCCsbFfQmrgbV9",
+        "poster": "../posters/MECH/contraption.jpg"
     },
     "mechanism-building": {
         "event-name": "Mechanism building",
         "department": "Mechanical Department",
-        "type": "Inter",
+        "type": "Inter college",
         "location": "PCCE Verna (Online and Offline mode)",
         "date": " 8th OCT",
         "time": "2 PM",
@@ -444,17 +443,23 @@
         ],
         "rules": {
             "Problem statement": [
-                "To build a unique mechanism which has a useful purpose that gives an output. The output may be the application of force, linear or rotary motion."
+                "To build a unique mechanism which has a useful purpose that gives an output. The output may be the application of force, linear or rotary motion.",
+                "Judges decision will be final and no objections will be entertained after the results are declared.",
+                "Any other queries regarding the event can be asked in the whatsapp group."
             ],
-            "Rules:": [
+            "Rules": [
                 "A team should consist of 2-5 members",
-                "The event will be held in offline mode.",
-                "Incase the participating team cannot make it to the college they can present via Google meet and recorded video, the rules of the same will be sent on the whatsapp group.",
                 "A working model should be assembled and ready for display prior to competition date",
                 "Participants will be given time to present their mechanism to the judges.",
                 "Buying the entire mechanism form any supplier will lead to disqualification.",
                 "There are no restrictions on type of material used.",
-                "Judges decision will be final and no objections will be entertained after the results are declared.",
+                " Judges decision will be final and no objections will be entertained after the results are declared.",
+                "E-certificates will be awarded to all the participants."
+            ],
+            "Instructions": [
+                "All the team leaders of the participating teams will be added to a whatsapp group.",
+                "The event will be held in online and offline mode.",
+                "Incase the participating team cannot make it to the college they can present via Google meet and recorded video, the rules of the same will be sent on the whatsapp group.",
                 "Any other queries regarding the event can be asked in the whatsapp group."
             ]
         },
@@ -462,12 +467,13 @@
             3000,
             1500
         ],
-        "form": "https://forms.gle/hStF2jDDuxEE73EN7"
+        "form": "https://forms.gle/hStF2jDDuxEE73EN7",
+        "poster": "../posters/MECH/mechanism.jpg"
     },
     "solid-works": {
         "event-name": "Solid Works",
         "department": "Mechanical Department",
-        "type": "Intra",
+        "type": "Intra college",
         "location": "Online",
         "date": "9th OCT",
         "time": "9:30 AM",
@@ -491,19 +497,22 @@
                 "The model will be checked for dimensional accuracy and finishing (chamfer, fillet, etc.)",
                 "It is requested to remain honest and avoid taking help or cheating during the event.",
                 "Any doubts about the rules can contact the coordinators in the Whatsapp group of the participants that will be created.",
-                "The judging criteria and decision shall be final and no argument will be entertained for the same."
+                "The judging criteria and decision shall be final and no argument will be entertained for the same.",
+                "The participant can use the software of his/her choice.",
+                "E-Certificates will be given to all."
             ]
         },
         "prize": [
             2000,
             1000
         ],
-        "form": "https://forms.gle/SeeZLpvDBhjMoQhq9"
+        "form": "https://forms.gle/SeeZLpvDBhjMoQhq9",
+        "poster": "../posters/MECH/solidworks.jpg"
     },
     "robotics-workshop": {
         "event-name": "Robotics Workshop",
         "department": "Mechanical Department",
-        "type": "Intra",
+        "type": "Intra college",
         "location": "Online",
         "date": "8th OCT",
         "time": "10 AM",
@@ -527,11 +536,13 @@
                 "Use the registration link to register for the workshop.",
                 "Those registered will be added in a whatsapp group.",
                 "The details of the workshop will then be shared in the whatsapp group itself.",
-                "The workshop is meant for the 1st and 2nd year students only."
+                "The workshop is meant for the 1st and 2nd year students only.",
+                "E-Certificates will be given to all the participants."
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9"
+        "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9",
+        "poster": ""
     },
     "tech-masters": {
         "event-name": "TechMasters",
@@ -584,7 +595,8 @@
             2500,
             1500
         ],
-        "form": "https://forms.gle/xsvYhYasYbbnDzJM7"
+        "form": "https://forms.gle/xsvYhYasYbbnDzJM7",
+        "poster": "../posters/ETC/techmasters.jpg"
     },
     "line-follower": {
         "event-name": "Line Follower",
@@ -632,7 +644,8 @@
             3500,
             1500
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0",
+        "poster": "../posters/ETC/line-follower.jpg"
     },
     "ard-u-know": {
         "event-name": "Ard-U-Know",
@@ -660,7 +673,8 @@
             ]
         },
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": "../posters/ETC/arduino.jpg"
     },
     "electronics-art": {
         "event-name": "Electronics Art",
@@ -700,7 +714,8 @@
             3000,
             1500
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link",
+        "poster": "../posters/ETC/electronics-art.jpg"
     },
     "code-fest": {
         "event-name": "Codefest",
@@ -748,7 +763,8 @@
         "prize": [
             1500
         ],
-        "form": "https://forms.gle/ehrppDb8FZGhnvz26"
+        "form": "https://forms.gle/ehrppDb8FZGhnvz26",
+        "poster": "../posters/ETC/codefest.jpg"
     },
     "poster-presentation": {
         "event-name": "Poster Presentation",
@@ -784,7 +800,8 @@
             2000,
             1000
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link",
+        "poster": "../posters/ETC/poster-presentation.jpg"
     },
     "it-ideate": {
         "event-name": "IDEATE",
@@ -835,7 +852,8 @@
             2000,
             1000
         ],
-        "form": ""
+        "form": "",
+        "poster": "../posters/IT/ideate.jpg"
     },
     "master-minds": {
         "event-name": "Masterminds",
@@ -870,7 +888,8 @@
         "prize": [
             1000
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform",
+        "poster": "../posters/IT/masterminds.jpg"
     },
     "blockchain": {
         "event-name": "Talk on Blockchain with Jason Fernandes",
@@ -895,7 +914,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/uZGV2XjkoeG2ed839"
+        "form": "https://forms.gle/uZGV2XjkoeG2ed839",
+        "poster": ""
     },
     "it-career": {
         "event-name": "Approach and mindset for a career in IT industry",
@@ -920,7 +940,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A"
+        "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A",
+        "poster": "../posters/IT/it-career.jpg"
     },
     "software-testing": {
         "event-name": "Workshop : Software Testing",
@@ -945,7 +966,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/yoqQWkzFA9NRMLGQA"
+        "form": "https://forms.gle/yoqQWkzFA9NRMLGQA",
+        "poster": "../posters/IT/software-test.jpg"
     },
     "web-design": {
         "event-name": "Hands on Workshop on Web Design",
@@ -970,7 +992,8 @@
             ]
         },
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": "../posters/IT/web-design.jpg"
     },
     "game-dev": {
         "event-name": "Hands on Workshop on Game Development",
@@ -995,7 +1018,8 @@
             ]
         },
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": ""
     },
     "war-of-web": {
         "event-name": "WAR OF WEBS",
@@ -1032,7 +1056,8 @@
             7000,
             4000
         ],
-        "form": "https://forms.gle/tutVWdaLszuRBbht5"
+        "form": "https://forms.gle/tutVWdaLszuRBbht5",
+        "poster": "../posters/IT/war-of-webs.jpg"
     },
     "containers": {
         "event-name": "Containers 101",
@@ -1057,7 +1082,8 @@
             ]
         },
         "prize": [],
-        "form": "https://forms.gle/qP2xU6A97YPZaRZq8"
+        "form": "https://forms.gle/qP2xU6A97YPZaRZq8",
+        "poster": "../posters/IT/containers.jpeg"
     },
     "codedathon": {
         "event-name": "Codeathon 2021",
@@ -1085,6 +1111,7 @@
             30000,
             20000
         ],
-        "form": ""
+        "form": "",
+        "poster": "../posters/IT/Codathon-2021.jpg"
     }
 }

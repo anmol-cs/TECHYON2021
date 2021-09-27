@@ -1,7 +1,9 @@
 const eventName = document.getElementById('event-name');
 const category = document.getElementById('category');
+const eventType = document.getElementById('event-type');
 const date = document.getElementById('date');
 const time = document.getElementById('time');
+const eventLocation = document.getElementById('location');
 const instructions = document.getElementById('instructions');
 const coordinator1 = document.getElementById('coordinator-1');
 const coordinator2 = document.getElementById('coordinator-2');
@@ -31,8 +33,10 @@ $.getJSON("./data/eventsData.json", function (data) {
 
         eventName.innerText = data[param]["event-name"];
         category.innerText = data[param]["department"];
+        eventType.innerText = data[param]["type"];
         date.innerText = data[param]["date"];
         time.innerText = data[param]["time"];
+        eventLocation.innerText = data[param]["location"];
 
         let ruleText = "";
         let infoText = "";
@@ -47,7 +51,7 @@ $.getJSON("./data/eventsData.json", function (data) {
             data[param]["rules"][name].forEach((element) => {
                 infoText = infoText.concat(`<li> ${element} </li>`);
             })
-            ruleText = ruleText.concat(`<h3> ${name} </h3> <p> ${infoText}</p>`);
+            ruleText = ruleText.concat(`<h3 style="margin-top:20px; font-weight:700"> ${name} </h3> <p> ${infoText}</p>`);
             instructions.innerHTML = ruleText;
             infoText = "";
         }
@@ -56,8 +60,15 @@ $.getJSON("./data/eventsData.json", function (data) {
         coordinator2.innerText = data[param]["event-coordinators"][1].name;
         coordinator1Phone.href = "https://wa.me/91" + data[param]["event-coordinators"][0]["phone-number"];
         coordinator2Phone.href = "https://wa.me/91" + data[param]["event-coordinators"][1]["phone-number"];
-        firstPlace.innerHTML = data[param]["prize"][0];
-        secondPlace.innerHTML = data[param]["prize"][1];
+
+        if (data[param]["prize"][0] != undefined) {
+            firstPlace.innerHTML = data[param]["prize"][0];
+            secondPlace.innerHTML = data[param]["prize"][1];
+        }
+        else {
+            document.getElementById('priz').style.display = 'none';
+        }
+
 
         eventNameHeading.innerHTML = data[param]["event-name"];
         registerButton.href = data[param]["form"];
