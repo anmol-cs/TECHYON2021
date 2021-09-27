@@ -165,7 +165,7 @@ button {
 }
 .logo_zoom {
   opacity: 0;
-  animation: zoom-in 0.5s 1s forwards;
+  animation: zoom-in 0.3s 1s forwards;
 }
 @keyframes slide-left {
   0% {
