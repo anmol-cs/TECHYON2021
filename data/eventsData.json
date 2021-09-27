@@ -37,7 +37,8 @@
         "prize": [
             1500,
             500
-        ]
+        ],
+        "form": "https://forms.gle/NpJYvGRYX2mfiPPv5"
     },
     "comp-ideate": {
         "event-name": "Ideate",
@@ -71,7 +72,8 @@
         "prize": [
             2000,
             1000
-        ]
+        ],
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLScKBVMVwL71cxQG6EKWDy4rpBSerelKi4FqS9NAtgF7ykaicA/viewform?vc=0&c=0&w=1&flr=0"
     },
     "gamejam": {
         "event-name": "Game Jam 2K21",
@@ -110,7 +112,8 @@
         "prize": [
             5000,
             3000
-        ]
+        ],
+        "form": "https://forms.gle/qUTJFgDJucE746Lt6"
     },
     "ml-workshop": {
         "event-name": "Machine Learning & Data Science Workshop",
@@ -136,7 +139,8 @@
         },
         "prize": [
             0
-        ]
+        ],
+        "form": ""
     },
     "datahack": {
         "event-name": "Datahack",
@@ -170,7 +174,8 @@
             4000,
             2500,
             1500
-        ]
+        ],
+        "form": "https://forms.gle/vBhD8BqbSRAkxJq39"
     },
     "build-startup": {
         "event-name": "Building a Startup of the Future, Now!",
@@ -200,7 +205,9 @@
                 "Certificate."
             ]
         },
-        "prize": []
+        "prize": [],
+        "form": "https://forms.gle/wcUsYocXsmtdeJTR9",
+        "poster": "https://lh6.googleusercontent.com/HZ4UWbBu7q1IPDmT3Z6HXs2_pt_V5K1HWgXSVrbWxs-5IP3pbxx7W6zKCHI-Wdz8upgpbyW7yT8TEsQsoIo=w2880-h1592-rw"
     },
     "code-crunch": {
         "event-name": "Code Crunch",
@@ -278,7 +285,8 @@
             4000,
             2500,
             1500
-        ]
+        ],
+        "form": "https://forms.gle/kNAnjhevBrWNQ9xz7"
     },
     "rpa": {
         "event-name": "RPA Programming Workshop",
@@ -298,7 +306,8 @@
             }
         ],
         "rules": {},
-        "prize": []
+        "prize": [],
+        "form": ""
     },
     "bridge-building": {
         "event-name": "Bridge Building",

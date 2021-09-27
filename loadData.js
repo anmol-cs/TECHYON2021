@@ -10,6 +10,8 @@ const coordinator2Phone = document.getElementById('coordinator-2-phone');
 const firstPlace = document.getElementById('first-place');
 const secondPlace = document.getElementById('second-place');
 const eventNameHeading = document.getElementById('event-name-heading');
+const registerButton = document.getElementById('register-button');
+const posterImage = document.getElementById('poster-image');
 
 function getQueryString() {
     var result = {}, queryString = location.search.slice(1),
@@ -58,6 +60,8 @@ $.getJSON("./data/eventsData.json", function (data) {
         secondPlace.innerHTML = data[param]["prize"][1];
 
         eventNameHeading.innerHTML = data[param]["event-name"];
+        registerButton.href = data[param]["form"];
+        posterImage.src = data[param]["poster"]
     }
 
     else {
