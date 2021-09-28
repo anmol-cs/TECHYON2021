@@ -38,7 +38,8 @@
             1500,
             500
         ],
-        "form": "https://forms.gle/NpJYvGRYX2mfiPPv5"
+        "form": "https://forms.gle/NpJYvGRYX2mfiPPv5",
+        "poster": "../posters/COMP/decrypt.jpg"
     },
     "comp-ideate": {
         "event-name": "Ideate",
@@ -73,7 +74,8 @@
             2000,
             1000
         ],
-        "form": "https://docs.google.com/forms/d/e/1FAIpQLScKBVMVwL71cxQG6EKWDy4rpBSerelKi4FqS9NAtgF7ykaicA/viewform?vc=0&c=0&w=1&flr=0"
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLScKBVMVwL71cxQG6EKWDy4rpBSerelKi4FqS9NAtgF7ykaicA/viewform?vc=0&c=0&w=1&flr=0",
+        "poster": "../posters/COMP/comp-ideate.jpg"
     },
     "gamejam": {
         "event-name": "Game Jam 2K21",
@@ -113,7 +115,8 @@
             5000,
             3000
         ],
-        "form": "https://forms.gle/qUTJFgDJucE746Lt6"
+        "form": "https://forms.gle/qUTJFgDJucE746Lt6",
+        "poster": "../posters/COMP/game-jam.jpg"
     },
     "ml-workshop": {
         "event-name": "Machine Learning & Data Science Workshop",
@@ -140,7 +143,8 @@
         "prize": [
             0
         ],
-        "form": ""
+        "form": "",
+        "poster": "../posters/COMP/ml-workshop.jpg"
     },
     "datahack": {
         "event-name": "Datahack",
@@ -175,7 +179,8 @@
             2500,
             1500
         ],
-        "form": "https://forms.gle/vBhD8BqbSRAkxJq39"
+        "form": "https://forms.gle/vBhD8BqbSRAkxJq39",
+        "poster": "../posters/COMP/datahack.jpeg"
     },
     "build-startup": {
         "event-name": "Building a Startup of the Future, Now!",
@@ -207,7 +212,7 @@
         },
         "prize": [],
         "form": "https://forms.gle/wcUsYocXsmtdeJTR9",
-        "poster": "https://drive.google.com/drive/folders/1sFmwBdaLOKodImApUNmtMkTllUsnzea5"
+        "poster": "../posters/COMP/build-startups.jpg"
     },
     "code-crunch": {
         "event-name": "Code Crunch",
@@ -286,7 +291,8 @@
             2500,
             1500
         ],
-        "form": "https://forms.gle/kNAnjhevBrWNQ9xz7"
+        "form": "https://forms.gle/kNAnjhevBrWNQ9xz7",
+        "poster": "../posters/COMP/code-crunch.jpg"
     },
     "rpa": {
         "event-name": "RPA Programming Workshop",
@@ -307,7 +313,8 @@
         ],
         "rules": {},
         "prize": [],
-        "form": ""
+        "form": "",
+        "poster": "../posters/COMP/rpa.jpg"
     },
     "bridge-building": {
         "event-name": "Bridge Building",
