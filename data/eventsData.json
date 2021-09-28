@@ -71,8 +71,8 @@
             ]
         },
         "prize": [
-            2000,
-            1000
+            2500,
+            1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLScKBVMVwL71cxQG6EKWDy4rpBSerelKi4FqS9NAtgF7ykaicA/viewform?vc=0&c=0&w=1&flr=0",
         "poster": "../posters/COMP/comp-ideate.jpg"
@@ -122,7 +122,7 @@
         "event-name": "ML Workshop + Competition",
         "department": "Computer Department",
         "type": "Intra-college Event",
-        "location": "COMP classroom",
+        "location": "ML Workshop : COMP Lab 5, Competition : Online",
         "date": "8th, 9th, 10th OCT",
         "time": " 48 Hours (the problem statement will be released in the morning on the website.)",
         "event-coordinators": [

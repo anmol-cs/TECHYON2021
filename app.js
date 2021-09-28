@@ -3,7 +3,7 @@
 console.log("Made with love by IT and Computer Department :)");
 console.log(" Have a Good day  :)");
 console.log(" Biryani is love :)");
-console.log("Hello curious coder, We have a suprise for you! Contact Abdullah @ 8796440786 between 7th - 9th OCT 2021 for a treat :)");
+console.log("Hello curious coder, Abdullah has a suprise for you! Find the bug and the treat is yours!");
 
 function darkFunction() {
   const html = document.querySelector("html");
