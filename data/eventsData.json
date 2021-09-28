@@ -1124,5 +1124,34 @@
         ],
         "form": "https://forms.gle/RvbgrxTwKwvLrNcf9",
         "poster": "../posters/IT/Codathon-2021.jpg"
+    },
+    "coding-ninjas": {
+        "event-name": "Competitive Programming",
+        "department": "Information Technology Department",
+        "type": "Open",
+        "location": "Online",
+        "date": "9th OCT",
+        "time": "4PM - 5PM",
+        "event-coordinators": [
+            {
+                "name": "",
+                "phone-number": ""
+            },
+            {
+                "name": "",
+                "phone-number": ""
+            }
+        ],
+        "rules": {
+            "Description": [
+                "Give your career a head-start and know how you can get closer to your dream job by refining your coding skills. Coding Ninjas in collaboration with TECHYON 2021 - An annual technical fest of Padre Conceicao College of Engineering brings you an exclusive webinar on Competetive Programming."
+            ],
+            "Host": [
+                "The event will be hosted by Rajat Saxena"
+            ]
+        },
+        "prize": [],
+        "form": "https://www.codingninjas.com/events/competitive-programming-padre-conceicao-college-of-engineering?utm_source=B2B-CAMPUS-CH&utm_medium=KB&utm_campaign=PCCE_CP_09102021",
+        "poster": "../posters/IT/coming-soon.jpg"
     }
 }
