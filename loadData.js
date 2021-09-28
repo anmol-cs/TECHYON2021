@@ -64,6 +64,10 @@ $.getJSON("./data/eventsData.json", function (data) {
         if (data[param]["prize"][0] != undefined) {
             firstPlace.innerHTML = data[param]["prize"][0];
             secondPlace.innerHTML = data[param]["prize"][1];
+
+            if (data[param]["prize"][1] == undefined) {
+                secondPlace.innerHTML = '-';
+            }
         }
         else {
             document.getElementById('priz').style.display = 'none';

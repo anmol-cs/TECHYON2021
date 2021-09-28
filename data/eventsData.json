@@ -143,7 +143,7 @@
         "prize": [
             0
         ],
-        "form": "",
+        "form": "https://forms.gle/yR5kof7vGU936Xfx6",
         "poster": "../posters/COMP/ml-workshop.jpg"
     },
     "datahack": {
@@ -175,9 +175,8 @@
             ]
         },
         "prize": [
-            4000,
-            2500,
-            1500
+            5000,
+            3000
         ],
         "form": "https://forms.gle/vBhD8BqbSRAkxJq39",
         "poster": "../posters/COMP/datahack.jpeg"
@@ -313,7 +312,7 @@
         ],
         "rules": {},
         "prize": [],
-        "form": "",
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSfazaC1l3L0ds6LDjezhGlxU7NoyZd5tSTykHnzbtTi-JFWBA/viewform?usp=sf_link",
         "poster": "../posters/COMP/rpa.jpg"
     },
     "bridge-building": {
@@ -549,7 +548,7 @@
         },
         "prize": [],
         "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9",
-        "poster": ""
+        "poster": "../posters/MECH/workshop.jpg"
     },
     "tech-masters": {
         "event-name": "TechMasters",
@@ -686,8 +685,8 @@
     "electronics-art": {
         "event-name": "Electronics Art",
         "department": "Electronics and Telecommunication Department",
-        "type": "Open",
-        "location": "L2 / L4, PCCE Verna",
+        "type": "Intra",
+        "location": "ETC floor lab 2 & 4",
         "date": "7th OCT",
         "time": "10AM",
         "event-coordinators": [
@@ -708,7 +707,12 @@
                 "Use of microcontrollers is also allowed",
                 "Participants should be present at the designated class/lab prior the event timing ,failing to will lead to disqualification",
                 "Open to all departments",
-                "No entry fee"
+                "No entry fee",
+                "The circuits should be made by the participants. If found using ready-made circuits, the team may face disqualification.",
+                "Sound effects can be added.",
+                "The teams must make the model prior to the competition and get it on the day of the competition. No changes shall be permitted once the team enters the exhibition hall.",
+                "A maximum of 12 volts supply is permitted in the circuit model. Participants may use multiple voltage sources but supply shouldn’t exceed 12 Volts.",
+                "Teams should make use of battery packs in case they wish to use their own power supply or voltage generators/adapters (5 to 12 volts) if they require external power supply. Power sockets will be made available (AC mains only)."
             ],
             "Judging criteria and points table will be out of 50 points": [
                 "1)Creativity(Art skills) -15",
@@ -922,7 +926,7 @@
         },
         "prize": [],
         "form": "https://forms.gle/uZGV2XjkoeG2ed839",
-        "poster": ""
+        "poster": "../posters/IT/blockchain.jpg"
     },
     "it-career": {
         "event-name": "Approach and mindset for a career in IT industry",
@@ -956,7 +960,7 @@
         "type": "Open",
         "location": "Online",
         "date": "9th OCT",
-        "time": "10AM - 12PM",
+        "time": "10AM - 11AM",
         "event-coordinators": [
             {
                 "name": "Shrey Keny",
@@ -1008,7 +1012,7 @@
         "type": "FE-IT only",
         "location": "CC Lab",
         "date": "8th & 9th OCT",
-        "time": "8th Oct: 2PM - 4PM, 9th Oct: 12PM - 2PM",
+        "time": "2PM onwards",
         "event-coordinators": [
             {
                 "name": "Shrinivas Acharya",
@@ -1092,13 +1096,13 @@
         "form": "https://forms.gle/qP2xU6A97YPZaRZq8",
         "poster": "../posters/IT/containers.jpeg"
     },
-    "codedathon": {
+    "codeathon": {
         "event-name": "Codeathon 2021",
         "department": "Information Technology Department",
-        "type": "",
+        "type": "Open",
         "location": "Online",
-        "date": "",
-        "time": "",
+        "date": "6th & 8th Oct",
+        "time": "9AM",
         "event-coordinators": [
             {
                 "name": "",
@@ -1118,7 +1122,7 @@
             30000,
             20000
         ],
-        "form": "",
+        "form": "https://forms.gle/RvbgrxTwKwvLrNcf9",
         "poster": "../posters/IT/Codathon-2021.jpg"
     }
 }
