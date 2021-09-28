@@ -122,9 +122,9 @@
         "event-name": "ML Workshop + Competition",
         "department": "Computer Department",
         "type": "Intra-college Event",
-        "location": "Any location with an internet connection",
+        "location": "COMP classroom",
         "date": "8th, 9th, 10th OCT",
-        "time": "9:00 am to 5:00 pm",
+        "time": " 48 Hours (the problem statement will be released in the morning on the website.)",
         "event-coordinators": [
             {
                 "name": "Lex Mascarenhas",
@@ -136,12 +136,22 @@
             }
         ],
         "rules": {
-            "": [
-                ""
+            "Guidelines": [
+                " Participants will have to sign up online via the Website.",
+                " Registration has to be done before 5pm on 7th October. ",
+                "Submission has to be done before the 5 Pm on 10th October.",
+                "Problem statement will be mailed to the registered participants on their registered email addresses.",
+                " The participants need to ensure that the necessary pre-requisites/working environment is set up on their laptops in advance so that time allotted during the competition is not spent on software installations. "
+            ],
+            "Rules": [
+                " Individual applicants.",
+                " Developed Solutions should be original and not copied. Reference can be drawn from any open-source project. ",
+                " Do not use proprietary software. Use open-source software"
             ]
         },
         "prize": [
-            0
+            4000,
+            2000
         ],
         "form": "https://forms.gle/yR5kof7vGU936Xfx6",
         "poster": "../posters/COMP/ml-workshop.jpg"
@@ -1147,6 +1157,9 @@
             ],
             "Host": [
                 "The event will be hosted by Rajat Saxena"
+            ],
+            "Prizes": [
+                "Coding Ninjas will be hosting a quiz and top 3 students will receive goodies from them!"
             ]
         },
         "prize": [],
