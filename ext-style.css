@@ -41,6 +41,10 @@ button {
   height: 55px;
   width: 55px;
 }
+.sponsors {
+  height: 100px;
+  width: 100px;
+}
 .ievent {
   height: 600px;
   width: 450px;
