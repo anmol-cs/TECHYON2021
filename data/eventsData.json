@@ -119,11 +119,11 @@
         "poster": "../posters/COMP/game-jam.jpg"
     },
     "ml-workshop": {
-        "event-name": "Machine Learning & Data Science Workshop",
+        "event-name": "ML Workshop + Competition",
         "department": "Computer Department",
-        "type": "Intra",
-        "location": "CC Lab",
-        "date": "8th OCT",
+        "type": "Intra-college Event",
+        "location": "Any location with an internet connection",
+        "date": "8th, 9th, 10th OCT",
         "time": "9:00 am to 5:00 pm",
         "event-coordinators": [
             {
@@ -287,8 +287,7 @@
         },
         "prize": [
             4000,
-            2500,
-            1500
+            2000
         ],
         "form": "https://forms.gle/kNAnjhevBrWNQ9xz7",
         "poster": "../posters/COMP/code-crunch.jpg"
@@ -1094,7 +1093,7 @@
         },
         "prize": [],
         "form": "https://forms.gle/qP2xU6A97YPZaRZq8",
-        "poster": "../posters/IT/containers.jpeg"
+        "poster": "../posters/IT/containers.jpg"
     },
     "codeathon": {
         "event-name": "Codeathon 2021",
