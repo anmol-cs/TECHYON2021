@@ -229,7 +229,7 @@
         "type": "Inter college",
         "location": "Online",
         "date": "7th OCT - 9th OCT",
-        "time": "",
+        "time": "9AM - 5PM",
         "event-coordinators": [
             {
                 "name": "Sakshi Palekar",
@@ -488,7 +488,7 @@
     "solid-works": {
         "event-name": "Solid Works",
         "department": "Mechanical Department",
-        "type": "Intra college",
+        "type": "Inter college",
         "location": "Online",
         "date": "9th OCT",
         "time": "9:30 AM",
@@ -504,6 +504,7 @@
         ],
         "rules": {
             "Rules:": [
+                "There is a registration fee of ₹100 for non-PCCE students",
                 "This is an individual event and no teams of 2 or more will be entertained.",
                 "The event will be held online via Google Classroom.",
                 "Time limit for the completion of the solid model and submission of the same will be 2 hours only.",
