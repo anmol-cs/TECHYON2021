@@ -39,7 +39,8 @@
             500
         ],
         "form": "https://forms.gle/NpJYvGRYX2mfiPPv5",
-        "poster": "../posters/COMP/decrypt.jpg"
+        "poster": "../posters/COMP/decrypt.jpg",
+        "rulebook": "../rulebook/COMP/decrypt.pdf"
     },
     "comp-ideate": {
         "event-name": "Ideate",
@@ -75,7 +76,8 @@
             1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLScKBVMVwL71cxQG6EKWDy4rpBSerelKi4FqS9NAtgF7ykaicA/viewform?vc=0&c=0&w=1&flr=0",
-        "poster": "../posters/COMP/comp-ideate.jpg"
+        "poster": "../posters/COMP/comp-ideate.jpg",
+        "rulebook": "../rulebook/COMP/Ideate.pdf"
     },
     "gamejam": {
         "event-name": "Game Jam 2K21",
@@ -116,7 +118,8 @@
             3000
         ],
         "form": "https://forms.gle/qUTJFgDJucE746Lt6",
-        "poster": "../posters/COMP/game-jam.jpg"
+        "poster": "../posters/COMP/game-jam.jpg",
+        "rulebook": "../rulebook/COMP/gamejam.pdf"
     },
     "ml-workshop": {
         "event-name": "ML Workshop + Competition",
@@ -154,7 +157,8 @@
             2000
         ],
         "form": "https://forms.gle/yR5kof7vGU936Xfx6",
-        "poster": "../posters/COMP/ml-workshop.jpg"
+        "poster": "../posters/COMP/ml-workshop.jpg",
+        "rulebook": "../rulebook/COMP/ml.pdf"
     },
     "datahack": {
         "event-name": "Datahack",
@@ -189,7 +193,8 @@
             3000
         ],
         "form": "https://forms.gle/vBhD8BqbSRAkxJq39",
-        "poster": "../posters/COMP/datahack.jpeg"
+        "poster": "../posters/COMP/datahack.jpeg",
+        "rulebook": "../rulebook/COMP/datahack.pdf"
     },
     "build-startup": {
         "event-name": "Building a Startup of the Future, Now!",
@@ -221,7 +226,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/wcUsYocXsmtdeJTR9",
-        "poster": "../posters/COMP/build-startups.jpg"
+        "poster": "../posters/COMP/build-startups.jpg",
+        "rulebook": "../rulebook/COMP/build-startup.pdf"
     },
     "code-crunch": {
         "event-name": "Code Crunch",
@@ -300,7 +306,8 @@
             2000
         ],
         "form": "https://forms.gle/kNAnjhevBrWNQ9xz7",
-        "poster": "../posters/COMP/code-crunch.jpg"
+        "poster": "../posters/COMP/code-crunch.jpg",
+        "rulebook": "../rulebook/COMP/code-crunch.pdf"
     },
     "rpa": {
         "event-name": "RPA Programming Workshop",
@@ -322,7 +329,8 @@
         "rules": {},
         "prize": [],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfazaC1l3L0ds6LDjezhGlxU7NoyZd5tSTykHnzbtTi-JFWBA/viewform?usp=sf_link",
-        "poster": "../posters/COMP/rpa.jpg"
+        "poster": "../posters/COMP/rpa.jpg",
+        "rulebook": "../rulebook/COMP/rpa.pdf"
     },
     "bridge-building": {
         "event-name": "Bridge Building",
@@ -394,7 +402,8 @@
             1000
         ],
         "form": "https://forms.gle/kDHbgTmeymmiUFTd9",
-        "poster": "../posters/MECH/bridge.jpg"
+        "poster": "../posters/MECH/bridge.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "contraption": {
         "event-name": "Contraption",
@@ -437,7 +446,8 @@
             2500
         ],
         "form": "https://forms.gle/5qWDCCsbFfQmrgbV9",
-        "poster": "../posters/MECH/contraption.jpg"
+        "poster": "../posters/MECH/contraption.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "mechanism-building": {
         "event-name": "Mechanism building",
@@ -483,7 +493,8 @@
             1500
         ],
         "form": "https://forms.gle/hStF2jDDuxEE73EN7",
-        "poster": "../posters/MECH/mechanism.jpg"
+        "poster": "../posters/MECH/mechanism.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "solid-works": {
         "event-name": "Solid Works",
@@ -523,7 +534,8 @@
             1000
         ],
         "form": "https://forms.gle/SeeZLpvDBhjMoQhq9",
-        "poster": "../posters/MECH/solidworks.jpg"
+        "poster": "../posters/MECH/solidworks.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "robotics-workshop": {
         "event-name": "Robotics Workshop",
@@ -558,7 +570,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9",
-        "poster": "../posters/MECH/workshop.jpg"
+        "poster": "../posters/MECH/workshop.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "tech-masters": {
         "event-name": "TechMasters",
@@ -612,7 +625,8 @@
             1500
         ],
         "form": "https://forms.gle/xsvYhYasYbbnDzJM7",
-        "poster": "../posters/ETC/techmasters.jpg"
+        "poster": "../posters/ETC/techmasters.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "line-follower": {
         "event-name": "Line Follower",
@@ -661,7 +675,8 @@
             1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0",
-        "poster": "../posters/ETC/line-follower.jpg"
+        "poster": "../posters/ETC/line-follower.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "ard-u-know": {
         "event-name": "Ard-U-Know",
@@ -690,7 +705,8 @@
         },
         "prize": [],
         "form": "",
-        "poster": "../posters/ETC/arduino.jpg"
+        "poster": "../posters/ETC/arduino.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "electronics-art": {
         "event-name": "Electronics Art",
@@ -736,7 +752,8 @@
             1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link",
-        "poster": "../posters/ETC/electronics-art.jpg"
+        "poster": "../posters/ETC/electronics-art.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "code-fest": {
         "event-name": "Codefest",
@@ -785,7 +802,8 @@
             1500
         ],
         "form": "https://forms.gle/ehrppDb8FZGhnvz26",
-        "poster": "../posters/ETC/codefest.jpg"
+        "poster": "../posters/ETC/codefest.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "poster-presentation": {
         "event-name": "Poster Presentation",
@@ -822,7 +840,8 @@
             1000
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link",
-        "poster": "../posters/ETC/poster-presentation.jpg"
+        "poster": "../posters/ETC/poster-presentation.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "it-ideate": {
         "event-name": "IDEATE",
@@ -874,7 +893,8 @@
             1000
         ],
         "form": "",
-        "poster": "../posters/IT/ideate.jpg"
+        "poster": "../posters/IT/ideate.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "master-minds": {
         "event-name": "Masterminds",
@@ -910,7 +930,8 @@
             1000
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform",
-        "poster": "../posters/IT/masterminds.jpg"
+        "poster": "../posters/IT/masterminds.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "blockchain": {
         "event-name": "Talk on Blockchain with Jason Fernandes",
@@ -936,7 +957,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/uZGV2XjkoeG2ed839",
-        "poster": "../posters/IT/blockchain.jpg"
+        "poster": "../posters/IT/blockchain.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "it-career": {
         "event-name": "Approach and mindset for a career in IT industry",
@@ -962,7 +984,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A",
-        "poster": "../posters/IT/it-career.jpg"
+        "poster": "../posters/IT/it-career.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "software-testing": {
         "event-name": "Workshop : Software Testing",
@@ -988,7 +1011,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/yoqQWkzFA9NRMLGQA",
-        "poster": "../posters/IT/software-test.jpg"
+        "poster": "../posters/IT/software-test.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "web-design": {
         "event-name": "Hands on Workshop on Web Design",
@@ -1014,7 +1038,8 @@
         },
         "prize": [],
         "form": "",
-        "poster": "../posters/IT/web-design.jpg"
+        "poster": "../posters/IT/web-design.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "game-dev": {
         "event-name": "Hands on Workshop on Game Development",
@@ -1040,7 +1065,8 @@
         },
         "prize": [],
         "form": "",
-        "poster": "../posters/IT/game-dev.jpg"
+        "poster": "../posters/IT/game-dev.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "war-of-web": {
         "event-name": "WAR OF WEBS",
@@ -1078,7 +1104,8 @@
             4000
         ],
         "form": "https://forms.gle/tutVWdaLszuRBbht5",
-        "poster": "../posters/IT/war-of-webs.jpg"
+        "poster": "../posters/IT/war-of-webs.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "containers": {
         "event-name": "Containers 101",
@@ -1104,7 +1131,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/qP2xU6A97YPZaRZq8",
-        "poster": "../posters/IT/containers.jpg"
+        "poster": "../posters/IT/containers.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "codeathon": {
         "event-name": "Codeathon 2021",
@@ -1133,7 +1161,8 @@
             20000
         ],
         "form": "https://forms.gle/RvbgrxTwKwvLrNcf9",
-        "poster": "../posters/IT/Codathon-2021.jpg"
+        "poster": "../posters/IT/Codathon-2021.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "coding-ninjas": {
         "event-name": "Competitive Programming",
@@ -1165,6 +1194,7 @@
         },
         "prize": [],
         "form": "https://www.codingninjas.com/events/competitive-programming-padre-conceicao-college-of-engineering?utm_source=B2B-CAMPUS-CH&utm_medium=KB&utm_campaign=PCCE_CP_09102021",
-        "poster": "../posters/IT/coming-soon.jpg"
+        "poster": "../posters/IT/coming-soon.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     }
 }
