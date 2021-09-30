@@ -1,9 +1,7 @@
 
 //  dark mode
 console.log("Made with love by IT and Computer Department :)");
-console.log(" Have a Good day  :)");
-console.log(" Biryani is love :)");
-console.log("Hello curious coder, Abdullah has a suprise for you! Find the bug and the treat is yours!");
+
 
 function darkFunction() {
   const html = document.querySelector("html");
