@@ -29,9 +29,16 @@
             ],
             "Round 2 Rules": [
                 "1 Student/participant.",
-                "25 MCQ/Questions to be answered in 60min.",
-                "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-                "Internet access is allowed."
+                "15 Questions to be answered in 45min.",
+                "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
+                "Internet access is allowed.",
+                "Platform- Google Forms"
+            ],
+            "FAQs": [
+                "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+                "2. Is there a registration fee? <br/> Ans - No registration fee",
+                "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+                "Decision taken by Co-Ordinators will be final in case any discrepancies!"
             ]
         },
         "prize": [
@@ -84,7 +91,7 @@
         "department": "Computer Department",
         "type": "Inter",
         "location": "Online",
-        "date": "6th OCT",
+        "date": "7th OCT",
         "time": "10:00 AM IST",
         "event-coordinators": [
             {
@@ -403,7 +410,7 @@
         ],
         "form": "https://forms.gle/kDHbgTmeymmiUFTd9",
         "poster": "../posters/MECH/bridge.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/MECH/BRIDGE BUILDING DETAILS-compressed.pdf"
     },
     "contraption": {
         "event-name": "Contraption",
@@ -447,7 +454,7 @@
         ],
         "form": "https://forms.gle/5qWDCCsbFfQmrgbV9",
         "poster": "../posters/MECH/contraption.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/MECH/CONTRAPTION DETAILS-compressed.pdf"
     },
     "mechanism-building": {
         "event-name": "Mechanism building",
@@ -494,7 +501,7 @@
         ],
         "form": "https://forms.gle/hStF2jDDuxEE73EN7",
         "poster": "../posters/MECH/mechanism.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/MECH/mechanism-building.pdf"
     },
     "solid-works": {
         "event-name": "Solid Works",
@@ -535,7 +542,7 @@
         ],
         "form": "https://forms.gle/SeeZLpvDBhjMoQhq9",
         "poster": "../posters/MECH/solidworks.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/MECH/solidworks.pdf"
     },
     "robotics-workshop": {
         "event-name": "Robotics Workshop",
@@ -571,7 +578,7 @@
         "prize": [],
         "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9",
         "poster": "../posters/MECH/workshop.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/MECH/workshop.pdf"
     },
     "tech-masters": {
         "event-name": "TechMasters",
@@ -676,7 +683,7 @@
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0",
         "poster": "../posters/ETC/line-follower.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/ETC/Line follower Final.pdf"
     },
     "ard-u-know": {
         "event-name": "Ard-U-Know",
@@ -753,7 +760,7 @@
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link",
         "poster": "../posters/ETC/electronics-art.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/ETC/Electronics Art Rules.pdf"
     },
     "code-fest": {
         "event-name": "Codefest",
@@ -803,7 +810,7 @@
         ],
         "form": "https://forms.gle/ehrppDb8FZGhnvz26",
         "poster": "../posters/ETC/codefest.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/ETC/Codefest 2021 Rules .pdf"
     },
     "poster-presentation": {
         "event-name": "Poster Presentation",
@@ -841,7 +848,7 @@
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link",
         "poster": "../posters/ETC/poster-presentation.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/ETC/Poster Presentation Rules.pdf"
     },
     "it-ideate": {
         "event-name": "IDEATE",
@@ -894,7 +901,7 @@
         ],
         "form": "",
         "poster": "../posters/IT/ideate.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/IT/ideate.pdf"
     },
     "master-minds": {
         "event-name": "Masterminds",
@@ -931,7 +938,7 @@
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform",
         "poster": "../posters/IT/masterminds.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/IT/masterminds.pdf"
     },
     "blockchain": {
         "event-name": "Talk on Blockchain with Jason Fernandes",
@@ -1105,7 +1112,7 @@
         ],
         "form": "https://forms.gle/tutVWdaLszuRBbht5",
         "poster": "../posters/IT/war-of-webs.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/IT/warofweb.pdf"
     },
     "containers": {
         "event-name": "Containers 101",
@@ -1165,7 +1172,7 @@
         "rulebook": "../rulebook/ruleb.pdf"
     },
     "coding-ninjas": {
-        "event-name": "Competitive Programming",
+        "event-name": "Webinar on Competitive Programming",
         "department": "Information Technology Department",
         "type": "Open",
         "location": "Online",
