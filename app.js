@@ -63,33 +63,41 @@ $('.smooth').on('click', function (event) {
 
 // FILTER CODE
 $(document).ready(function () {
-  $('.category_item').click(function () {
-    var category = $(this).attr('id');
-    if (category == 'ALL') {
-      $('.event_item').addClass('hide');
-      $('.event_item').addClass('show');
-
-      $('.event_item').removeClass('hide');
-      setTimeout(function () {
-        $('.event_item').removeClass('show');
-      }, 350);
-
-
-
-    } else {
-      $('.event_item').addClass('hide');
-      $('.' + category).addClass('show');
-      $('.' + category).removeClass('hide');
-      setTimeout(function () {
-        $('.' + category).removeClass('show');
-      }, 350);
-
-
-
-
-    }
-  })
+  var dept=sessionStorage.getItem('filter') === null? null:$("#"+sessionStorage.getItem('filter')).attr('id')
+  if(dept=== "ALL")
+   filterAll()
+ else if(dept!=null)
+   filterDepartment(dept)
+   
+ $('.category_item').click(function () {
+   var category = $(this).attr('id')
+   console.log(category)
+   if (category == 'ALL') {
+    filterAll()
+   } else {
+    filterDepartment(category)
+   }
+   //adding filters to session storage
+   sessionStorage.setItem('filter', category);
+ })
 })
+function filterAll(){
+ $('.event_item').addClass('hide');
+ $('.event_item').addClass('show');
+
+ $('.event_item').removeClass('hide');
+ setTimeout(function () {
+   $('.event_item').removeClass('show');
+ }, 350);
+}
+function filterDepartment(dept){
+ $('.event_item').addClass('hide');
+ $('.' + dept).addClass('show');
+ $('.' + dept).removeClass('hide');
+ setTimeout(function () {
+   $('.' + dept).removeClass('show');
+ }, 350);
+}
 
 // accordion
 var accItem = document.getElementsByClassName('accordionItem');
