@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+
+  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="pcce techyon2021 event website ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ext-style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,600;1,300&family=Gemunu+Libre:wght@200&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Xanh+Mono&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Gemunu+Libre:wght@200&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Xanh+Mono&display=swap"
+    rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body id="Home" class="overflow-x-hidden bg-black dark:bg-white dark:text-gray-900 text-white ">
+
+
+  <div class="container mx-auto">
+    <header>
+      <!--Navbar below-->
+      <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+      <div style="font-family: 'Poppins'; " class="h-88 bg-black dark:bg-white dark:text-black  ">
+        <div
+          class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg container mx-auto  ">
+
+          <div x-data="{ open: false }"
+            class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6  md:flex-wrap">
+            <div class="m-2  inline-flex justify-center space-x-2  md:w-screen lg:w-max">
+
+              <img class="logo" src="images/PCCE_Logo.png" alt="pcce_logo">
+              <a href="index.html" class="  chakra   font-bold  outline-none  text-6xl  md:text-5xl ">Techyon</a>
+            </div>
+            <div class="p-4 flex flex-row  justify-end ">
+
+
+              <div class="flex self-start lg:mx-6 pr-8 flex">
+
+                <div>
+                  <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden">
+                  <label for="toggle"
+                    class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
+                    <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
+
+                    <div
+                      class=" absolute toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md">
+                    </div>
+                    <span class=""> <i class="text-black fa fa-moon-o"></i></span>
+                  </label>
+                </div>
+
+
+              </div>
+              <!-- TOGGLE SWITCH ENDD -->
+              <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open" id="toggle">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
+                  <path x-show="!open" fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                    clip-rule="evenodd"></path>
+                  <path x-show="open" fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+            <nav :class="{'flex': open, 'hidden': !open}"
+              class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
+              <a class="smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                href="index.html#Home">Home</a>
+              <a class=" smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                href="index.html#Events">Events</a>
+              <a class="smooth   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                href="index.html#Sponsors">Associates</a>
+
+              <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                href="index.html#Contactus">Contact</a>
+
+              <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                href="index.html#Team">Team</a>
+              <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
+                href="results.html">Results</a>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    
+    <!--code for column below-->
+    <section class="text-white body-font mt-20 dark:text-black">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white dark:text-black">Results</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat atque eligendi recusandae magnam ab deserunt, enim, maxime aliquid ea assumenda voluptatem repellat architecto, molestias sunt animi qui? Voluptatem, numquam!</p>
+          </div>
+          <h1 class="text-center text-2xl font-medium mb-4">Day 1</h1>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto shadow-xl border dark:border-none">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Department</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Events</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Event Type</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Winners</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Runners up</th>
+                <!-- class="hover:bg-gray-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" -->
+              </thead>
+              <tbody>
+                <tr >
+                  <td class="px-4 py-3">COMP</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">IT</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ETC</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">MECH</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h1 class="text-center text-2xl font-medium mb-4 mt-8">Day 2</h1>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto shadow-xl border dark:border-none">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Department</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Events</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Event Type</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Winners</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Runners up</th>
+                <!-- class="hover:bg-gray-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" -->
+              </thead>
+              <tbody>
+                <tr >
+                  <td class="px-4 py-3">COMP</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">IT</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ETC</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">MECH</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h1 class="text-center text-2xl font-medium mb-4 mt-8">Day 3</h1>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto shadow-xl border dark:border-none">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Department</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Events</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Event Type</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Winners</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Runners up</th>
+                <!-- class="hover:bg-gray-600 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" -->
+              </thead>
+              <tbody>
+                <tr >
+                  <td class="px-4 py-3">COMP</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                  <td class="px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">IT</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ETC</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">MECH</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Random</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          
+         
+        </div>
+      </section>
+
+      <script src="app.js">
+
+      </script>
+    </body>
+</html>

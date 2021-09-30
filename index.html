@@ -30,7 +30,7 @@
 
 </head>
 
-<body id="Home" class=" overflow-x-hidden bg-black dark:bg-white dark:text-gray-900 text-white ">
+<body id="Home" class="overflow-x-hidden bg-black dark:bg-white dark:text-gray-900 text-white ">
 
 
   <div class="container mx-auto">
@@ -54,15 +54,13 @@
               <div class="flex self-start lg:mx-6 pr-8 flex">
 
                 <div>
-                  <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden  ">
+                  <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden">
                   <label for="toggle"
                     class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
                     <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
 
                     <div
-                      class=" absolute 
-                toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md  ">
-
+                      class=" absolute toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md">
                     </div>
                     <span class=""> <i class="text-black fa fa-moon-o"></i></span>
                   </label>
@@ -71,7 +69,7 @@
 
               </div>
               <!-- TOGGLE SWITCH ENDD -->
-              <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open">
+              <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open" id="toggle">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
                   <path x-show="!open" fill-rule="evenodd"
                     d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
@@ -97,7 +95,7 @@
               <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
                 href="#Team">Team</a>
               <a class="smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300"
-                href="#">Results</a>
+                href="results.html">Results</a>
             </nav>
           </div>
         </div>
@@ -108,7 +106,7 @@
     <div class=" container mx-auto text-white mt-28 xl:mt-10">
       <div class="   flex flex-row-reverse     lg:justify-between flex-wrap  ">
 
-        <img class=" illustration  w-full lg:w-1/2   " src="images/innovation-animate.svg" alt="header_image">
+        <img onclick="darkFunction()" class=" illustration  w-full lg:w-1/2 animate-pulse" src="images/innovation-animate.svg" alt="header_image">
 
 
 
@@ -126,7 +124,9 @@
             <h1 class=" chakra my-6  text-white font-bold text-2xl bg-gradient-to-r from-purple-200 to-blue-600 ">7th
               OCT - 9th OCT </h1>
             <a href="#Events"
-              class=" smooth py-2 px-4 m-1 bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400">Events</a>
+              class=" smooth py-2 px-4 m-1 bg-blue-600 py-3 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400">Events</a>
+              <button  class=" smooth py-2 px-4 m-1 bg-indigo-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400"><i class="fa fa-calendar" style="font-size:24px"></i></button>
+              <button  class="sm:hidden smooth py-2 px-4 m-1 bg-purple-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400 inline-flex ">Results</button>
           </div>
 
         </div>
@@ -442,7 +442,7 @@
           <!--1 card-->
           <div class="event_item p-2 w-full sm:w-1/2  lg:w-1/3  COMP">
             <div
-              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out  ">
               <a href="event.html?event=datahack">
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/datahack_card.png"
                   alt="image">
