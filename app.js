@@ -6,12 +6,16 @@ console.log(" Biryani is love :)");
 console.log("Hello curious coder, Abdullah has a suprise for you! Find the bug and the treat is yours!");
 
 function darkFunction() {
-  const html = document.querySelector("html");
-  html.classList.toggle("dark");
+  let toggle= sessionStorage.getItem("darkMode")=== "false"?"true":"false"
+  sessionStorage.setItem('darkMode', toggle)
+  document.querySelector("html").classList.toggle("dark")
 }
-
-darkFunction();
-
+$(document).ready(function () {
+  if(sessionStorage.getItem("darkMode") === null)
+    darkFunction()
+  if(sessionStorage.getItem("darkMode") === "false" && !document.querySelector("html").classList.contains("dark"))
+    document.querySelector("html").classList.toggle("dark")
+})
 // animation aos 
 AOS.init({
   offset: 60,
