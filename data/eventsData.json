@@ -224,6 +224,9 @@
             "Rules": [
                 "1. Registration for the workshop should compulsorily be a group participation. The minimum number of members should be 3 and maximum 5 in a group."
             ],
+            "Agenda": [
+                "The agenda for the event is mentioned in the rulebook."
+            ],
             "Prizes": [
                 "A 6-month long internship opportunity at Hexcoderz.",
                 "Guidance to actually build the startup and launch to market.",
@@ -765,7 +768,7 @@
     "code-fest": {
         "event-name": "Codefest",
         "department": "Electronics and Telecommunication Department",
-        "type": "Intra",
+        "type": "PCCE ETC Dept only",
         "location": "Online",
         "date": "9th OCT",
         "time": "10AM",
@@ -815,7 +818,7 @@
     "poster-presentation": {
         "event-name": "Poster Presentation",
         "department": "Electronics and Telecommunication Department",
-        "type": "Intra",
+        "type": "PCCE ETC Dept only",
         "location": " L12, L13, L14, PCCE Verna",
         "date": "8th OCT",
         "time": "2PM - 5PM",
