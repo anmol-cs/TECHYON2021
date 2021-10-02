@@ -1,8 +1,8 @@
 
 //  dark mode
 console.log("Made with love by IT and Computer Department :)");
-console.log(" Have a Good day  :)");
-console.log(" Biryani is love :)");
+
+
 function darkFunction() {
   const html = document.querySelector("html");
   html.classList.toggle("dark");
@@ -12,12 +12,12 @@ darkFunction();
 
 // animation aos 
 AOS.init({
-  offset:60,
-  
-  duration :1000
- 
- 
- });
+  offset: 60,
+
+  duration: 1000
+
+
+});
 
 // back to top
 
@@ -60,35 +60,31 @@ $('.smooth').on('click', function (event) {
 //ENDD
 
 // FILTER CODE
-$(document).ready(function()
-{
-  $('.category_item').click(function()
-  {
-    var category =$(this).attr('id');
-    if(category == 'ALL')
-    { 
+$(document).ready(function () {
+  $('.category_item').click(function () {
+    var category = $(this).attr('id');
+    if (category == 'ALL') {
       $('.event_item').addClass('hide');
       $('.event_item').addClass('show');
-      
-        $('.event_item').removeClass('hide');
-        setTimeout(function() {
-          $('.event_item').removeClass('show');
+
+      $('.event_item').removeClass('hide');
+      setTimeout(function () {
+        $('.event_item').removeClass('show');
       }, 350);
-        
-       
-      
-    } else  
-    {
+
+
+
+    } else {
       $('.event_item').addClass('hide');
-      $('.'+category).addClass('show');
-        $('.'+category).removeClass('hide');
-        setTimeout(function() {
-          $('.'+category).removeClass('show');
+      $('.' + category).addClass('show');
+      $('.' + category).removeClass('hide');
+      setTimeout(function () {
+        $('.' + category).removeClass('show');
       }, 350);
-       
-      
-     
-      
+
+
+
+
     }
   })
 })

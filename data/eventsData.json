@@ -29,9 +29,16 @@
             ],
             "Round 2 Rules": [
                 "1 Student/participant.",
-                "25 MCQ/Questions to be answered in 60min.",
-                "The first one to successfully reach the goal, completing all challenges will qualify for round 2.",
-                "Internet access is allowed."
+                "15 Questions to be answered in 45min.",
+                "The first one to successfully reach the goal, completing all challenges will be declared the winner.- In case of a Tie there will be a Tie breaker Question.",
+                "Internet access is allowed.",
+                "Platform- Google Forms"
+            ],
+            "FAQs": [
+                "1. Who can participate? <br/> Ans - Any student from Padre Conceicao College of Engineering irrespective of their department can participate. ",
+                "2. Is there a registration fee? <br/> Ans - No registration fee",
+                "3. What should you have? <br/> Ans - A PC/Laptop with internet access and preferably Google Chrome browser installed.",
+                "Decision taken by Co-Ordinators will be final in case any discrepancies!"
             ]
         },
         "prize": [
@@ -39,7 +46,8 @@
             500
         ],
         "form": "https://forms.gle/NpJYvGRYX2mfiPPv5",
-        "poster": "../posters/COMP/decrypt.jpg"
+        "poster": "../posters/COMP/decrypt.jpg",
+        "rulebook": "../rulebook/COMP/decrypt.pdf"
     },
     "comp-ideate": {
         "event-name": "Ideate",
@@ -71,18 +79,19 @@
             ]
         },
         "prize": [
-            2000,
-            1000
+            2500,
+            1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLScKBVMVwL71cxQG6EKWDy4rpBSerelKi4FqS9NAtgF7ykaicA/viewform?vc=0&c=0&w=1&flr=0",
-        "poster": "../posters/COMP/comp-ideate.jpg"
+        "poster": "../posters/COMP/comp-ideate.jpg",
+        "rulebook": "../rulebook/COMP/Ideate.pdf"
     },
     "gamejam": {
         "event-name": "Game Jam 2K21",
         "department": "Computer Department",
         "type": "Inter",
         "location": "Online",
-        "date": "6th OCT",
+        "date": "7th OCT",
         "time": "10:00 AM IST",
         "event-coordinators": [
             {
@@ -116,15 +125,16 @@
             3000
         ],
         "form": "https://forms.gle/qUTJFgDJucE746Lt6",
-        "poster": "../posters/COMP/game-jam.jpg"
+        "poster": "../posters/COMP/game-jam.jpg",
+        "rulebook": "../rulebook/COMP/gamejam.pdf"
     },
     "ml-workshop": {
-        "event-name": "Machine Learning & Data Science Workshop",
+        "event-name": "ML Workshop + Competition",
         "department": "Computer Department",
-        "type": "Intra",
-        "location": "CC Lab",
-        "date": "8th OCT",
-        "time": "9:00 am to 5:00 pm",
+        "type": "Intra-college Event",
+        "location": "ML Workshop : COMP Lab 5, Competition : Online",
+        "date": "8th, 9th, 10th OCT",
+        "time": " 48 Hours (the problem statement will be released in the morning on the website.)",
         "event-coordinators": [
             {
                 "name": "Lex Mascarenhas",
@@ -136,15 +146,26 @@
             }
         ],
         "rules": {
-            "": [
-                ""
+            "Guidelines": [
+                " Participants will have to sign up online via the Website.",
+                " Registration has to be done before 5pm on 7th October. ",
+                "Submission has to be done before the 5 Pm on 10th October.",
+                "Problem statement will be mailed to the registered participants on their registered email addresses.",
+                " The participants need to ensure that the necessary pre-requisites/working environment is set up on their laptops in advance so that time allotted during the competition is not spent on software installations. "
+            ],
+            "Rules": [
+                " Individual applicants.",
+                " Developed Solutions should be original and not copied. Reference can be drawn from any open-source project. ",
+                " Do not use proprietary software. Use open-source software"
             ]
         },
         "prize": [
-            0
+            4000,
+            2000
         ],
         "form": "https://forms.gle/yR5kof7vGU936Xfx6",
-        "poster": "../posters/COMP/ml-workshop.jpg"
+        "poster": "../posters/COMP/ml-workshop.jpg",
+        "rulebook": "../rulebook/COMP/ml.pdf"
     },
     "datahack": {
         "event-name": "Datahack",
@@ -179,7 +200,8 @@
             3000
         ],
         "form": "https://forms.gle/vBhD8BqbSRAkxJq39",
-        "poster": "../posters/COMP/datahack.jpeg"
+        "poster": "../posters/COMP/datahack.jpeg",
+        "rulebook": "../rulebook/COMP/datahack.pdf"
     },
     "build-startup": {
         "event-name": "Building a Startup of the Future, Now!",
@@ -211,7 +233,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/wcUsYocXsmtdeJTR9",
-        "poster": "../posters/COMP/build-startups.jpg"
+        "poster": "../posters/COMP/build-startups.jpg",
+        "rulebook": "../rulebook/COMP/build-startup.pdf"
     },
     "code-crunch": {
         "event-name": "Code Crunch",
@@ -219,7 +242,7 @@
         "type": "Inter college",
         "location": "Online",
         "date": "7th OCT - 9th OCT",
-        "time": "",
+        "time": "9AM - 5PM",
         "event-coordinators": [
             {
                 "name": "Sakshi Palekar",
@@ -287,11 +310,11 @@
         },
         "prize": [
             4000,
-            2500,
-            1500
+            2000
         ],
         "form": "https://forms.gle/kNAnjhevBrWNQ9xz7",
-        "poster": "../posters/COMP/code-crunch.jpg"
+        "poster": "../posters/COMP/code-crunch.jpg",
+        "rulebook": "../rulebook/COMP/code-crunch.pdf"
     },
     "rpa": {
         "event-name": "RPA Programming Workshop",
@@ -313,7 +336,8 @@
         "rules": {},
         "prize": [],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfazaC1l3L0ds6LDjezhGlxU7NoyZd5tSTykHnzbtTi-JFWBA/viewform?usp=sf_link",
-        "poster": "../posters/COMP/rpa.jpg"
+        "poster": "../posters/COMP/rpa.jpg",
+        "rulebook": "../rulebook/COMP/rpa.pdf"
     },
     "bridge-building": {
         "event-name": "Bridge Building",
@@ -385,7 +409,8 @@
             1000
         ],
         "form": "https://forms.gle/kDHbgTmeymmiUFTd9",
-        "poster": "../posters/MECH/bridge.jpg"
+        "poster": "../posters/MECH/bridge.jpg",
+        "rulebook": "../rulebook/MECH/BRIDGE BUILDING DETAILS-compressed.pdf"
     },
     "contraption": {
         "event-name": "Contraption",
@@ -428,7 +453,8 @@
             2500
         ],
         "form": "https://forms.gle/5qWDCCsbFfQmrgbV9",
-        "poster": "../posters/MECH/contraption.jpg"
+        "poster": "../posters/MECH/contraption.jpg",
+        "rulebook": "../rulebook/MECH/CONTRAPTION DETAILS-compressed.pdf"
     },
     "mechanism-building": {
         "event-name": "Mechanism building",
@@ -474,12 +500,13 @@
             1500
         ],
         "form": "https://forms.gle/hStF2jDDuxEE73EN7",
-        "poster": "../posters/MECH/mechanism.jpg"
+        "poster": "../posters/MECH/mechanism.jpg",
+        "rulebook": "../rulebook/MECH/mechanism-building.pdf"
     },
     "solid-works": {
         "event-name": "Solid Works",
         "department": "Mechanical Department",
-        "type": "Intra college",
+        "type": "Inter college",
         "location": "Online",
         "date": "9th OCT",
         "time": "9:30 AM",
@@ -495,6 +522,7 @@
         ],
         "rules": {
             "Rules:": [
+                "There is a registration fee of ₹100 for non-PCCE students",
                 "This is an individual event and no teams of 2 or more will be entertained.",
                 "The event will be held online via Google Classroom.",
                 "Time limit for the completion of the solid model and submission of the same will be 2 hours only.",
@@ -513,7 +541,8 @@
             1000
         ],
         "form": "https://forms.gle/SeeZLpvDBhjMoQhq9",
-        "poster": "../posters/MECH/solidworks.jpg"
+        "poster": "../posters/MECH/solidworks.jpg",
+        "rulebook": "../rulebook/MECH/solidworks.pdf"
     },
     "robotics-workshop": {
         "event-name": "Robotics Workshop",
@@ -548,7 +577,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/g8Kqa7EP4Pp26C4P9",
-        "poster": "../posters/MECH/workshop.jpg"
+        "poster": "../posters/MECH/workshop.jpg",
+        "rulebook": "../rulebook/MECH/workshop.pdf"
     },
     "tech-masters": {
         "event-name": "TechMasters",
@@ -602,7 +632,8 @@
             1500
         ],
         "form": "https://forms.gle/xsvYhYasYbbnDzJM7",
-        "poster": "../posters/ETC/techmasters.jpg"
+        "poster": "../posters/ETC/techmasters.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "line-follower": {
         "event-name": "Line Follower",
@@ -651,7 +682,8 @@
             1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfMJ9p9UvtFzz7WGYpLEMWMYv88HYtNLaalDncQZ45ET7ezhA/viewform?vc=0&c=0&w=1&flr=0",
-        "poster": "../posters/ETC/line-follower.jpg"
+        "poster": "../posters/ETC/line-follower.jpg",
+        "rulebook": "../rulebook/ETC/Line follower Final.pdf"
     },
     "ard-u-know": {
         "event-name": "Ard-U-Know",
@@ -680,7 +712,8 @@
         },
         "prize": [],
         "form": "",
-        "poster": "../posters/ETC/arduino.jpg"
+        "poster": "../posters/ETC/arduino.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "electronics-art": {
         "event-name": "Electronics Art",
@@ -726,7 +759,8 @@
             1500
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSdojGRsRqjAWAtKqEs27xuLd6N-sW5gSBIS9VUBh6WfNrN90A/viewform?usp=sf_link",
-        "poster": "../posters/ETC/electronics-art.jpg"
+        "poster": "../posters/ETC/electronics-art.jpg",
+        "rulebook": "../rulebook/ETC/Electronics Art Rules.pdf"
     },
     "code-fest": {
         "event-name": "Codefest",
@@ -775,7 +809,8 @@
             1500
         ],
         "form": "https://forms.gle/ehrppDb8FZGhnvz26",
-        "poster": "../posters/ETC/codefest.jpg"
+        "poster": "../posters/ETC/codefest.jpg",
+        "rulebook": "../rulebook/ETC/Codefest 2021 Rules .pdf"
     },
     "poster-presentation": {
         "event-name": "Poster Presentation",
@@ -812,7 +847,8 @@
             1000
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSd4WvzyoHvqbLmdg8cmUEpWd1cLm681g2LfEkugi8JcWcCmNQ/viewform?usp=sf_link",
-        "poster": "../posters/ETC/poster-presentation.jpg"
+        "poster": "../posters/ETC/poster-presentation.jpg",
+        "rulebook": "../rulebook/ETC/Poster Presentation Rules.pdf"
     },
     "it-ideate": {
         "event-name": "IDEATE",
@@ -864,7 +900,8 @@
             1000
         ],
         "form": "",
-        "poster": "../posters/IT/ideate.jpg"
+        "poster": "../posters/IT/ideate.jpg",
+        "rulebook": "../rulebook/IT/ideate.pdf"
     },
     "master-minds": {
         "event-name": "Masterminds",
@@ -900,7 +937,8 @@
             1000
         ],
         "form": "https://docs.google.com/forms/d/e/1FAIpQLSfFescAFC1GleoYvtmx8anuToHV6RFQZng1e0SGJmoKl2-JfA/viewform",
-        "poster": "../posters/IT/masterminds.jpg"
+        "poster": "../posters/IT/masterminds.jpg",
+        "rulebook": "../rulebook/IT/masterminds.pdf"
     },
     "blockchain": {
         "event-name": "Talk on Blockchain with Jason Fernandes",
@@ -926,7 +964,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/uZGV2XjkoeG2ed839",
-        "poster": "../posters/IT/blockchain.jpg"
+        "poster": "../posters/IT/blockchain.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "it-career": {
         "event-name": "Approach and mindset for a career in IT industry",
@@ -952,7 +991,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/jdVnwqTqQgKjrgQ5A",
-        "poster": "../posters/IT/it-career.jpg"
+        "poster": "../posters/IT/it-career.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "software-testing": {
         "event-name": "Workshop : Software Testing",
@@ -978,7 +1018,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/yoqQWkzFA9NRMLGQA",
-        "poster": "../posters/IT/software-test.jpg"
+        "poster": "../posters/IT/software-test.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "web-design": {
         "event-name": "Hands on Workshop on Web Design",
@@ -1004,7 +1045,8 @@
         },
         "prize": [],
         "form": "",
-        "poster": "../posters/IT/web-design.jpg"
+        "poster": "../posters/IT/web-design.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "game-dev": {
         "event-name": "Hands on Workshop on Game Development",
@@ -1030,7 +1072,8 @@
         },
         "prize": [],
         "form": "",
-        "poster": "../posters/IT/game-dev.jpg"
+        "poster": "../posters/IT/game-dev.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "war-of-web": {
         "event-name": "WAR OF WEBS",
@@ -1068,7 +1111,8 @@
             4000
         ],
         "form": "https://forms.gle/tutVWdaLszuRBbht5",
-        "poster": "../posters/IT/war-of-webs.jpg"
+        "poster": "../posters/IT/war-of-webs.jpg",
+        "rulebook": "../rulebook/IT/warofweb.pdf"
     },
     "containers": {
         "event-name": "Containers 101",
@@ -1094,7 +1138,8 @@
         },
         "prize": [],
         "form": "https://forms.gle/qP2xU6A97YPZaRZq8",
-        "poster": "../posters/IT/containers.jpeg"
+        "poster": "../posters/IT/containers.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "codeathon": {
         "event-name": "Codeathon 2021",
@@ -1123,10 +1168,11 @@
             20000
         ],
         "form": "https://forms.gle/RvbgrxTwKwvLrNcf9",
-        "poster": "../posters/IT/Codathon-2021.jpg"
+        "poster": "../posters/IT/Codathon-2021.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     },
     "coding-ninjas": {
-        "event-name": "Competitive Programming",
+        "event-name": "Webinar on Competitive Programming",
         "department": "Information Technology Department",
         "type": "Open",
         "location": "Online",
@@ -1148,10 +1194,14 @@
             ],
             "Host": [
                 "The event will be hosted by Rajat Saxena"
+            ],
+            "Prizes": [
+                "Coding Ninjas will be hosting a quiz and top 3 students will receive goodies from them!"
             ]
         },
         "prize": [],
         "form": "https://www.codingninjas.com/events/competitive-programming-padre-conceicao-college-of-engineering?utm_source=B2B-CAMPUS-CH&utm_medium=KB&utm_campaign=PCCE_CP_09102021",
-        "poster": "../posters/IT/coming-soon.jpg"
+        "poster": "../posters/IT/coming-soon.jpg",
+        "rulebook": "../rulebook/ruleb.pdf"
     }
 }
