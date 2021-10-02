@@ -1153,17 +1153,41 @@
         "time": "9AM",
         "event-coordinators": [
             {
-                "name": "",
-                "phone-number": ""
+                "name": "Sahil Shirodkar",
+                "phone-number": "9867141653"
             },
             {
-                "name": "",
-                "phone-number": ""
+                "name": "Amit Mungare",
+                "phone-number": "7875709937"
             }
         ],
         "rules": {
             "Description": [
-                "Coming soon"
+                "Run through the wave of codes smoothly and showcase your coding skills to stay ahead amongst your peers.",
+                "MINDSPARK brings to you CODEATHON an Online coding contest that'll tease your brains!",
+                "Compete with the master minds and stand a chance at winning prizes worth INR 50,000 and placement opportunities for a full-time position at Bidchat Software Development."
+            ],
+            "RULES": [],
+            "ROUND 1": [
+                "This round will consist of 1 problem statement",
+                "On 6th October 10AM onwards",
+                "Shortlisted participants from round 1 will get to round 2"
+            ],
+            "ROUND 2": [
+                "Round 2 will consist of 1 problem",
+                "On 8th october 10AM Onwards",
+                "We want to keep it old school, so the languages that can be used are C, C++, and Java, Python."
+            ],
+            "PRIZES": [
+                "1st Price : 30,000",
+                "2nd Price : 20,000",
+                "Plus Full Time Placement Opportunities for top performers at Bidchat Software Development"
+            ],
+            "TIME LIMIT": [
+                "1 hour (Each round)"
+            ],
+            "TEAM SIZE": [
+                "Solo Event"
             ]
         },
         "prize": [
