@@ -1,19 +1,16 @@
 //******************************************************************/
-
-
   let count=0
   function handler(e){
     count+=1
-    
     if(constraint()){
-      alert("Congratulations!! you solved the 25th click puzzle");
+      alert("Congratulations!! your answer is 'Kindle is Awesome'");
       e.stopImmediatePropagation();
       this.removeEventListener("click", handler)
     }
     
   }
    function constraint(){
-    if(count === 5)
+    if(count === 25)
       return true
     else
       return false
@@ -38,13 +35,13 @@ $(document).ready(function () {
     document.querySelector("html").classList.toggle("dark")
 })
 // animation aos 
-AOS.init({
-  offset: 60,
+// AOS.init({
+//   offset: 60,
 
-  duration: 1000
+//   duration: 1000
 
 
-});
+// });
 
 // back to top
 
@@ -139,3 +136,19 @@ function toggleItem() {
     this.parentNode.className = 'accordionItem open ';
   }
 }
+
+console.log('%c Mystery Hunter!!', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)')
+console.log("%cHint: trust mystify function because it promised us to solve your mystery.Also, be a little patient with it","color: blue; font-family:serif; font-size: 20px")
+
+function mystify() {
+  console.log("Congrats!! almost there. Now let's test your patience. If you did everything right, you should get your answer in ...")
+  return promise()
+}
+ 
+let promise=()=>{ 
+  return new Promise(function(resolve, reject) {
+    setTimeout(()=>resolve("github"),5000)
+  })
+}
+
+
