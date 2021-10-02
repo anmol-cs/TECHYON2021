@@ -714,7 +714,7 @@
             ]
         },
         "prize": [],
-        "form": "",
+        "form": "https://forms.gle/9tx7ymZBgEDbUr8g6",
         "poster": "../posters/ETC/arduino.jpg",
         "rulebook": "../rulebook/ruleb.pdf"
     },
@@ -1172,7 +1172,7 @@
         ],
         "form": "https://forms.gle/RvbgrxTwKwvLrNcf9",
         "poster": "../posters/IT/Codathon-2021.jpg",
-        "rulebook": "../rulebook/ruleb.pdf"
+        "rulebook": "../rulebook/IT/codeathon.pdf"
     },
     "coding-ninjas": {
         "event-name": "Webinar on Competitive Programming",
