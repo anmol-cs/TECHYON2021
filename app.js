@@ -16,6 +16,13 @@ $(document).ready(function () {
   if(sessionStorage.getItem("darkMode") === "false" && !document.querySelector("html").classList.contains("dark"))
     document.querySelector("html").classList.toggle("dark")
 })
+
+
+
+$('#toggle').click(function(){
+  $(this).find('i').toggleClass('fa fa-sun-o fa fa-moon-o')
+});
+
 // animation aos 
 AOS.init({
   offset: 60,
