@@ -3,13 +3,19 @@
 console.log("Made with love by IT and Computer Department :)");
 
 
+
+
 function darkFunction() {
-  const html = document.querySelector("html");
-  html.classList.toggle("dark");
+  let toggle= sessionStorage.getItem("darkMode")=== "false"?"true":"false"
+  sessionStorage.setItem('darkMode', toggle)
+  document.querySelector("html").classList.toggle("dark")
 }
-
-darkFunction();
-
+$(document).ready(function () {
+  if(sessionStorage.getItem("darkMode") === null)
+    darkFunction()
+  if(sessionStorage.getItem("darkMode") === "false" && !document.querySelector("html").classList.contains("dark"))
+    document.querySelector("html").classList.toggle("dark")
+})
 // animation aos 
 AOS.init({
   offset: 60,
@@ -61,33 +67,41 @@ $('.smooth').on('click', function (event) {
 
 // FILTER CODE
 $(document).ready(function () {
+  var dept = sessionStorage.getItem('filter') === null ? null : $("#" + sessionStorage.getItem('filter')).attr('id')
+  if (dept === "ALL")
+    filterAll()
+  else if (dept != null)
+    filterDepartment(dept)
+
   $('.category_item').click(function () {
-    var category = $(this).attr('id');
+    var category = $(this).attr('id')
+    console.log(category)
     if (category == 'ALL') {
-      $('.event_item').addClass('hide');
-      $('.event_item').addClass('show');
-
-      $('.event_item').removeClass('hide');
-      setTimeout(function () {
-        $('.event_item').removeClass('show');
-      }, 350);
-
-
-
+      filterAll()
     } else {
-      $('.event_item').addClass('hide');
-      $('.' + category).addClass('show');
-      $('.' + category).removeClass('hide');
-      setTimeout(function () {
-        $('.' + category).removeClass('show');
-      }, 350);
-
-
-
-
+      filterDepartment(category)
     }
+    //adding filters to session storage
+    sessionStorage.setItem('filter', category);
   })
 })
+function filterAll() {
+  $('.event_item').addClass('hide');
+  $('.event_item').addClass('show');
+
+  $('.event_item').removeClass('hide');
+  setTimeout(function () {
+    $('.event_item').removeClass('show');
+  }, 350);
+}
+function filterDepartment(dept) {
+  $('.event_item').addClass('hide');
+  $('.' + dept).addClass('show');
+  $('.' + dept).removeClass('hide');
+  setTimeout(function () {
+    $('.' + dept).removeClass('show');
+  }, 350);
+}
 
 // accordion
 var accItem = document.getElementsByClassName('accordionItem');
