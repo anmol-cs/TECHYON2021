@@ -1,8 +1,29 @@
+//******************************************************************/
+
+
+  let count=0
+  function handler(e){
+    count+=1
+    
+    if(constraint()){
+      alert("Congratulations!! you solved the 25th click puzzle");
+      e.stopImmediatePropagation();
+      this.removeEventListener("click", handler)
+    }
+    
+  }
+   function constraint(){
+    if(count === 5)
+      return true
+    else
+      return false
+  }
+document.getElementsByClassName("logo")[0].addEventListener('click',handler)
 
 //  dark mode
 console.log("Made with love by IT and Computer Department :)");
 // console.log(" Have a Good day  :)");
-// console.log(" Biryani is love :)");
+ console.log(" Biryani is love :)");
 // console.log("Hello curious coder, Abdullah has a suprise for you! Find the bug and the treat is yours!");
 
 function darkFunction() {
