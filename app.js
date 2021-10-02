@@ -35,13 +35,13 @@ $(document).ready(function () {
     document.querySelector("html").classList.toggle("dark")
 })
 // animation aos 
-// AOS.init({
-//   offset: 60,
+AOS.init({
+  offset: 60,
 
-//   duration: 1000
+  duration: 1000
 
 
-// });
+});
 
 // back to top
 
