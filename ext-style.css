@@ -163,3 +163,9 @@ button {
     animation: zoom-in 0.5s 1s forwards;
   }
 }
+
+
+.glow {
+  color: #fff44f;
+  text-shadow: 0 0 3px #fff44f;
+}

@@ -19,9 +19,8 @@ $(document).ready(function () {
 
 
 
-$('#toggle').click(function(){
-  $(this).find('i').toggleClass('fa fa-sun-o fa fa-moon-o')
-});
+
+
 
 // animation aos 
 AOS.init({
