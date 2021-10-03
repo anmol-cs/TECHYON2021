@@ -31,6 +31,12 @@ $(document).ready(function () {
   if(sessionStorage.getItem("darkMode") === "false" && !document.querySelector("html").classList.contains("dark"))
     document.querySelector("html").classList.toggle("dark")
 })
+
+
+
+
+
+
 // animation aos 
 AOS.init({
   offset: 60,

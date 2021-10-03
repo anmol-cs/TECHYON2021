@@ -54,8 +54,9 @@
               <div class="flex self-start lg:mx-6 pr-8 flex">
 
                 <div>
-                  <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden">
-                  <label for="toggle"
+                  <span id="toggle" onclick="darkFunction()"><i class="fa fa-sun-o glow dark:text-black" style="font-size:24px" id="change"></i></span>
+                  <!-- <input onclick="darkFunction()" type="checkbox" name="" id="toggle" class="checkbox hidden"> -->
+                  <!-- <label for="toggle"
                     class="w-12 h-6 dark:bg-blue-200 bg-gray-700 relative flex justify-between  rounded-full p-1 items-center  ">
                     <span class=""> <i class=" text-yellow-500  fa-sun-o fa "></i> </span>
 
@@ -63,7 +64,7 @@
                       class=" absolute toggle-dot w-5 h-5  transition duration-300 transform dark:bg-blue-800 bg-gray-500 rounded-full  shadow-md">
                     </div>
                     <span class=""> <i class="text-black fa fa-moon-o"></i></span>
-                  </label>
+                  </label> -->
                 </div>
 
 
@@ -125,8 +126,8 @@
               OCT - 9th OCT </h1>
             <a href="#Events"
               class=" smooth py-2 px-4 m-1 bg-blue-600 py-3 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400">Events</a>
-              <button  class=" smooth py-2 px-4 m-1 bg-indigo-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400"><i class="fa fa-calendar" style="font-size:24px"></i></button>
-              <a  class="sm:hidden smooth py-2 px-4 m-1 bg-purple-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400 inline-flex " href="results.html">Results</a>
+              <a  class=" smooth py-2 px-4 m-1 bg-green-400 py-2 px-4 m-1  rounded-lg  hover:bg-green-600 text-white transition duration-200 border-2 border-transparent hover:border-white" href="#" download="pdf"><i class="fa fa-calendar" style="font-size:24px"></i></a>
+              <a  class="sm:hidden smooth py-2 px-4 m-1 bg-red-400 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-white inline-flex " href="results.html">Results   <i class="fa fa-trophy" style="font-size:24px"></i></a>
           </div>
 
         </div>
@@ -150,7 +151,7 @@
       class="  flex items-center text-gray-600  mt-1 bg-black dark:bg-white px-6   justify-center ">
       <div class="  container mx-auto md:m-6  my-6">
         <div class="text-center ">
-          <h1 class=" chakra  text-3xl text-white font-semibold uppercase faq dark:text-black ">Event Associates</h1>
+          <h1 class=" chakra  text-3xl text-white font-semibold uppercase faq dark:text-black mb-8">Event Associates</h1>
         </div>
         <div class="flex flex-row flex-wrap dark:shadow-none justify-center   ">
 
@@ -451,7 +452,7 @@
           <!--1 card-->
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
             <div
-              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out  ">
+              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <a href="event.html?event=datahack">
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/datahack_card.png"
                   alt="image">
@@ -468,7 +469,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
 
               <a href='event.html?event=code-crunch'>
                 <img class=" md:h-56 h-48  w-screen object-fit    object-center" src="images/codecrunch_card.png"
@@ -486,7 +487,7 @@
           </div>
 
           <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=gamejam'>
                 <img class=" md:h-56 h-48  w-screen object-fit  object-center" src="images/gamejam_card.png"
                   alt="image">
@@ -504,7 +505,7 @@
 
           <div class=" event_item COMP  p-2 sm:w-1/2 lg:w-1/3  ">
             <div
-              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href="event.html?event=decrypt">
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/decrypt_card.png"
                   alt="image">
@@ -524,7 +525,7 @@
           <!--2card-->
 
           <div class="event_item    p-2 sm:w-1/2 lg:w-1/3  COMP">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=comp-ideate'>
                 <img class=" md:h-56 h-48  w-screen object-fit  object-center" src="images/Ideate_card_comp.png"
                   alt="image">
@@ -544,7 +545,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=ml-workshop'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/mlworkshop_card.png"
                   alt="image">
@@ -562,7 +563,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
 
               <a href='event.html?event=build-startup'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/buildingstartups_card.png"
@@ -582,7 +583,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=rpa'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/aceworkshop_card.png"
                   alt="image">
@@ -598,7 +599,7 @@
           </div>
 
           <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=bridge-building'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/bridge.jpg"
                   alt="image">
@@ -614,7 +615,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=contraption'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/contraption.jpg" alt="image">
@@ -630,7 +631,7 @@
           </div>
 
           <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=mechanism-building'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/mechanism.jpg" alt="image">
@@ -646,7 +647,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=solid-works'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/solidworks.jpg" alt="image">
@@ -662,7 +663,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=robotics-workshop'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/workshop.jpg" alt="image">
@@ -686,7 +687,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=tech-masters'>
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/TM_card.png"
@@ -705,7 +706,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=line-follower'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/LF_card.png" alt="image">
@@ -722,7 +723,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=ard-u-know'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/AUK_card.png" alt="image">
@@ -738,7 +739,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=electronics-art'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/EA_card.png " alt="image">
@@ -755,7 +756,7 @@
 
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=code-fest'>
                 <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/CF_card.png" alt="image">
                 <div
@@ -770,7 +771,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=poster-presentation'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/PP_card.png" alt="image">
@@ -789,7 +790,7 @@
           <!-- IT -->
           <!--1 card-->
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=it-ideate' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
@@ -807,7 +808,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=master-minds' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
@@ -825,7 +826,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=blockchain' class="bg-transparent">
                 <img class=" md:h-56 h-48  w-screen object-cover   object-fit " src="images/mocktest.jpg" alt="image">
                 <div
@@ -840,7 +841,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=it-career' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
@@ -858,7 +859,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=software-testing' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit  object-center"
@@ -875,7 +876,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=web-design' class="bg-transparent">
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/webdesign_template_card.png"
                   alt="image">
@@ -891,7 +892,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=game-dev' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit   object-center"
@@ -909,7 +910,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=war-of-web' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit     object-center"
@@ -927,7 +928,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=coding-ninjas' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit object-center"
@@ -945,7 +946,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=containers' class="bg-transparent">
 
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
@@ -963,7 +964,7 @@
           </div>
 
           <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+            <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <a href='event.html?event=codeathon' class="bg-transparent">
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit     object-center"
                   src="images/codeathon_card.png" alt="image">
@@ -1002,7 +1003,7 @@
           <!--1 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
                 src="photos/Gojay_Kamat_Mech.jpg" alt="image">
 
@@ -1017,7 +1018,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919860606340'
-                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1036,7 +1037,7 @@
                 alt="image">
 
               <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
 
                 <h1 class="text-xl font-semibold mb-3">Shriram Parab</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br>ETC Department</p>
@@ -1046,7 +1047,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919765832763'
-                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1059,12 +1060,12 @@
           <!--3 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
                 src="photos/Vishrut_Mangoli_Comp.jpg" alt="image">
 
               <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl">
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl">
 
                 <h1 class="text-xl font-semibold mb-3">Vishrut Mangoli</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br>Computer Department</p>
@@ -1074,7 +1075,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919766055610'
-                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1087,12 +1088,12 @@
           <!--4 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
               <img loading="lazy" class="lg:h-72  h-56  w-screen object-cover p-.5  object-center"
                 src="photos/Hariette_Baretto_IT.jpg" alt="image">
 
               <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
 
                 <h1 class="text-xl font-semibold mb-3">Harriette Barretto</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br>IT Department</p>
@@ -1102,7 +1103,7 @@
 
 
                   <a target='_blank' href='https://wa.me/918975237705'
-                    class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1116,12 +1117,12 @@
           <!--5 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
                 src="photos/Ved_Porob_Mech.jpg" alt="image">
 
               <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
 
                 <h1 class="text-xl font-semibold mb-3">Ved Porobo</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br>Mech Department</p>
@@ -1131,7 +1132,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919561467129'
-                    class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1145,12 +1146,12 @@
           <!--6 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img loading="lazy" class="lg:h-72  h-56  w-screen object-cover p-.5  object-center"
                 src="photos/Aishwarya_Kumbhar_ETC.jpg" alt="image">
 
               <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
 
                 <h1 class="text-xl font-semibold mb-3">Aishwarya Kumbhar</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br> ETC Department</p>
@@ -1160,7 +1161,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919518323715'
-                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1174,12 +1175,12 @@
           <!--7 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img loading="lazy" class="lg:h-72 h-56  w-screen object-cover p-.5  object-center"
                 src="photos/Devraj_Chatribin_Comp.jpg" alt="image">
 
               <div
-                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
 
                 <h1 class="text-xl font-semibold mb-3">Devraj Chatribin</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br> Computer Department</p>
@@ -1189,7 +1190,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919764789978'
-                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1203,12 +1204,12 @@
           <!--8 card-->
           <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div
-              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out ">
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img loading="lazy" class="lg:h-72 h-56  w-screen object-cover p-.5  object-center"
                 src="photos/Sahil_Shirodkar_IT.jpg" alt="image">
 
               <div
-                class="p-6  bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl  ">
+                class="p-6  bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl  ">
 
                 <h1 class="text-xl font-semibold mb-3">Sahil Shirodkar</h1>
                 <p class="leading-relaxed mb-6">Chief Coordinator <br> IT Department</p>
@@ -1218,7 +1219,7 @@
 
 
                   <a target='_blank' href='https://wa.me/919867141653'
-                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                     <span class="  text-2xl  text-white">
                       <i class="fa fa-whatsapp" aria-hidden="true"></i> </span> </a>
 
@@ -1309,20 +1310,26 @@
                   <div class="flex   ">
 
                     <a target='_blank' href='https://www.instagram.com/pccetechyon/'
-                      class="bg-pink-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      class="bg-pink-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fa fa-instagram" aria-hidden="true"></i> </span> </a>
 
                     <a target='_blank' href="mailto:pccetechyon2k21@gmail.com"
-                      class="bg-red-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      class="bg-red-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fa fa-envelope" aria-hidden="true"></i> </span> </a>
 
                     <a target='_blank'
                       href="https://www.google.com/maps/place/Padre+Conceicao+College+of+Engineering./@15.3269589,73.9313833,17z/data=!4m12!1m6!3m5!1s0x3bbfb6d4f1f6451d:0x5aa42df33ac41f6!2sPadre+Conceicao+College+of+Engineering.!8m2!3d15.3269589!4d73.933572!3m4!1s0x3bbfb6d4f1f6451d:0x5aa42df33ac41f6!8m2!3d15.3269589!4d73.933572"
-                      class="bg-yellow-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center">
+                      class="bg-yellow-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fa fa-map-marker" aria-hidden="true"></i> </span> </a>
+
+                        <a target='_blank'
+                        href="https://www.youtube.com/watch?v=sMsJXxMba3I&ab_channel=VishrutMangoli" alt="promotional-video"
+                        class="bg-red-600 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
+                        <span class="  text-2xl  text-white">
+                          <i class="fa fa-youtube" aria-hidden="true"></i> </span> </a>
 
                   </div>
                 </div>
@@ -1339,7 +1346,7 @@
                 class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
 
                 <div
-                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white ">
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white ">
 
                   <h1 class="text-2xl font-semibold   text-center uppercase ">
                     Dev Team
