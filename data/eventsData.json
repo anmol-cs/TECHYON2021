@@ -50,12 +50,12 @@
         "rulebook": "../rulebook/COMP/decrypt.pdf"
     },
     "comp-ideate": {
-        "event-name": "Ideate",
+        "event-name": "💡 IDEATE 💡",
         "department": "Computer Department",
         "type": "Intra",
-        "location": "Online",
+        "location": "",
         "date": "7th OCT",
-        "time": "1:30PM - 3:30PM",
+        "time": "1:30pm - 4:30pm",
         "event-coordinators": [
             {
                 "name": "Ayushi",
@@ -67,15 +67,26 @@
             }
         ],
         "rules": {
+            "For whom is this event?": [
+                "BE Computer Students of PCCE"
+            ],
             "Rules": [
-                "1. Title and names of the group members should be mentioned.",
-                "2. Two presenter per team max.",
-                "3. Presentation time of 7mins per team to present idea followed by questions from judges.",
-                "4. Contents should be clearly listed using appropriate fonts and colors",
-                "5. Use of proper headings/subtitles are desired.",
-                "6. Content should give idea of what the project is about",
-                "7. Decision made by the Coordinator/Company will be final incase any problems",
-                "8. Mode :Microsoft Team"
+                " The presentation should be given by 1 (maximum 2) group members and there can be  maximum 6 slides ONLY and must include the following:"
+            ],
+            "": [
+                "Title",
+                "Members of the project group",
+                "Abstract (brief summary of objectives)",
+                "Motivation",
+                "Methodology/Design [Block diagram, flowchart etc]"
+            ],
+            "Instructions:": [
+                "Content should give idea of what the project is about",
+                "Decision made by the Coordinator/Company/Judges will be final",
+                "Content should be clearly listed using appropriate fonts and colors",
+                "Warning bell will be given if the time or the slides exceed the given limit and marks will be cut",
+                "<b> Every Team gets 6 mins to present. </b>",
+                "🚨 COMPULSORY FOR BE COMP STUDENTS🚨"
             ]
         },
         "prize": [
@@ -293,12 +304,13 @@
             "Software Required for the Task:": [
                 "Postman (desktop Application)",
                 "Git",
-                "Software to support programming language of your choice, which can help you build. REST API’s (NodeJS/Python/JavaScript/C#/Java/PHP/GO/NestJS/Kotlin or any other )"
+                "Software to support programming language of your choice, which can help you build.",
+                "REST API’s (NodeJS /Python /JavaScript /C# /Java /PHP /GO /NestJS /Kotlin or any other)"
             ],
             "Required Accounts:": [
                 "GitHub account (https://github.com/)",
                 "Twitter account (https://twitter.com/)",
-                "Apply for twitter developer account application(https://developer.twitter.com/en/apply-for-access)",
+                "Apply for twitter developer account application (https://developer.twitter.com/en/apply-for-access)",
                 "Create a Twitter App. This will be used to make calls to the REST API’s",
                 "Vercel (https://vercel.com/) or Heroku (https://id.heroku.com/) or any other free hosting platform"
             ],
