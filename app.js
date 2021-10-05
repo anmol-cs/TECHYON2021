@@ -158,6 +158,6 @@ $(document).ready(function(){
     $("#icon").toggleClass("animate-spin");
     setTimeout(function () {
       $("#icon").toggleClass("animate-spin");
-    }, 300);    
+    }, 330);    
   });
 });
