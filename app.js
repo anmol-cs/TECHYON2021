@@ -156,5 +156,8 @@ let promise=()=>{
 $(document).ready(function(){
   $("#icon").click(function(){
     $("#icon").toggleClass("animate-spin");
+    setTimeout(function () {
+      $("#icon").toggleClass("animate-spin");
+    }, 300);    
   });
 });
