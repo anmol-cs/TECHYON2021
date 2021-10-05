@@ -36,7 +36,6 @@ $(document).ready(function () {
 
 
 
-
 // animation aos 
 AOS.init({
   offset: 60,
@@ -154,4 +153,11 @@ let promise=()=>{
   })
 }
 
-
+$(document).ready(function(){
+  $("#icon").click(function(){
+    $("#icon").toggleClass("animate-spin");
+    setTimeout(function () {
+      $("#icon").toggleClass("animate-spin");
+    }, 330);    
+  });
+});
